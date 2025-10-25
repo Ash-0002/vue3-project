@@ -1,0 +1,192 @@
+.PurchaseUserPlusAdd ul li a.purchaseuserbutton{padding: 6.5px 10px;color: #fff !important;font-weight: 400;background: #1a1a1a;border-radius: 0.25rem;font-size: 13px;}
+.PurchaseUserPlusAdd ul{display:flex;align-items: center;justify-content: end;}
+.PurchaseUserPlusAdd ul li a.purchaseuserbutton img{width: 13px;margin-right: 10px;margin-top: -1px;}
+.HeadingPortionAllUsers h4{font-size: 18px;font-weight:600;}
+a.TotalUsersInUseusers {color: #555555;font-weight: 400;}
+a.TotalUsersInUseusers span {color: #1a1a1a;font-weight: 500;}
+.pl-15px{padding-left:15px;}
+.delete-popup-overlay-for-user-flow {position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.5);display: flex;justify-content: center;align-items: center;z-index: 1000;}
+.delete-popup-for-user-flow {background: white;padding: 20px;border-radius: 8px;box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);width:300px;}
+.popup-buttons-for-user-flow {display: flex;justify-content: center;margin: 10px;}
+.no-btn-for-user-flow {padding: 7px 20px;margin-right: 10px;background: #1a1a1a;font-size: 14px;color:#fff;border: none;border-radius: 4px;cursor: pointer;}
+.yes-btn-for-user-flow {padding: 7px 20px;margin-right: 10px;background: #fff;font-size: 14px;color:#1a1a1a;border: 1px solid #1a1a1a;border-radius: 4px;cursor: pointer;}
+.delete-popup-for-user-flow p{font-size: 16px;color:#1a1a1a;margin: 20px 0;font-weight:600;}
+.InnerAddUserFlowCaption ul.FormAddUser {display: flex;justify-content: space-between;align-items: center;}
+.InnerAddUserFlowCaption ul.FormAddUser li {width: 100%;margin-right: 15px;}
+.InnerAddUserFlowCaption ul.FormAddUser li input {width: 100%;height: 35px;}
+li.PhoneFieldFormGroup {display: flex;align-items: center;border: 1px solid #ccc;border-radius: 5px;padding: 0px 10px;}
+li.PhoneFieldFormGroup input {border: none;border-left: 1px solid #ccc;border-radius: 0; padding:5px 10px;}
+li.PhoneFieldFormGroup span.code {font-weight: 600;margin-right: 10px;}
+li.PhoneFieldFormGroup span.flag {margin-right: 10px;}
+input.CommonInputForUsers {border: 1px solid #ccc;padding: 5px 10px;border-radius: 5px;}
+.InnerAddUserFlowCaption ul li a.proceed-link {color: #0F51F6;text-decoration: underline;font-size: 15px;font-weight: 500;}
+.dropdown-wrapper-Add-User-Company {position: relative;display: inline-block;width: 250px;}
+.dropdown-display-Add-User-Company {padding: 8px 12px;border: 1px solid #ccc;border-radius: 5px;cursor: pointer;background: white;display: flex;justify-content: space-between;align-items: center;}
+.arrow-Add-User-Company {margin-left: 10px;}
+.dropdown-list-Add-User-Company {position: absolute;top: 100%;left: 0;width: 100%;background: white;border: 1px solid #ddd;border-radius: 5px;margin-top: 5px;box-shadow: 0 2px 8px rgba(0,0,0,0.1);z-index: 100;max-height: 200px;overflow-y: auto;}
+.dropdown-item-Add-User-Company {display: flex;align-items: center;padding: 6px 12px;cursor: pointer;justify-content: space-between;}
+.dropdown-item-Add-User-Company:hover {background-color: #f0f0f0;}
+label.dropdown-item-Add-User-Company input {width: 16px !important;height: 16px !important;margin-right: 10px;position: relative;-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 1px solid #ccc;border-radius: 3px;outline: none;cursor: pointer;}
+.dropdown-item-Add-User-Company input[type="checkbox"]:checked {background-color: #5bbc21;border-color: #5bbc21;}
+.dropdown-item-Add-User-Company input[type="checkbox"]:checked::before {content: "✓";position: absolute;color: white;font-size: 12px;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+.no-companies-selected-subuser-flow {color: #ff0000;text-align: center;}
+.SetPermissionHeadingUser h6 {font-size: 14px;font-weight: 500;color: #1a1a1a;margin-bottom: 0;}
+.permission-header-subuser-flow {display: flex;align-items: center;justify-content: space-between;}
+.permission-content-subuser-flow {margin-top: 20px;}
+.switch-userflow {position: relative;display: inline-block;width: 25px;height: 14px;}
+.switch-userflow input {opacity: 0;width: 0;height: 0;}
+.slider-userflow {position: absolute;cursor: pointer;background-color: #ccc;transition: 0.4s;border-radius: 34px;top: 0;left: 0;right: 0;bottom: 0;}
+.slider-userflow::before {content: "";position: absolute;height: 10px;width: 10px;left: 2px;bottom: 2px;background-color: white;transition: 0.4s;border-radius: 50%;}
+input:checked + .slider-userflow {background-color: #5bbc21; /* green like your image */}
+input:checked + .slider-userflow::before {transform: translateX(11px);}
+.round-userflow {border-radius: 34px;}
+.switch-wrapper-userflow {display: flex;align-items: center;justify-content: space-between;}
+.Permissionheadingalloverlipart h6 {font-size: 14px;font-weight: 500;}
+ul.Permission-group-part-subuser-flow {display: flex;}
+ul.Permission-group-part-subuser-flow li {width: 100%;margin-right: 15px;}
+.onclickablepopupopencontentuser button {font-size: 12px;font-weight: 500;}
+.onclickablepopupopencontentuser {display: flex;align-items: center;justify-content: space-between;margin-bottom: 8px;}
+.textonoffbuttonuserflow p {font-size: 12px;font-weight: 500;margin-bottom: 10px;}
+.onclickablepopupopencontentuser i {font-size: 10px;}
+.SetPermissionHeaderRightPortion {display: flex;align-items: center;justify-content: end;column-gap: 20px;}
+.MakeAdminSetPermissionportion{font-size:12px;font-weight:400;}
+.MakeAdminSetPermissionportion span{padding-left: 5px;}
+.SetPermissionHeadingUser {cursor: pointer;}
+span.toggle-icon-subuser-flow {cursor: pointer;}
+.SetPermissionDottedFlowPart span {height: 8px;width: 8px;background: red;border-radius: 50%;display: block;}
+label.dropdown-item-Add-User-Company span i.fa.fa-trash {color: red;}
+label.dropdown-item-Add-User-Company span i.fa.fa-plus {color: #5bbc21;}
+.SelectLedgerGroupModalPopup {max-height: 340px;overflow-y: auto;width: 100%;overflow-x: hidden;}
+.SelectStockGroupModalPopup {max-height: 340px;overflow-y: auto;width: 100%;overflow-x: hidden;}
+.SetAlignmentIssueOpenDropdowncheckbox label.dropdown-item-Add-User-Company {justify-content: flex-start;}
+h6.MiniTextReadFullAccess {font-size: 10px;font-weight: 400;width: 90%;}
+.SearchableInputPortionSelectLedgerStockGroup {margin: 10px 15px;position: relative;}
+.SearchableInputPortionSelectLedgerStockGroup input {border: 1px solid #ddd;padding: 6px 30px;border-radius: 5px;width: 100%;}
+.SubmitButtonBottomSiteLedgerStockGroupPopup {margin: 10px 15px;}
+.SubmitButtonBottomSiteLedgerStockGroupPopup button {background: #1a1a1a;color: #fff;padding: 10px 10px;width: 100%;font-size: 14px;border-radius: 5px;}
+span.SearchIconStockLedgerGroupPopup {position: absolute;left: 10px;top: 7px;color: #7c7c7c;}
+span.CrossButtonStockLedgerGroupPopup {position: absolute;right: 8px;top: 6px;font-size: 17px;background: #eee;height: 20px;width: 20px;text-align: center;line-height: 20px;border-radius: 50%;cursor: pointer;}
+.modal-overlay-set-all-permission {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content-set-all-permission {
+  background-color: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.modal-header-set-all-permission {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modal-header-set-all-permission h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.close-btn-set-all-permission {
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #000000;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+.modal-body-set-all-permission {
+  padding: 0;
+}
+
+.permission-list-set-all-permission {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-all-container-set-all-permission {
+  padding: 10px 16px;
+}
+
+.select-all-label-set-all-permission {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.select-all-checkbox-set-all-permission {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.permission-item-set-all-permission {
+  padding: 8px 16px;
+}
+
+.permission-label-set-all-permission {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.permission-checkbox-set-all-permission {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+label.permission-label-set-all-permission span {
+    font-size: 12px;
+    font-weight: 300;
+}
+label.select-all-label-set-all-permission span {
+    font-size: 14px;
+}
+.CloseBtnMaindivforCrossIcon {
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+@media only screen and (max-width:991px){
+  .PurchaseUserPlusAdd ul{justify-content: start;}
+  .mobileheadingpaddingleft25px{padding-left:25px !important;}
+  .dropdown-wrapper-Add-User-Company{width:100%;}
+  .InnerAddUserFlowCaption ul.FormAddUser li{margin-bottom:15px;}
+  .InnerAddUserFlowCaption ul.FormAddUser{display: block;}
+  ul.Permission-group-part-subuser-flow{display: block;}
+  .mobileheadingpaddingleft25px h3{font-size: 16px !important;margin-top: 0 !important;}
+  .mobilemargintopsetheaderportion{margin-top: 8px;}
+}
+@media only screen and (max-width:600px){
+  .modal-header-set-all-permission h5{font-size: 16px !important;}
+  .permission-items-set-all-permission {max-height: 400px;overflow-y: auto;}
+  .SetPermissionHeadingUser h6{font-size: 12px;}
+  .MakeAdminSetPermissionportion{font-size: 10px;}
+  .SetPermissionHeaderRightPortion{column-gap: 7px;}
+}

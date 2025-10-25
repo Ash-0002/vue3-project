@@ -1,0 +1,131 @@
+.bg-green-header-card{background: #5bbc21;}
+.color-white-text{color:#fff !important;}
+.VoucherNumberNewEntry {width:100%;display: flex;align-items: center;position:relative;justify-content: space-between;}
+.VoucherNumberNewEntry p.widthsetvouchernumber {min-width: 120px;text-align: center;border-bottom: 1px solid #ddd;color: #1a1a1a;width: auto;}
+.editVoucherbox {z-index:3;width:500px;position: absolute;padding: 10px;background: #fff;right: 0%;left:70%;top: 30px;box-shadow: 1px 1px 5px #C6C6C6;border-radius: 10px;border:1px solid #C6C6C6;}
+.editVoucherbox:before {content: "";position: absolute;top: -20px;left: 11%;transform: translateX(0);border-width: 10px;border-style: solid;border-color: transparent transparent white transparent;}
+label.fontssetlabel{font-size: 13px;font-weight:500;}
+button.VoucherSaveButton {background: #1a1a1a;color: #fff;padding: 3px 15px;border-radius: 3px;border: 1px solid #1a1a1a;}
+button.VoucherCancelButton {padding: 3px 15px;background: #fff;border: 1px solid #1a1a1a;border-radius: 3px;}
+.custominputboxnewentryradio {display: flex;align-items: center;}
+.onlyinputcustomradio {display: flex;align-items: center;}
+.onlyinputcustomradio input {font-size: 13px;}
+.Referencetypesearch {position: relative;width:60%;}
+.Referencetypesearch input {width: 100%;padding: 8px;box-sizing: border-box;border: 1px solid #ddd;border-radius: 5px;position:relative;font-size:11px;}
+.Referencetypesearch ul {position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;}
+.Referencetypesearch li {padding: 5px 8px;cursor: pointer;}
+.Referencetypesearch li:hover {background-color: #f1f1f1;}
+span.borderlinetextdropdown {position: absolute;background: #fff;padding: 2px 10px;top: -10px;z-index: 1;left: 3%;font-size:11px;color:#525252;}
+span.backgroundgradient {background: linear-gradient(0deg, #fff, #F1F5F9);}
+.newbackentryinvoicedate input {border: none;font-size: 12px;padding: 0;border-radius: 0;font-weight:500;text-align:center;}
+.newbackentryinvoicedate {width: 100%;display: flex;align-items: center;justify-content: space-between;}
+.newbackentryinvoicedate .datepicker_image_set{display: flex;align-items: center;}
+.newbackentryinvoicedate span.sales_date_img_new{position: unset;}
+.newbackentryinvoicedate img {width: 16px;}
+.newbackentryinvoicedate input:focus{outline:0;box-shadow:none;border:none;}
+button.inputcrossicon {position: absolute;right: 5px;top: 9px;height: 18px;width: 18px;line-height:18px;background: #eee;border-radius: 50%;}
+button.inputcrossicon i {font-size: 10px;color: #5e5e5e;}
+.OtherTypeSearchDropdown {position: relative;}
+.OtherTypeSearchDropdown input {width: 100%;padding: 8px;box-sizing: border-box;border: 1px solid #ddd;border-radius: 5px;position:relative;background:#fff;font-size:11px;font-weight:500;}
+.OtherTypeSearchDropdown ul {position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;}
+.OtherTypeSearchDropdown li {font-size:11px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #ddd;}
+.OtherTypeSearchDropdown li:hover {background-color: #f1f1f1;}
+.partynameleftsearchabledrpdwn p{font-size:11px;color:#1a1a1a;font-weight:600;}
+.partynamerightsearchabledrpdwn p{font-size:11px;color:#525252;}
+.input-search-icon {position: absolute;right: 5px;top: 9px;height: 18px;width: 18px;line-height:18px;color: #B6B6B6;background:#fff;}
+.ledgertypeinnerdropdown p{font-size:11px;}
+.ledgertypeinnerdropdown h6{font-size:11px;color:#797979;font-weight:500;}
+.ledgertypeinnerdropdown h6 span{color:#1a1a1a;}
+.NewBackentryBottom {background: #fff;padding: 5px 20px;position: fixed;width: 90%;bottom: 0;box-shadow: 1px 1px 5px #ababab;z-index:2;}
+.sidebar-mini.sidenav-toggled .NewBackentryBottom{width:96%;}
+.BottomGrandTotalNewBackEntry tr td {color: #626262;background: #fff;padding: 3px;font-size:11px;}
+.BottomGrandTotalNewBackEntry tr td img{width:16px;}
+button.CreateVoucherButtonBottom {background: #1a1a1a;color: #fff;padding: 7px 15px;border-radius: 3px;}
+button.CreateVoucherButtonBottom:disabled{background: #B6B6B6;}
+.TopInnerBackEntrySection {padding: 0 15px;}
+tfoot.GrandTotalFonts tr td{font-size:14px;color:#1a1a1a;font-weight:600;}
+.MiddleTableFormatBackEntry{padding:0 20px;}
+table.TableMiddleBackEntry tr th, table.TableMiddleBackEntry tr td {border:1px solid #C6C6C6;padding:5px 8px;font-weight:600;font-size:11px;}
+table.TableMiddleBackEntry tr th{background:#fff;}
+table.TableMiddleBackEntry tr td{background:transparent;}
+.TableItemsserachableDropdown {position: relative;}
+.TableItemsserachableDropdown input {width: 100%;padding: 8px;box-sizing: border-box;border: 1px solid #ddd;border-radius: 5px;position:relative;background:#fff;font-size:12px;font-weight:500;}
+.TableItemsserachableDropdown ul {width:100%;position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;}
+.TableItemsserachableDropdown li {font-size:11px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #ddd;}
+.TableItemsserachableDropdown li:hover {background-color: #f1f1f1;}
+.itemsnamewithhsn h6{font-size:12px;color:#1a1a1a;font-weight:600;}
+.itemsnamewithhsn p{font-size:11px;color:#6C757D;font-weight:500;}
+.tableitemsrightquantity p{font-size:11px;font-weight:500;}
+.color-green-item-text {color: #3A9A0D;}
+.color-red-item-text {color: #D14548;}
+.InnerTableBackEntrytdDiv select {width: 100%;border: none;padding: 5px;-webkit-appearance: auto;font-size: 10px;}
+.InnerTableBackEntrytdDiv {background: #fff;border: 1px solid #C6C6C6;border-radius: 2px;}
+.InnerTableBackEntrytdDiv input {padding: 5px;width:100%;}
+.InnerTableBackEntrytdDiv select:focus {outline: 0;}
+.NewItemNewBackEtry button {font-weight: 600;color:#2980B9;}
+.NarrationTaxesDiv {padding: 0 20px;padding-bottom:150px;}
+.TextareaNarration {border: 1px solid #C6C6C6;border-radius: 5px;padding: 6px 10px;}
+.NarrationBoxesNewBack, .TaxesBGwhitebox {padding: 10px;background: #fff;border-radius:5px;}
+.NarrationLabelClose, .AddTaxesFlowNew {display: flex;align-items: center;justify-content: space-between;}
+.NarrationLabelClose label, .AddTaxesFlowNew label {font-weight: 600;color: #1a1a1a;font-size:14px;}
+.NarrationLabelClose a {color: #1a1a1a;}
+span.newaddplusnackentry {color: #2980B9;font-weight: 600;}
+.TaxSelectoptionDropdown select {background: #fff;width: 100%;border: 1px solid #C6C6C6;padding: 5px 10px;border-radius: 3px;-webkit-appearance: auto;}
+.TaxesInputNewBackEntry input {border: 1px solid #C6C6C6;padding: 5px 10px;border-radius: 3px;width: 100%;}
+.Deleteicontaxesinner a {color: #D14548;}
+.TaxSelectoptionDropdown select:focus{outline:0;}
+.ledgeramountwithdrdropdown {display: flex;align-items: center;border: 1px solid #C6C6C6;border-radius: 3px;}
+.ledgeramountwithdrdropdown select {font-size: 11px;-webkit-appearance: auto;padding: 6px 3px;background: #F1FFF2;}
+.border-none{border:none !important;}
+.ledgeramountwithdrdropdown select:focus{outline:0;}
+.AdvanceSettingNewBackEntry {padding: 10px 15px;background: #fff;border-radius: 5px;}
+.AdvanceSettingsFirstCaption h6 {font-size: 14px;font-weight: 600;}
+.NarrationLabelClose h6 {font-size: 14px;font-weight: 600;}
+.AdvanceSettingNewBackEntry ul li {font-size: 11px;}
+.AdvanceSettingNewBackEntry ul li a.details_link_active {font-weight: 600;color: #00B0FF;border-bottom:2px solid #00B0FF;}
+ul.advancedSetingsul{padding:8px 0;border-bottom:2px solid #ddd;}
+.AdvanceSettingNewBackEntry ul li a {padding: 8px 5px;border-bottom: 2px solid transparent;}
+.dropdown-container {position: relative;display: inline-block;width:100%;}
+.custom-select-container {position: relative;display: inline-block;width:100%;}
+.custom-select-container select {position:relative;width:100%;appearance: none;-webkit-appearance: none;-moz-appearance: none;background: transparent;border: 1px solid #C6C6C6;border-radius: 4px;padding: 7px;padding-right: 2rem;font-size: 12px;cursor: pointer;}
+.custom-select-container select:focus {outline:0;}
+.custom-select-container .caret {position: absolute;top: 50%;right: 1rem;transform: translateY(-50%);pointer-events: none;}
+span.AdvancedSettingspan {position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding:2px 5px;color:#525252;}
+.AdvancedSettingInput input {border: 1px solid #C6C6C6;padding: 7px 10px;border-radius: 3px;width: 100%;font-size:11px;}
+.AdvancedSettingInput span.AdvancedSettingspan{position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding:2px 5px;color:#525252;}
+.AdvancedSettingInput textarea {border: 1px solid #C6C6C6;padding: 7px 10px;border-radius: 3px;width: 100%;font-size:11px;}
+span.SalesDateImagePicker {position: absolute;right: 10px;top: 5px;}
+.AdvancedSettingInput .vdp-datepicker input {font-size: 11px;}
+span.SalesDateImagePicker img {width: 16px !important;filter: opacity(0.6);}
+.AdvancedSettingInput .vdp-datepicker__calendar .cell{height:25px;line-height:25px;font-size:11px;}
+.VoucherNumberNewEntry p {font-size: 12px;}
+.newbackentryinvoicedate p {font-size: 12px;}
+.w-full{width:100%;}
+.scroll-arrow {position: fixed;right: 20px;bottom: 120px;width: 40px;height: 40px;border:1px solid #1a1a1a;background-color: #fff;color: #1a1a1a;display: flex;justify-content: center;align-items: center;cursor: pointer;border-radius: 50%;z-index: 1000;transition: opacity 0.3s;}
+  .scroll-arrow i {font-size: 18px;}
+  .OtherwithTaxesserachableDropdown {position: relative;}
+.OtherwithTaxesserachableDropdown input {width: 100%;padding: 7px;box-sizing: border-box;border: 1px solid #C6C6C6;border-radius: 5px;position:relative;background:#fff;font-size:11px;font-weight:500;}
+.OtherwithTaxesserachableDropdown ul {width:100%;position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;}
+.OtherwithTaxesserachableDropdown li {font-size:10px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #C6C6C6;}
+.OtherwithTaxesserachableDropdown li:hover {background-color: #f1f1f1;}
+.taxesledgerssearchicon {position: absolute;right: 5px;top: 9px;height: 14px;width: 14px;line-height: 14px;color: #B6B6B6;background: #fff;font-size: 11px;}
+button.inputcrossicontaxes {position: absolute;right: 5px;top: 7px;height: 18px;width: 18px;line-height: 18px;background: #eee;border-radius: 50%;}
+button.inputcrossicontaxes i {font-size: 10px;color: #5e5e5e;}
+.otherledgers-searchable h6{font-size:12px;color:#1a1a1a;font-weight:500;}
+@media only screen and (max-width:1580px){
+    .NewBackentryBottom {width: 87%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottom{width:96%;}
+}
+@media only screen and (max-width:1400px){
+    .NewBackentryBottom {width: 85%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottom{width:95%;}
+}
+
+@media only screen and (max-width:1080px){
+    .NewBackentryBottom {width: 81%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottom{width:93%;}
+}
+@media only screen and (max-width:991px){
+    .NewBackentryBottom{width:100%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottom{width:100%;}
+}

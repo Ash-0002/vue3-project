@@ -1,0 +1,739 @@
+
+.tally_header .bglight {background-color: #F9FEF9;padding: 2px 10px;height:70px;}
+.tally_header a.nav-link {color: #1a1a1a;font-size: 14px;font-weight: 400;padding: 3px 0;}
+.tally_header a.nav-link.goto_href {background-color: #5BBC21;}
+a.nav-link.goto_href strong {color: #fff;}
+.tally_header li.nav-item {margin: 0 15px;position: relative;}
+.tally_header .tallyheader-collapse {justify-content: end;position: relative;}
+.manage_text {position: absolute;top: 2px;margin-left: 20px;border-bottom: 1px solid #000;width: 33%;font-weight: 400;font-size: 12px;}
+.tally_header a.nav-link strong {padding-right: 5px;}
+header.tally_header {position: fixed;top: 0;left: 0;width: 100%;z-index: 1;}
+.tally-sidebar {width: 12%;max-height:100%;background-color: #F4FFED;border-top: 1px solid #D9D9D9;border-left: 1px solid #D9D9D9;position: fixed;right: 0;top: 72px;bottom: 0;}
+.tally-sidebar::-webkit-scrollbar-track{-webkit-box-shadow: none;background-color: #ffffff;}
+.tally-sidebar::-webkit-scrollbar{width: 3px;background-color: #ffffff;}
+.tally-sidebar::-webkit-scrollbar-thumb{background-color: #5BBC21;border: 0;}
+.tally-sidebar ul {margin: 0;padding: 5px;list-style: none;float: left;width: 100%;}
+.tally-sidebar ul li {background-color: #FFFFFF;border: 1px solid #d9d9d93b;margin-bottom:2px;/*float: left;*/width: 100%;box-shadow: 0px 1px 1px 0px #d9d9d93b;padding:4px;}
+.inner-tally-sidebar-heght-set{height:530px;overflow-y:auto;}
+li.disable-li-sidebar-tally a {opacity: 0.5;cursor: no-drop;}
+ul.lastLi.configure-bottom-set-insidebar {position: fixed;bottom: 0;}
+.inner-header-left-side-text {position: absolute;top:3px;}
+/**** neww css *****/
+.inner-header {background-color: #5BBC21;padding: 3px 5px 2px 5px;position: relative;height:18px;}
+.gateway-tally-dashboard .table-responsive table.table {--bs-table-bg: auto;margin-bottom: 0;}
+.inner-header h3 {padding: 0;margin: 0;font-size: 11px;color: #fff;font-weight: 600;margin-bottom:0 !important;}
+.inner-header span a{font-size: 14px;color: #fff;}
+.inner-header span {font-size: 14px;color: #fff;}
+.company-status h4 {margin: 0 0 5px 0;color: #5BBC21;font-size: 10px;font-weight: 400;}
+.company-status h5 {margin: 0 !important;color: #1A1A1A;font-size: 13px;font-weight: 700;}
+.company-dashboard-table table {margin: 0;}
+.company-dashboard-table table th {color: #5BBC21;font-size: 13px;font-weight: 400;padding: 3px 10px;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+.company-status {padding: 10px 10px;background-color: #fff;}
+.company-dashboard-table table td {color: #1a1a1a;font-size: 13px !important;font-weight: 500;padding: 0px 0px !important;border-bottom: none !important;}
+.company-dashboard-table.day_book_voucher table tr {border-bottom: none;}
+.company-dashboard-table.day_book_voucher table tr tfoot{border-bottom: 1px solid #B0B0B0;border-top:1px solid #B0B0B0;}
+.align-right {text-align: right;}
+.gateway-tally-card {background-color: #F4FFED;border: 1px solid #5BBC21;padding-bottom: 30px;}
+.dashboard_tally_card {width: 55%;margin: 0;}
+.gateway-tally-card h3 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 60px;}
+.tally-card-report h4 {margin:0px 0 5px 0;color: #5BBC21;font-size: 9px;font-weight: 400;padding-left: 60px;}
+.tally-card-report ul {margin: 0;padding-inline-start: 0;list-style: none;}
+.tally-card-report ul li {margin: 0 0 0px 0;color: #1a1a1a;font-size: 14px;font-weight: 400;}
+.tally-card-report ul li a {color: #1a1a1a;padding: 0 0 0 60px;font-size:11.5px;font-weight:400;}
+.tally-card-report ul li span {color: #3F930D !important;font-weight: 600;}
+span.coming-soon {color: red !important;font-size: 7.5px;font-weight: 500 !important;float: right;padding-top: 3px;padding-right: 10px;}
+.tally-card-report {margin: 0;padding: 5px 0 0 0;}
+.dashboard_line:after {content: '';border-left: 1px solid #D9D9D9;position: fixed;top: 0px;left: 51.4%;height: 100%;}
+.dashboard_line:before {content: '';border-right: 1px solid #D9D9D9;position: fixed;top: 0px;left: 14%;height: 100%;}
+.move-with-arrow.selected{background-color: #c2ebaa !important;}
+.move-with-arrow2.selected{background-color: #c2ebaa !important;}
+.move-with-arrow3.selected{background-color: #c2ebaa !important;}
+.move-with-arrow4.selected{background-color: #c2ebaa !important;}
+.move-with-arrow5.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-daybook.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-voucher.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-balancesheet.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-balancesheet-right.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-profitloss.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-stocksummary.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-groupsummary.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-receivables.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-table-trialbalance.selected{background-color: #c2ebaa !important;}
+.move-with-arrow-create-table.selected{background-color: #c2ebaa !important;}
+/**** dashboard popup css *****/
+.company-create-popup h3 {margin: 0;background-color: #5BBC21;font-size: 14px;font-weight: 600;color: #fff;padding: 5px 10px;}
+.company-create-popup {background-color: #F4FFED;border: 1px solid #696969;}
+.create-company-status {text-align: right;border-bottom: 1px solid #A2A2A2;padding: 10px 0;margin: 0 10px;}
+.create-company-status p {margin: 0;}
+.create-company-status a {color: #1a1a1a;font-size: 14px;}
+.master-listing {    margin: 10px 0px;}
+.master-listing ul {list-style: none;margin: 0;padding-inline-start: 10px;padding-inline-end: 10px;}
+.master-listing ul li a {color: #1A1A1A;font-size: 13px;font-weight: 400;}
+li.master-listing-title {color: #1A1A1A;font-size: 14px;font-weight: 600;}
+.master_creation {background-color: #fff;border-left: 1px solid #696969;padding: 10px 15px;border-right: 1px solid #696969;width: 70%;margin: 0 auto;}
+.master_creation h4 {margin: 0 0 10px 0;font-size: 16px;font-weight: 600;text-align: center;color: #1A1A1A;text-decoration: underline;}
+input.form-control.tally_search_input {background-color: #F4FFED;border: 1px solid #5BBC21;border-radius: 0;padding: 0.3rem .3rem;height: auto;color: #1a1a1a;font-weight: 700;font-size: 12px;}
+.master-listing ul li a:hover {text-decoration:none;}
+input.form-control.tally_search_input:focus {box-shadow: none;}
+a:hover {text-decoration: none;}
+.tally-dashboard-padding-top {padding-top:72px;font-family: Arial, Helvetica, sans-serif;height:95vh;}
+span.green_text {color: #5BBC21;font-weight: 600;}
+span.sidebar_keys {font-size: 12.5px;color: #1a1a1a;padding-left: 5px;}
+span.sidebar_arrow {float: right;padding:0px 10px;color: #1a1a1a;font-size: 12px;border-left: 1px solid #5BBC21;}
+.tally_header li.nav-item .dropdown-menu {background-color: #F4FFED;border: 1px solid #5BBC21;border-radius: 0;padding:0;min-width: 11rem;}
+.tally_header li.nav-item .dropdown-menu a {width: 100%;display: block;color: #1a1a1a;font-size: 12px;font-weight: 400;padding:8px 10px;}
+span.dropdown_menu_keys {float: right;}
+.tally_header li.nav-item .dropdown-menu p {color: #1a1a1a;font-size: 12px;font-weight: 400;margin: 10px 0;text-transform: uppercase;}
+.disable_link {color: #ACA797 !important;}
+a.disable_link span {color: #ACA797;}
+span.payment_td {background-color: #5BBC21;padding: 2px 25px;font-size: 14px;color: #fff;font-weight: 600;display: inline-block;}
+.tally-voucher-table .table {color: #1a1a1a;margin: 0;border-spacing: 0;border-collapse: collapse;}
+.tally-voucher-table .table td {font-size: 14px;font-weight: 400;padding: 5px 5px;border: 0;}
+.tally-voucher-table .table td.brd_top_bottom {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+.w-25 {width: 25% !important;}
+.tally-voucher-table .table td.td_voucher_footer {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+.tally-card-report ul li a:focus-visible {box-shadow: none;border: 0;outline: none;background-color: #c2ebaa;display: block;}
+.master-listing ul li a:focus-visible {box-shadow: none;border: 0;outline: none;background-color: #c2ebaa;display: block;}
+.create-company-status p a:focus-visible {box-shadow: none;border: 0;outline: none;background-color: #c2ebaa;display: block;}
+.dropdown-menu.sidebar_submenu {padding: 0;margin-right: 0;border: none;border-radius: 0;background-color: #f4ffed;}
+.double_underline {text-decoration-style: double;}
+a:focus{outline:none;}
+.tally_header li.nav-item .dropdown-menu a:focus-visible {box-shadow: none;border: 0;outline: none;background-color: #c2ebaa;display: block;}
+.day_book_voucher table td {padding: 2px 10px;}
+.font-weight-700 {font-weight: 700 !important;}
+.font-weight-400 {font-weight: 400 !important;}
+.font-weight-500{font-weight:500 !important;}
+.day_book_voucher table th {vertical-align: top;color: #1a1a1a;background:#fff !important;}
+.balancesheet_table table th {color: #1a1a1a;font-weight: 700;background:#fff !important;}
+.company-bottom-date {font-weight: 400;font-size: 11px;}
+.leftsidepanel-table-balancesheet{position:relative;}
+.rightsidepanel-table-balancesheet{position:relative;}
+/*.balancesheet_table tfoot {position: fixed;bottom: 5px;width: 100%;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}*/
+table.footer-balancesheet-left-panel {position: fixed;width: 44%;left: 0px;bottom: 0px;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-balancesheet-right-panel{position: fixed;width: 44%;right: 12%;bottom: 0px;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+.sales_register table td a {color: #1a1a1a;}
+.sales_register tfoot td {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;font-weight: 700;}
+.sales_register .table {table-layout: fixed;}
+.sales_voucher tfoot td {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+.sales_voucher table td a {color: #1a1a1a;}
+.date_span {background-color: #F4FFED;border: 1px solid #5BBC21;padding: 2px 10px;}
+.sales_register table.table td{padding:0px;}
+.sales_register table.table td a {padding: 2px 10px;display: block;}
+.sales_register table.table td a:focus-visible{box-shadow: none;border: 0;outline: none;background-color: #c2ebaa;display: block;}
+.dropleft a {display: block;}
+.modal-dialog.basis_modal {max-width: 100%;margin: 0rem auto;height: 100%;}
+.modal-dialog.basis_modal .modal-content {border: 0;border-radius: 0;height: 100%;background-color: transparent;}
+select.scale_factor {float: right;border: none;background-color: transparent;appearance: none;text-align: left;color: #1A1A1A;font-size: 13px;font-weight: 400;padding: 0 10px;}
+select.scale_factor:focus {outline: none;}
+.active_tab {background-color: #c2ebaa;}
+.master-listing ul li {padding: 0 5px;}
+/*.displaymore_tally_card {display: none;}*/
+/*.accountbooks_tally_card {display: none;}*/
+/*.statementsaccounts_tally_data {display: none;}*/
+/*.outstandings_tally_data{display: none;}*/
+.dashboard_tally_card h5 a{color: #686868;font-size: 11px;font-weight: 500;font-style: italic;padding: 0 0 0 60px;margin: 0 0 -5px 0;cursor: pointer;}
+.modal {padding-right: 0 !important;}
+.border_top {border-top: 1px solid #B0B0B0 !important;}
+.sales_graph {margin-top: 10px;}
+a.profile-dropdown-header img {width: 24px;margin-right: 10px;}
+a.profile-dropdown-header i {padding-left: 10px;font-size: 12px;}
+.tally_header li.nav-item .dropdown-menu a img {margin-right: 5px;}
+.tally-card-report ul li a.selected{background-color: #c2ebaa;}
+.support_number p {margin-bottom: 0;font-weight: 600;font-size: 13px;color: #1a1a1a;padding-right: 0px;border-right: none;}
+.support_number p a {font-weight: 400;color: #2980b9;white-space: nowrap;}
+ul.navbar-nav.first_navbar{align-items:center;}
+.vertical-table-right-border {position: relative;}
+.vertical-table-right-border::after {content:"";position: absolute;height: 85vh;width: 1px;background: #B0B0B0;right: 0;top: 0;bottom: 0;}
+.dropdown-item.active, .dropdown-item:active {color: #1a1a1a;text-decoration: none;background-color: transparent;}
+.sales_graph canvas {height: 155px !important;}
+.hedaer-line-cross-right {text-align: right;display: none;}
+.header-line-companyname {text-align: center;}
+table.footer-voucherlisting-panel {width: 88%;position: fixed;bottom: 0px;}
+table.footer-voucherlisting-panel tr td {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-voucherlisting-panel tr td {padding: 2px 10px !important;}
+table.footer-bills-receivables-bottom-fixed {width: 88%;position: fixed;bottom: 0px;}
+table.footer-bills-receivables-bottom-fixed tr td {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-bills-receivables-bottom-fixed tr td {padding: 2px 10px !important;}
+
+.sales_voucher_register_table table tr th {color: #1a1a1a;}
+table.balancesheet-profittable-data tr td{padding:0 10px !important;font-style:italic;font-weight:400;}
+.stock-summary-table-section table tr th {padding:0;color: #1a1a1a;font-size: 16px;font-weight: 400;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;vertical-align: top;background:#fff !important;}
+.stock-summary-table-section table tr td {color: #1a1a1a;font-size: 12px !important;font-weight: 500;padding: 0px 0px !important;border-bottom: none !important;}
+table.table.right-inner-stocksummary-table {margin: 0;border-bottom: 1px solid #B0B0B0;}
+table.table.right-inner-stocksummary-table tr td {padding: 0px;}
+table.table.right-innerbottom-stocksummary-table {margin-bottom: 0;}
+table.stocksummary-grand-total {width: 88%;position: fixed;bottom: 0;background:#fff;}
+table.stocksummary-grand-total tr th {padding: 5px 10px;font-size: 13px;font-weight: 700;color: #1a1a1a;}
+.group-summary-table-section table tr th {padding:0;color: #1a1a1a;font-size: 16px;font-weight: 400;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;vertical-align: middle;background:#fff !important;}
+.group-summary-table-section table tr td {color: #1a1a1a;font-size: 13px !important;font-weight: 500;padding: 0px 0px !important;border-bottom: none !important;}
+table.table.right-inner-groupsummary-table {margin: 0;border-bottom: 1px solid #B0B0B0;width:100%;}
+table.table.right-inner-groupsummary-table tr td {padding: 0px;}
+table.table.right-innerbottom-groupsummary-table {margin-bottom: 0;width:100%;}
+table.groupsummary-grand-total {width: 88%;position: fixed;bottom: 0;background: #fff;}
+table.groupsummary-grand-total tr th {padding: 5px 10px;font-size: 13px;font-weight: 700;color: #1a1a1a;}
+.display_block_input {display: inline-block;width: auto;}
+tfoot.voucher_footer td {border: 0;}
+.voucher_footer_fixed td.td_border {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.voucher_footer_fixed {position: fixed;bottom: 10%;left: 0;width: 88%;}
+
+table.stockitem_monthly_summary tr th {font-size: 12px;font-weight: 600;padding: 0px 0px;color:#1a1a1a;}
+input.date_voucher_details {padding: 0 0px;font-weight: bold;width: 100px;text-align: right;border:1px solid transparent;font-size:11.5px;}
+input.date_voucher_details:focus {background: #FEE8AF;border: 1px solid #2A67B1;}
+input.date_voucher_details:focus {outline: 0;}
+.sales-voucher-details-bg {background: #F3FFE9;}
+/***************************start create voucher css******************************/
+table.table-input-box-voucher tr td label {margin-bottom: 0;font-size: 12px;color: #000;}
+table.table-input-box-voucher tr td input {border: 1px solid transparent;padding: 0 5px;font-weight:600;font-size:12.5px;width:250px;}
+table.table-input-box-voucher tr td input:focus {border: 1px solid #2A67B1;background: #FEE8AF;outline: 0;font-weight:600;}
+table.table-input-box-voucher tr td input.selected{border: 1px solid #0ebe35;background: #f1fff4;outline: 0;font-weight:600;}
+table.create-voucher-table tr td input {border: 1px solid transparent;padding: 0 5px;font-weight:600;width:100%;font-size:12px;}
+table.create-voucher-table tr td input:focus {border: 1px solid #2A67B1;background: #FEE8AF;outline: 0;font-weight:600;}
+.narration-voucher label {display: block;font-size: 12px;margin-bottom: 0;font-weight: 500;}
+.narration-voucher input {border: 1px solid transparent;padding: 0 5px;height:50px;width:40%;font-weight:600;}
+.narration-voucher input:focus {border: 1px solid #2A67B1;background: #FEE8AF;outline: 0;font-weight:600;}
+.narration-voucher textarea {border: 1px solid transparent;padding: 0 5px;height:50px;width:50%;font-weight:500;vertical-align:top;}
+.narration-voucher textarea:focus {border: 1px solid #2A67B1;background: #FEE8AF;outline: 0;font-weight:500;}
+/***********  voucher page css **************/
+.display_block_input {display: inline-block;width: auto;}
+tfoot.voucher_footer td {border: 0;}
+.voucher_footer_fixed td.td_border {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.voucher_footer_fixed {position: fixed;bottom: 10%;left: 0;width: 88%;}
+.voucher_ledger_popup {position: absolute;right: 0px;top: 18px;background-color: #F4FFED;border: 1px solid #5BBC21;width: 250px;}.voucher_ledger_popup h5 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;position: fixed;width: 250px;}
+.voucher_ledger_popup ul { list-style: none; padding-inline-start: 0px; font-size: 14px; margin-top: 24px;}
+.voucher_ledger_popup ul li {padding-left:10px;cursor:pointer;font-size:12px;}
+.voucher_ledger_popup li.selected {background-color:#c2ebaa;}
+table.create-voucher-table tr td {padding: 2px 10px !important;}
+ul.selected_vue_li li {color: #1a1a1a;padding: 2px 0 2px 60px;cursor: pointer;}
+.tally-card-report ul li.active {background-color: #c2ebaa;}
+footer#daybook-date-modal___BV_modal_footer_ {display: none;}
+header#daybook-date-modal___BV_modal_header_ {padding: 0.5rem 0.5rem;}
+header#daybook-date-modal___BV_modal_header_ .close {float: right;font-size: 1.5rem;font-weight: 700;line-height: 1;color: #fff;text-shadow: none;opacity: 1;margin: 0;padding: 0;}
+header#daybook-date-modal___BV_modal_header_ {padding: 0.1rem 0.5rem 0.4rem 0.5rem;background-color: #5BBC21;}
+.master_creation.daybook_change_date {width: 100%;border: none;}
+.master_creation.daybook_change_date input.form-control.tally_search_input {width:100%;margin: 0 auto;text-align: center;}
+div#daybook-date-modal___BV_modal_outer_ .modal-backdrop {position: fixed;top: 0;left: 0;z-index: 1040;width: 100vw;height: 100vh;background-color:#0000006e;}
+div#daybook-date-modal .modal-dialog {max-width: 15%;}
+.move-with-arrow-table-balancesheet.active{background-color:#c2ebaa;}
+.button-profile-dropdown-inner {padding: 0;border: none;font-weight: 400;font-size: 14px;color: #1A1A1A;display: flex;align-items: center;}
+.button-profile-dropdown-inner img {margin-right: 10px;width: 25px;}
+.button-profile-dropdown-inner p {text-overflow: ellipsis;white-space: nowrap;word-wrap: break-word;overflow: hidden;width: 100px;display: inline-block;margin-bottom: 0;color: #1a1a1a;font-size: 12px;text-align: left;}
+.tally-profile-dropdownshow {background: #F4FFED;border: 1px solid #5BBC21;padding: 0px 0px;position: absolute;margin-top: 8px;right: 0px;z-index: 9999;min-width: 11rem;}
+.tally-profile-dropdownshow a.inner-dropdown-user-profile-tag {font-size: 12px;width: 100%;display: block;border-bottom: 1px solid #EEEDED;padding: 8px 15px 8px 15px;font-weight: 500;color: #1a1a1a;}
+a.inner-dropdown-user-profile-tag img {width: 16px;margin-right: 5px;}
+.gateway-tally-dashboard.dashboard_line {background: #fff;}
+.pr-0 {padding-right: 0 !important;}
+.pl-0 {padding-left: 0 !important;}
+.gateway-tally-card ul li a.router-link-active {background: transparent;}
+td.voucher_listing_table tr td {padding: 1px 10px !important;}
+tfoot.footer-tally-footer tr td {padding: 0 10px !important;font-weight:700 !important;}
+.group-summary-table-section table tr:nth-of-type(even) {background: #fff;}
+.company-dashboard-table.day_book_voucher table tr:nth-of-type(even) {background: #fff;}
+.group-summary-table-section table tr {border-bottom: none;}
+.sales-voucher-details-top {padding: 0 10px;}
+table.sales-voucher-details-inner-table-caption tr td {padding: 1px 10px !important;}
+table.groupsummary-grand-total tr td {padding: 2px 10px !important;}
+table.table.front-dashboard-table-set tbody tr:nth-of-type(even) {background: #fff;}
+table.table.front-dashboard-table-set tbody tr {border-bottom: none;cursor: pointer;}
+table.table.front-dashboard-table-set tbody tr td {padding: 2px 10px !important;font-weight: 400;color: #525252;}
+table.table.right-inner-stocksummary-table tr {border-bottom: none;}
+table.table.right-innerbottom-stocksummary-table tr td {padding: 0 10px !important;}
+.stock-summary-table-section table tr:nth-of-type(even) {background: #fff;}
+.stock-summary-table-section table tr {border-bottom:none;}
+table.footer-balancesheet-left-panel tr td {padding: 0 10px !important;font-size:14px !important;}
+table.footer-balancesheet-right-panel tr td {padding: 0 10px !important;font-size:14px !important;}
+.balancesheet_table table tbody tr:nth-of-type(even) {background: #fff;}
+.balancesheet_table table tbody tr {border-bottom: none;}
+td.listing_table_balancesheet tr td {padding: 0 10px !important;}
+table.stockitem_monthly_summary tfoot.footer td {padding: 0px 10px !important;}
+table.footer-stockitem-voucher {width: 88%;position: fixed;bottom: 10px;}
+table.footer-stockitem-voucher tfoot td {padding: 0px 10px !important;}
+/* .group-summary-table-section table tr:nth-of-type(odd) {background: #fff;} */
+tfoot td {background-color: #fff;}
+p.journal-inner-caption-table {margin-bottom: 0;font-size: 11px;font-style: italic;}
+.main-tally-front-popup-date {position: fixed;background: transparent;z-index: 2;top: 0;left: 0;bottom: 0;right: 0;width: 100%;}
+.currentdate-popup-centervalign{display: flex;align-items: center;justify-content: center;height:100%;width:100%;}
+.changeperioddate-popup-centervalign{display: flex;align-items: center;justify-content: center;height:100%;width:100%;}
+.currentdate-popup-top-labelline{background: #0ebe35;padding: 0 5px;}
+.changeperiod-popup-top-labelline{background: #0ebe35;padding: 0 5px;}
+.tally-front-popup-date {/*position: fixed;z-index: 999999999;*/background-color: #fff;padding: 10px 10px 10px 10px;border:1px solid #000;transition: 0.5s ease-in-out;/*top: 50%;left: 50%;transform: translate(-50%, -50%);*/text-align: center;margin:auto;}
+.tally-front-popup-date span {color: #000;font-size: 13px;font-weight: 500;border-bottom: 1px solid #000;}
+input.date-format-input-tally {background: #f1fff4;border: 1px solid #0ebe35;padding: 2px 5px;font-weight: 800;width: 90px;margin-top: 19px;text-align:right;}
+.modal-vue-tally .overlay1{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay2{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay3{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay4{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay5{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay6{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay7{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.modal-vue-tally .overlay8{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.main-tally-front-company-popup{position: fixed;background: transparent;z-index: 2;top: 0;left: 0;bottom: 0;right: 0;width: 100%;}
+.tally-front-popup-company {/*position: fixed;z-index: 2;*/background-color: #fff;padding: 10px 10px 10px 10px;border:1px solid #000;transition: 0.5s ease-in-out;top: 19%;left: 50%;/*transform: translate(-50%, -50%);*/text-align: center;width:250px;margin:auto;}
+.tally-front-popup-company span {color: #000;font-size: 13px;font-weight: 500;border-bottom: 1px solid #000;}
+input.company-format-input-tally {background: #f1fff4;border: 1px solid #0ebe35;padding: 2px 5px;font-weight: bold;width: 100px;margin-top: 19px;width:100%;}
+.select-company-flow-boxes {/*position: fixed;z-index: 2;*/background-color: #F4FFED;padding: 0;border: 1px solid #000;transition: 0.5s ease-in-out;top: 26%;left: 50%;/*transform: translate(-50%, 0%);*/text-align: left;width: 500px;height:100vh;margin:auto;}
+.select-company-flow-boxes h6 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;margin-bottom: 0 !important;}
+.select-shut-company-flow-boxes{/*position: fixed;z-index: 2;*/background-color: #F4FFED;padding: 0;border: 1px solid #000;transition: 0.5s ease-in-out;top: 26%;left: 50%;/*transform: translate(-50%, 0%);*/text-align: left;width: 400px;height:100vh;margin:auto;}
+.select-shut-company-flow-boxes h6 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;margin-bottom: 0 !important;}
+.select-voucher-type-popup-company-flow-boxes{/*position: fixed;z-index: 2;*/background-color: #F4FFED;padding: 0;border: 1px solid #000;transition: 0.5s ease-in-out;top: 26%;left: 50%;/*transform: translate(-50%, 0%);*/text-align: left;width: 400px;height:auto;margin:auto;}
+.select-voucher-type-popup-company-flow-boxes h6 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;margin-bottom: 0 !important;}
+.modal-vue-tally {position: relative;}
+ul.company-selection-popup-boxes li {background: transparent;box-shadow: none;border: none;margin-bottom: 0;color: #1a1a1a;font-size: 12px;font-weight:600;padding:0px 5px;}
+ul.company-create-alter-popup-boxes li a:focus-visible {border: none;}
+ul.company-selection-popup-boxes {border-top: 1px solid #ddd;padding:0;}
+ul.company-selection-popup-boxes li span {float: right;}
+ul.company-selection-popup-boxes li a {color: #1a1a1a;}
+ul.company-create-alter-popup-boxes {padding: 0;margin-bottom:3px;}
+ul.company-create-alter-popup-boxes li {background: transparent;box-shadow: none;border: none;margin-bottom: 0;color: #1a1a1a;font-size: 12px;font-weight:600;padding:0px 5px;text-align: right;}
+ul.company-create-alter-popup-boxes li a {color: #1a1a1a;}
+.company-popup-list-code-name-right {text-align: right;font-style:italic;}
+.company-popup-list-code-name-middle{text-align: center;font-style:italic;}
+.sales-voucher-dispatch-details-inner {position: fixed;z-index: 999999999;background-color: #fff;padding: 10px 10px 10px 10px;border: 1px solid #000;transition: 0.5s ease-in-out;top: 50%;left: 50%;transform: translate(-50%, -50%);width:50%;}
+.enter-event-inner-content-receivables table tr {background: #fff;}
+.enter-event-inner-content-receivables table tr td {font-style: italic;}
+.enter-event-inner-content-receivables {background: #fff;}
+.period-date-company-popup {margin: 10px 0 0 0;}
+.period-from-to-date-inner-label {text-align: left;color: #1a1a1a;font-weight: 600;}
+.period-from-to-date-inner-input {display: flex;align-items: center;}
+.period-from-to-date-inner-input input {text-align:right;margin-left: 10px;color: #1a1a1a;font-weight: 800;font-size:12px;padding:2px 5px;width:100%;border:1px solid transparent;}
+.period-from-to-date-inner-input input:focus {background: #f1fff4;border: 1px solid #0ebe35;font-weight: 800;width: 100%;}
+.period-date-company-popup {width: 200px;}
+.voucherType-height-set {height: 460px;overflow-y: auto;}
+ul.daybook-change-view-headingtype {padding: 0;}
+ul.daybook-change-view-headingtype li {background: transparent;box-shadow: none;border: none;margin-bottom: 0;color: #1a1a1a;font-size: 12px;font-weight: 600;padding: 0px 5px;text-align: left;}
+ul.daybook-change-view-headingtype li a {color: #1a1a1a;font-size: 14px;}
+ul.daybook-change-view-headingtype li.active {background-color: #c2ebaa;}
+.letter-spacing-3{letter-spacing: 3px;}
+.tally-sales-voucher-details-bg{background:#F3FFE9;height:91vh;}
+.tally-deliverynote-voucher-details-bg{height:91vh;}
+.tally-stockjournal-voucher-details-bg{height:91vh;}
+.tally-receiptnote-voucher-details-bg{height:91vh;}
+.CreateVouchersSetHeight{height:90vh !important;}
+.CreateVouchersSetHeightStockJournal{height:90vh;}
+tfoot.sales-voucher-details-footer tr td {background: #F3FFE9;}
+table.bottom-narration-fixed-voucher {position: fixed;bottom: 5px;width: 88%;}
+table.CreateVoucherFixedNarration{position: fixed;bottom: 0px;width: 88%;}
+.tally-purchase-voucher-details-bg{background:#FFF4FC;height:100vh;}
+.tally-receipt-voucher-details-bg{background:#F2FAFD;height:100vh;}
+.tally-payment-voucher-details-bg{background:#FFFAF4;height:100vh;}
+.tally-salesorder-voucher-details-bg{background:#FAF7FE;height:100vh;}
+.tally-purchaseorder-voucher-details-bg{background:#F9F9F9;height:100vh;}
+.tally-creditnote-voucher-details-bg{background:#FEF4F5;height:100vh;}
+.tally-debitnote-voucher-details-bg{background:#FFFFEB;height:100vh;}
+.tally-contra-voucher-details-bg{background:#F9F9F9;height:100vh;}
+.tally-journal-voucher-details-bg{background:#FAF7FE;height:100vh;}
+.company-popup-labelline-with-company {background: #0ebe35;padding: 0 5px;}
+.company-popup-labelline-companyname h6 {color: #fff;text-align: center;font-size: 11px;font-weight: 500;margin-bottom: 0 !important;}
+.company-popup-labelline-text h6 {margin-bottom: 0 !important;color: #fff;font-size: 11px;font-weight: 500;}
+.company-popup-labelline-icon {text-align: right;}
+.company-popup-labelline-icon i {color: #fff;}
+.border_bottom_profitlossinner{border-bottom:1px solid #ddd;}
+.overflow-auto-height-set-intable{height:85vh;overflow-y:auto;}
+thead.sticky-head-scroll-auto-intable {position: sticky;top: -0.5px;box-shadow: 1px 1px 0px #ddd;background:#fff;}
+.border_bottom{border-bottom:1px solid #ddd;}
+.font-weight-800{font-weight:800 !important;}
+h5.margin-bottom-set-reports {margin-bottom: 6px !important;}
+table.grand-total-footer-voucher-listing-tally-style tr th {padding: 0px 10px;font-weight: 600;font-size: 13px;}
+table.tally-style-footer-fixed-voucher-listing {width: 88%;position: fixed;bottom: 0;background: #fff;}
+.font-style-italic{font-style:italic;}
+h5.tally-style-inner-heading-createpopup {padding: 3px 5px;font-size: 13.5px;color: #000;margin-bottom: 0 !important;}
+.create-popup-height-set{height:650px;}
+.alter-popup-height-set{height:650px;}
+table.footer-cashinflow-left-panel {position: fixed;width: 44%;left: 0px;bottom: 20px;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-cashoutflow-right-panel {position: fixed;width: 44%;right: 12%;bottom: 20px;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-cashnettflow-full-panel {position: fixed;width: 88%;left: 0px;bottom: 0;border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;color: #00007F;}
+table.footer-cashinflow-left-panel tr td {padding: 0 10px;color: #000;}
+table.footer-cashoutflow-right-panel tr td {color: #000;padding: 0 10px;}
+.tally-style-fundsflow-full-bottom-panel {position: fixed;width: 88%;left: 0px;bottom: 0px;}
+table.footer-fundsflow-left-panel tr td {padding: 0 10px;color: #000;}
+table.footer-fundsflow-left-panel tr {border-bottom: none;}
+table.footer-fundsflow-right-panel tr {border-bottom: none;}
+table.footer-fundsflow-left-panel {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-fundsflow-right-panel {border-top: 1px solid #B0B0B0;border-bottom: 1px solid #B0B0B0;}
+table.footer-fundsflow-right-panel tr td {padding: 0 10px;color: #000;}
+table.footer-fundsflow-first-table tr td {padding: 0 10px;color:#000;font-weight:400;}
+table.footer-fundsflow-first-table tr {border-bottom:none;}
+table.inner-table-tally-style-cash-banks {background: #fff;}
+i.fa.fa-info.info-icon-show {margin-left: 5px;color: #ff6500;font-size: 10px;height: 15px;width: 15px;border-radius: 50%;background: #ffffff;text-align: center;line-height: 15px;}
+.ledger-outstanding-onaccount tr td{padding:1px 10px !important;}
+.ledger-outstanding-subtotal tr td{padding:1px 10px !important;}
+.statistics-table-right-border {position: relative;}
+.statistics-table-right-border:after {height: 85vh;}
+.tally-dashboard-company-listing-set-scroll-auto {height: 70vh;overflow-y: auto;}
+.tally-style-group-vouchers-bottom-panel-fixed{width: 88%;position: fixed;bottom: 0px;}
+.tally-style-group-vouchers-bottom-panel-fixed tr td{padding:0 10px !important;}
+.proper-width-tally-style-main-section-all{width:105.6%;}
+.gateway_tally_card {display: flex;align-items: center;justify-content: center;margin-right: 24px;}
+.cursor-pointer{cursor:pointer;}
+.stock-group-analysis-table {position: relative;}
+.stock-group-analysis-table:before {position: absolute;height: 89vh;width: 1px;background: #d9d9d9;content: "";display: block;left: 45%;z-index: 3;}
+.stock-group-analysis-table:after {position: absolute;height: 75vh;width: 1px;background: #d9d9d9;content: "";display: block;left: 72.5%;top: 99px;z-index: 3;}
+table.stockitem-monthly-summary-bottom-footer tr td {padding: 0 10px !important;}
+/* table.table.table-movement-tr-th-border tr th {border: 1px solid #ddd;}
+table.table.table-movement-tr-td-border tr td {border: 1px solid #ddd;border-top: none;border-bottom: none;} */
+.main-table-tr-th-td-border tr th, .main-table-tr-th-td-border tr td{border:1px solid #ddd; border-collapse: collapse;}
+.inner-table-item-voucher-tr-td{border:none;}
+.inner-to-inner-item-voucher-table tr td{border:none;}
+button.ModernThemeButton {padding: 5px 10px;border-radius: 5px;background: #2980B9;margin-right: 10px;}
+button.ModernThemeButton img {margin-right: 8px;}
+button.ModernThemeButton a {color: #ffffff;font-weight: 600;}
+/************************Start Left Sidebar CSS****************************/
+.TallyNewSidebarLeft {background: #F4FFED;padding: 20px 10px 20px 20px;height:91.5vh;}
+.TallyNewSidebarLeftCaption h4 {font-size: 16px;font-weight: 600;text-align: center;color: #000;line-height:22px;}
+.TallyNewSidebarLeftCaption {text-align: center;}
+.TallyNewSidebarLeftCaptionImg img {margin: 30px 0;}
+.TallyNewSidebarLeftCaption ul {list-style: none;padding: 0;text-align: left;margin-bottom:15px;margin-left:20px;}
+.TallyNewSidebarLeftCaption ul li {font-size: 11px;border: none;box-shadow: none;color: #4F4F4F;font-weight:600;padding:2px;}
+.TallyNewSidebarLeftCaption ul li img {margin-right: 3px;margin-top: 0;margin-bottom: 0;}
+.LeftSidebarBusinesses h4 {font-size: 13px;color: #000;font-weight: 600;line-height:normal;margin-bottom:20px;}
+.SupportMobileNumberTally a{text-decoration:underline;}
+
+/************************End Left Sidebar CSS****************************/
+input.CreateVoucherTableInputFocus:focus {border: 1px solid #2A67B1;background: #FEE8AF;outline: 0;font-weight: 600;}
+input.input.CreateVoucherTableInputFocus {padding: 0 5px;font-weight:600;font-size:11.5px;}
+label.currentgraybalancetext {color: #7f7f7f !important;font-size: 11px !important;}
+label.currentgraybalancetext span{font-weight:600;padding:0 5px;}
+.CreateVoucherLedgerPopupList {position: absolute;right: 0px;top: 19px;background-color: #F4FFED;border: 1px solid #5BBC21;height: 88vh;width:230px;}
+.CreateVoucherLedgerPopupList h5 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;position: fixed;width: 230px;}
+.CreateVoucherLedgerPopupList ul { list-style: none; padding-inline-start: 0px; font-size: 14px; margin-top: 24px;}
+.CreateVoucherLedgerPopupList ul li {padding:0 10px;cursor:pointer;font-size:12px;}
+.CreateVoucherLedgerPopupList li.selected {background-color:#c2ebaa;}
+.stock_item_popup {position: absolute;right: 0;top: 19px;background-color: #F4FFED;border: 1px solid #5BBC21;width: 350px;height:88vh;}
+.stock_item_popup h5 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;margin-bottom: 0 !important;width:350px;}
+.stock_item_popup ul {list-style: none;padding-inline-start: 0px;font-size: 14px;margin: 0;}
+.stock_item_popup ul li {padding: 0 10px;cursor: pointer;font-size: 12px;display: flex;}
+.stock_item_popup li.selected {background-color: #c2ebaa;}
+.item-name {flex: 1;padding-right: 10px;}
+.item-quantity {flex: 1px;text-align: right;}
+.quite-dialog-tally {background: #fff;text-align: center;width: 130px;padding: 15px 0 5px 0;border: 1px solid #727272;border-radius: 2px;position: fixed;right: 12%;bottom: 5px;z-index:1;}
+.dialog-content-tally p {font-size: 15px;font-weight: 600;color: #1a1a1a;}
+.dialog-buttons-tally button {color: #2980B9;font-size: 13px;margin: 0 10px;text-decoration: underline;font-weight: 600;}
+.overlayquite-tally-style {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0);z-index: -1; }
+table.CreateVoucherFixedNarration tr td{font-size: 12px !important;color: #000;}
+label.setwidthlabelvoucher {width: 120px;}
+tbody.SetHeightInerVooucherTabe {height: 350px !important;overflow-y: auto;display: table-caption;}
+.PriceLevelPopupSet {right: .8%;top: 14.5%;}
+.colorgray{color:#7f7f7f;}
+label.setvoucherdetailswidthlabel {width: 130px;}
+span.padding-0-5 {padding: 0 5px;}
+.CreateVoucherContraJournalListNew h5 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;}
+.CreateVoucherContraJournalListNew {position:absolute;top:25px;left:5px;background-color: #F4FFED;border: 1px solid #5BBC21;width: 65px;}
+.CreateVoucherContraJournalListNew ul {margin: 0;}
+.CreateVoucherContraJournalListNew ul li {padding: 0px 5px;}
+.CreateVoucherContraJournalList {width: 80px;top: 19px;}
+.CreateVoucherContraJournalList h5 {width: 80px;}
+.ExitModalQuitePopupLast{position:relative;}
+.MainTallyExitPopupSetPortion{position: fixed;background: #B7BCC0;z-index: 2;top: 71px;left: 0;bottom: 0;right: 0;width: 88%;}
+.CompanyPopupLabelExitPopup{background: #0ebe35;padding: 0 5px;}
+.ExitPopupLabelCompanyText h6{margin-bottom: 0 !important;color: #fff;font-size: 11px;font-weight: 500;}
+.ExitPopupLabelCompanyTextIcon{text-align: right;}
+.ExitPopupLabelCompanyTextIcon i {color: #fff;}
+.ExitModalContentLastQuiteCaption {display: flex;justify-content: center;transform: translate(0%, 30%);margin: auto;height: 100%;}
+.ExitModalLabelCaptioContentBoxSet {text-align: center;padding: 30px 30px 0 30px;background: #fff;width: 250px;height: 250px;border: 1px solid #000000;}
+.ExitModalContentCaptioYesNo {display: flex;align-items: end;justify-content: center;height: 100px;}
+.ExitPopupTitleQuiteOption p {margin-bottom: 0;color: #1a1a1a;font-size: 16px;font-weight:600;}
+.ExitPopupTitleQuiteOption {height: 110px;display: flex;align-items: end;justify-content: center;}
+.ExitModalContentCaptioYesNo button {color: #00c145;font-weight: 600;margin: 0 8px;font-size:15px;}
+.ExitModalContentCaptioYesNo span {font-size: 14px;text-transform: lowercase;color: #1a1a1a;font-weight: 500;}
+/* td.ledger-outstanding-td table tr td:nth-child(3), td.ledger-outstanding-td table tr td:nth-child(4){border-bottom:1px solid #ddd !important;} */
+/* .overflow-auto-height-set-intable-main-stocksummary{height:83vh;overflow-y:auto;} */
+.overflow-auto-height-set-intable-stocksummary{height:72vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-groupsummary{height:69vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-stockgroupsummary{height:69vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-stockgroupreorderstatus{height:72vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-trialbalance{height:72vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-daybook{height:80vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-balancesheet{height:78vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-profitloss{height:78vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-statistics-main{height:78vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-spvoucherlisting{height:54vh;overflow-y:hidden;}
+.OverflowHeightSetVoucherListPages{height:70vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-sales-inner{height:54vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-ledger-monthly-summary{height:54vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-optional-vouchers{height:80vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-cashbanks{height:78vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-negativestock{height:72vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-stockitem-outstandinds{height:71vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-overdue-receivables{height:72vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-overdue-payables{height:72vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-bills-receivables{height:72vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-salesorders-book{height:72vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-order-vouchers{height:72vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-stock-journal-voucher{height:76vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-stockitems-page{height:76vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-stock-group{height:76vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-stock-category{height:76vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-group-vouchers{height:72vh;overflow-y: hidden;}
+.overflow-auto-height-set-intable-ledger-vouchers{height:72vh;overflow-y: hidden;}
+.overflow-stock-query-popup-height-set{height:84vh;overflow-y:hidden;}
+.overflow-ledger-indexing-height-set{height:84vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-stockgroup-analysis{height:70vh;overflow-y:hidden;}
+.overflow-auto-height-set-intable-stockitem-summary{height:54vh;overflow-y:hidden;}
+.OverflowLedgerListIndexingHeightSet{height:85vh;overflow-y:hidden;}
+.table-wrapper-grid-stock-query {border: 1px solid gray;height:35.5vh;}
+.MainOverlayOutsideDiv {position: fixed;background: transparent;z-index: 2;top: 0px;left: 0;bottom: 0;right: 0;width: 100%;}
+/*******************************/
+.ModalVueVoucherTypeCreateVoucher {position: relative;}
+.MainTallyVoucherTypePopupCreate {position: fixed;background: transparent;z-index: 2;top: 0;left: 0;bottom: 0;right: 0;width: 100%;transform: translate(0%, 30%);}
+.VoucherTypeTallyFrontCompanyPopup {background-color: #fff;padding: 10px 10px 10px 10px;border: 1px solid #000;transition: 0.5s ease-in-out;text-align: center;width: 350px;margin: auto;padding-bottom:50px;}
+.VoucherTypeTextHeadingNew span {color: #000;font-size: 13px;font-weight: 600;border-bottom: 1px solid #000;}
+input.VoucherTypeCompanyFormatInputTally {background: #f1fff4;border: 1px solid #0ebe35;padding: 2px 5px;font-weight: bold;width: 100%;}
+.VoucherSelectCompanyFlowBoxesType {background-color: #F4FFED;padding: 0;border: 1px solid #000;transition: 0.5s ease-in-out;text-align: left;width: 320px;margin: auto;transform:translate(15%, -8%);}
+.VoucherSelectCompanyFlowBoxesType h6 {color: #FFFFFF;font-size: 12px;font-weight: 600;background-color: #5BBC21;padding: 5px 10px;margin-bottom: 0 !important;}
+ul.VoucherCompanySelectionPopupBoxes {border-top: 1px solid #ddd;padding: 0;margin-bottom:0;}
+ul.VoucherCompanySelectionPopupBoxes li {background: transparent;box-shadow: none;border: none;margin-bottom: 0;color: #1a1a1a;font-size: 12px;font-weight: 600;padding: 0px 5px;}
+ul.VoucherCompanySelectionPopupBoxes li.active {background-color: #c2ebaa;}
+.SelectCompanyPopupListNameVoucherTypeLeft a {color: #1a1a1a;}
+.ModalVueVoucherTypeCreateVoucher .overlay2 {position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 47%);}
+.VoucherTypePopupCreateVoucherInput {display: flex;align-items: center;margin-top: 15px;}
+.VoucherTypePopupCreateVoucherInput label {width: 180px;text-align: left;}
+.VoucherTypePopupCreateVoucherInput span {padding-right: 5px;}
+.OverflowVoucherPopupHeightSet{height:57vh;overflow-y:hidden;}
+.OverflowLedgerOutstandingPage{height:71vh;overflow-y: hidden;}
+table.table.stockitem-monthly-summary-bottom-footer {width: 88%;position: fixed;bottom: 0;background: #fff;}
+.MaterialHeadingCaptionDetailsView {margin-bottom: 15px;}
+.MaterialHeadingCaptionDetailsView p {color: #5b5b5b;font-weight: 600;}
+.MaterialHeadingCaptionDetailsView p span {border-bottom: 1px solid #5b5b5b;}
+table.TransferTableMaterialMainDetailsView tbody tr:nth-of-type(even) {background: transparent;}
+table.TransferTableMaterialMainDetailsView tr {border: none;}
+.MaterialsTransferTableLeftDetailsView {border-top: 1px solid #c1c1c1;border-left: 1px solid #c1c1c1;border-right: 1px solid #c1c1c1;height: 74vh;position:relative;}
+.MaterialsTransferTableLeftDetailsView table tr th {padding: 3px 3px;font-size: 12.5px;}
+.MaterialsTransferTableLeftDetailsView table tr td {padding: 3px 3px;font-size: 12.5px;}
+.MaterialsTransferTableRightDetailsView {border-top: 1px solid #c1c1c1;height: 74vh;position:relative;}
+.MaterialsTransferTableRightDetailsView table tr th {padding: 3px 3px;font-size: 12.5px;}
+.MaterialsTransferTableRightDetailsView table tr td {padding: 3px 3px;font-size: 12.5px;}
+table.StockJournalNarrationTableDetailsView tr {border: none;}
+tfoot.StockJournalTfootLeftDetailsView {position: absolute;width: 100%;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;bottom:0px;}
+tfoot.StockJournalTfootRightDetailsView {position: absolute;width: 100%;border-top: 1px solid #c1c1c1;border-bottom: 1px solid #c1c1c1;bottom:0px;}
+.SetHeightStockJournalVoucherDetailsLeft {height: 56vh;overflow-y: auto;}
+.SetHeightStockJournalVoucherDetailsRight {height: 56vh;overflow-y: auto;}
+/******Physical Stock**************/
+.PhysicalStockHeadingCaptionDetailsView {margin-bottom: 15px;}
+.PhysicalStockHeadingCaptionDetailsView p {color: #5b5b5b;font-weight: 600;}
+.PhysicalStockHeadingCaptionDetailsView p span {border-bottom: 1px solid #5b5b5b;}
+table.PhysicalStockTableMaterialMainDetailsView tbody tr:nth-of-type(even) {background: transparent;}
+table.PhysicalStockTableMaterialMainDetailsView tr {border: none;}
+.PhysicalStockTableRightDetailsView {height: 74vh;position:relative;}
+.PhysicalStockTableRightDetailsView table tr th {padding: 3px 3px;font-size: 12.5px;border-top:1px solid #c1c1c1;border-bottom:1px solid #c1c1c1;}
+.PhysicalStockTableRightDetailsView table tr td {padding: 3px 3px;font-size: 12.5px;}
+table.PhysicalStockNarrationTableDetailsView tr {border: none;}
+.SetHeightPhysicalStockVoucherDetailsRight {height: 66vh;overflow-y: auto;}
+/******************************/
+/* @media only screen and (max-width:1600px){
+    .overflow-auto-height-set-intable{height:83vh;}
+    .vertical-table-right-border::after{height:72vh;}
+} */
+@media only screen and (max-width:1600px){
+    .tally-dashboard-company-listing-set-scroll-auto{height:64vh;}
+    .stock-group-analysis-table:before{height:86vh;}
+    .stock-group-analysis-table:after{height:72vh;}
+    .TallyNewSidebarLeftCaption ul{margin-left:0;}
+    .tally-dashboard-padding-top {height:93vh;}
+    .TallyNewSidebarLeft{height:89.5vh;}
+    .TallyNewSidebarLeftCaptionImg img{margin:20px 0;}
+    .overflow-auto-height-set-intable-daybook{height:74vh;}
+    .table-wrapper-grid-stock-query {height:34.5vh;}
+    .overflow-auto-height-set-intable-spvoucherlisting{height:42vh;}
+    .overflow-auto-height-set-intable-sales-inner{height:42vh;}
+    .OverflowHeightSetVoucherListPages{height:68vh;}
+    .SetHeightStockJournalVoucherDetailsLeft {height: 54vh;}
+    .SetHeightStockJournalVoucherDetailsRight {height: 54vh;}
+    .SetHeightPhysicalStockVoucherDetailsRight{height:64vh;}
+}
+@media only screen and (max-width:1400px){
+    .stock-group-analysis-table:before{height:86vh;}
+    .stock-group-analysis-table:after{height:72vh;}
+    .statistics-table-right-border:after {height: 85vh;}
+    h4.routeList{padding-left:50px !important;}
+    .tally-card-report h4{padding-left: 50px;}
+    .tally-card-report ul li a{padding: 0 0 0 50px;}
+    .alter-popup-height-set{height:500px;overflow-y: auto;}
+    .create-popup-height-set{height:500px;overflow-y: auto;}
+    .tally-sales-voucher-details-bg{height:89vh;}
+    .tally-deliverynote-voucher-details-bg{height:89vh;}
+    .tally-stockjournal-voucher-details-bg{height:89vh;}
+    .tally-receiptnote-voucher-details-bg{height:89vh;}
+    .CreateVouchersSetHeight{height:89vh !important;}
+    .CreateVouchersSetHeightStockJournal{height:89vh;}
+    .overflow-auto-height-set-intable{height:78vh;}
+    .overflow-auto-height-set-intable-cashbanks{height:76vh;}
+
+    /* .overflow-auto-height-set-intable-main-stocksummary{height:84vh;} */
+    .overflow-auto-height-set-intable-stocksummary{height:69vh;}
+    .overflow-auto-height-set-intable-groupsummary{height:65vh;}
+    .overflow-auto-height-set-intable-stockgroupsummary{height:65vh;}
+    .overflow-auto-height-set-intable-stockgroupreorderstatus{height:68vh;}
+    .overflow-auto-height-set-intable-trialbalance{height:69vh;}
+    .overflow-auto-height-set-intable-daybook{height:72vh;}
+    .overflow-auto-height-set-intable-balancesheet{height:75vh;}
+    .overflow-auto-height-set-intable-profitloss{height:75vh;}
+    .overflow-auto-height-set-intable-statistics-main{height:75vh;}
+    .overflow-auto-height-set-intable-spvoucherlisting{height:37vh;}
+    .overflow-auto-height-set-intable-sales-inner{height:37vh;}
+    .overflow-auto-height-set-intable-ledger-monthly-summary{height:37vh;}
+    .overflow-auto-height-set-intable-optional-vouchers{height:74vh;}
+    .overflow-auto-height-set-intable-cashbanks{height:69vh;}
+    .overflow-auto-height-set-intable-negativestock{height:69vh;}
+    .overflow-auto-height-set-intable-stockitem-outstandinds{height:68vh;}
+    .overflow-auto-height-set-intable-overdue-receivables{height:69vh;}
+    .overflow-auto-height-set-intable-overdue-payables{height:69vh;}
+    .overflow-auto-height-set-intable-bills-receivables{height:68vh;}
+    .overflow-auto-height-set-intable-salesorders-book{height:69vh;}
+    .overflow-auto-height-set-intable-order-vouchers{height:69vh;}
+    .overflow-auto-height-set-intable-stock-journal-voucher{height:72vh;}
+    .overflow-auto-height-set-intable-stockitems-page{height:72vh;}
+    .overflow-auto-height-set-intable-stock-group{height:72vh;}
+    .overflow-auto-height-set-intable-stock-category{height:72vh;}
+    .overflow-auto-height-set-intable-group-vouchers{height:66vh;}
+    .overflow-auto-height-set-intable-ledger-vouchers{height:66vh;}
+    .overflow-stock-query-popup-height-set{height:79vh;}
+    .overflow-ledger-indexing-height-set{height:79vh;}
+    .overflow-auto-height-set-intable-stockgroup-analysis{height:66vh;}
+    .overflow-auto-height-set-intable-stockitem-summary{height:52vh;}
+    .OverflowLedgerListIndexingHeightSet{height:80vh;}
+    .CreateVoucherLedgerPopupList {height: 85vh;}
+    .stock_item_popup{height:85vh;}
+    .PriceLevelPopupSet {top: 14.5%;}
+    .OverflowLedgerOutstandingPage{height:68vh;}
+    .stockitem-monthly-summary-table-main-div table tr td {font-size: 12px !important;}  
+    .OverflowHeightSetVoucherListPages{height:66vh;}  
+}
+@media only screen and (max-width:1366px){
+    .ExitModalContentCaptioYesNo button{font-size:14px;}
+    .ExitPopupTitleQuiteOption p{font-size:15px;}
+    .ExitModalContentLastQuiteCaption{transform: translate(0%, 28%);}
+    .ExitModalLabelCaptioContentBoxSet {width: 210px;height: 210px;}
+    .ExitPopupTitleQuiteOption{height:75px;}
+    .TallyNewSidebarLeft{height:88.5vh;}
+    .tally-dashboard-padding-top {height:92vh;}
+    .TallyNewSidebarLeftCaptionImg img{width:135px;}
+    .stock-group-analysis-table:before{height:85vh;}
+    .stock-group-analysis-table:after{height:70vh;}
+    .company-dashboard-table table td{font-size:12px !important;}
+    .alter-popup-height-set{height:430px;}
+    .create-popup-height-set{height:430px;}
+    .tally-sales-voucher-details-bg{height:88.5vh;}
+    .tally-deliverynote-voucher-details-bg{height:88.5vh;}
+    .tally-stockjournal-voucher-details-bg{height:88.5vh;}
+    .tally-receiptnote-voucher-details-bg{height:88.5vh;}
+    .CreateVouchersSetHeight{height:88vh !important;}
+    .CreateVouchersSetHeightStockJournal{height:87vh;}
+    .sales_graph canvas{height:140px !important;}
+    /* .overflow-auto-height-set-intable-main-stocksummary{height:80vh;} */
+    .overflow-auto-height-set-intable-stocksummary{height:67vh;}
+    .overflow-auto-height-set-intable-groupsummary{height:60vh;}
+    .overflow-auto-height-set-intable-stockgroupsummary{height:64vh;}
+    .overflow-auto-height-set-intable-stockgroupreorderstatus{height:65vh;}
+    .overflow-auto-height-set-intable-trialbalance{height:65vh;}
+    .overflow-auto-height-set-intable-daybook{height:70vh;}
+    .overflow-auto-height-set-intable-balancesheet{height:70vh;}
+    .overflow-auto-height-set-intable-profitloss{height:70vh;}
+    .overflow-auto-height-set-intable-statistics-main{height:70vh;}
+    .overflow-auto-height-set-intable-spvoucherlisting{height:37vh;}
+    .overflow-auto-height-set-intable-sales-inner{height:37vh;}
+    .overflow-auto-height-set-intable-ledger-monthly-summary{height:37vh;}
+    .overflow-auto-height-set-intable-optional-vouchers{height:70vh;}
+    .overflow-auto-height-set-intable-cashbanks{height:65vh;}
+    .overflow-auto-height-set-intable-negativestock{height:65vh;}
+    .overflow-auto-height-set-intable-stockitem-outstandinds{height:64vh;}
+    .overflow-auto-height-set-intable-overdue-receivables{height:65vh;}
+    .overflow-auto-height-set-intable-overdue-payables{height:65vh;}
+    .overflow-auto-height-set-intable-bills-receivables{height:64vh;}
+    .overflow-auto-height-set-intable-salesorders-book{height:65vh;}
+    .overflow-auto-height-set-intable-order-vouchers{height:65vh;}
+    .overflow-auto-height-set-intable-stock-journal-voucher{height:68vh;}
+    .overflow-auto-height-set-intable-stockitems-page{height:70vh;}
+    .overflow-auto-height-set-intable-stock-group{height:70vh;}
+    .overflow-auto-height-set-intable-stock-category{height:70vh;}
+    .tally-dashboard-company-listing-set-scroll-auto {height: 58vh;}
+    .overflow-auto-height-set-intable-group-vouchers{height:64vh;}
+    .overflow-auto-height-set-intable-ledger-vouchers{height:64vh;}
+    .overflow-stock-query-popup-height-set{height:77vh;}
+    .overflow-ledger-indexing-height-set{height:77vh;}
+    .overflow-auto-height-set-intable-stockgroup-analysis{height:63vh;}
+    .overflow-auto-height-set-intable-stockitem-summary{height:41vh;}
+    .OverflowLedgerListIndexingHeightSet{height:79vh;}
+    .CreateVoucherLedgerPopupList {height: 85vh;}
+    .stock_item_popup{height:85vh;}
+    tbody.SetHeightInerVooucherTabe {height: 310px !important;}
+    .PriceLevelPopupSet {top: 17%;}
+    .table-wrapper-grid-stock-query {height:33.5vh;}
+    .OverflowVoucherPopupHeightSet{height:54vh;}
+    .VoucherSelectCompanyFlowBoxesType{transform:translate(15%, -13%);}
+    .OverflowLedgerOutstandingPage{height:62vh;}
+    .stockitem-monthly-summary-table-main-div table tr td {font-size: 11px !important;}
+    .OverflowHeightSetVoucherListPages{height:64vh;}
+    .MaterialsTransferTableLeftDetailsView {height: 68vh;}
+	.MaterialsTransferTableLeftDetailsView table tr th {font-size: 11.5px;}
+	.MaterialsTransferTableLeftDetailsView table tr td {font-size: 11.5px;}
+	.MaterialsTransferTableRightDetailsView {height: 68vh;}
+	.MaterialsTransferTableRightDetailsView table tr th {font-size: 11.5px;}
+	.MaterialsTransferTableRightDetailsView table tr td {font-size: 11.5px;}
+    .SetHeightStockJournalVoucherDetailsLeft {height: 50vh;}
+    .SetHeightStockJournalVoucherDetailsRight {height: 50vh;}
+    .SetHeightPhysicalStockVoucherDetailsRight{height:57vh;}
+    .PhysicalStockTableRightDetailsView{height:68vh;}
+    .PhysicalStockTableRightDetailsView table tr th{font-size:11.5px;}
+    .PhysicalStockTableRightDetailsView table tr td{font-size:11.5px;}
+}
+@media only screen and (max-width:1280px){
+    .ExitModalContentLastQuiteCaption{transform: translate(0%, 26%);}
+    table.footer-balancesheet-left-panel tr td{font-size:12px !important;}
+    table.footer-balancesheet-right-panel tr td{font-size:12px !important;}
+    .dashboard_tally_card{width:60%;}
+    .TallyNewSidebarLeft{height:87.5vh;}
+    span.coming-soon{font-size:8.5px;}
+    .tally-card-report ul li a{font-size:12px;}
+    /* .overflow-auto-height-set-intable-main-stocksummary{height:80vh;} */
+    .overflow-auto-height-set-intable-stocksummary{height:65vh;}
+    .tally-dashboard-company-listing-set-scroll-auto{height:55vh;}
+    .overflow-auto-height-set-intable-daybook{height:68vh;}
+    .overflow-auto-height-set-intable-spvoucherlisting{height:34vh;}
+    .overflow-auto-height-set-intable-sales-inner{height:34vh;}
+    .overflow-auto-height-set-intable-ledger-monthly-summary{height:34vh;}
+    .overflow-auto-height-set-intable-bills-receivables{height:63vh;}
+    .overflow-auto-height-set-intable-trialbalance{height:61vh;}
+    .overflow-auto-height-set-intable-stockgroupsummary{height:62vh}
+    .overflow-auto-height-set-intable-stockgroupreorderstatus{height:62vh;}
+    .overflow-auto-height-set-intable-negativestock{height:62vh;}
+    .overflow-auto-height-set-intable-stockitem-outstandinds{height:62vh;}
+    .overflow-auto-height-set-intable-statistics-main{height:64vh;}
+    .overflow-auto-height-set-intable-group-vouchers{height:60vh;}
+    .overflow-auto-height-set-intable-ledger-vouchers{height:60vh;}
+    .overflow-stock-query-popup-height-set{height:74vh;}
+    .overflow-ledger-indexing-height-set{height:74vh;}
+    .OverflowLedgerListIndexingHeightSet{height:77vh;}
+    .CreateVoucherLedgerPopupList {height: 84vh;}
+    .stock_item_popup{height:84vh;}
+    tbody.SetHeightInerVooucherTabe {height: 280px !important;}
+    .PriceLevelPopupSet {top: 17%;}
+    .company-dashboard-table table td{font-size:11.5px !important;}
+    .company-dashboard-table table th{font-size:12px;}
+    .company-status h5{font-size:12px;}
+    .table-wrapper-grid-stock-query {height:32.5vh;}
+    .vertical-table-right-border::after{height:84vh;}
+    .OverflowVoucherPopupHeightSet{height:52.5vh;}
+    .VoucherSelectCompanyFlowBoxesType{transform:translate(15%, -14%);}
+    .OverflowLedgerOutstandingPage{height:60vh;}
+    .overflow-auto-height-set-intable-groupsummary{height:59vh;}
+    .overflow-auto-height-set-intable-stock-group{height:66vh;}
+    .overflow-auto-height-set-intable-stock-category{height:66vh;}
+    .overflow-auto-height-set-intable-stockitems-page{height:66vh;}
+    .OverflowHeightSetVoucherListPages{height:59vh;}
+    .tally-sales-voucher-details-bg{height:87.5vh;}
+    .tally-deliverynote-voucher-details-bg{height:87.5vh;}
+    .tally-receiptnote-voucher-details-bg{height:87.5vh;}
+    .tally-stockjournal-voucher-details-bg{height:87.5vh;}
+    .MaterialsTransferTableLeftDetailsView {height: 64vh;}
+	.MaterialsTransferTableRightDetailsView {height: 64vh;}
+	.SetHeightStockJournalVoucherDetailsLeft {height: 44vh;}
+    .SetHeightStockJournalVoucherDetailsRight {height: 44vh;}
+    .SetHeightPhysicalStockVoucherDetailsRight{height:54vh;}
+    .PhysicalStockTableRightDetailsView{height:64vh;}
+}
+@media only screen and (max-width:1180px){
+    /* .overflow-auto-height-set-intable-main-stocksummary{height:80vh;} */
+    .overflow-auto-height-set-intable-stocksummary{height:63vh;}
+    .tally-dashboard-company-listing-set-scroll-auto{height:54vh;}
+    .PriceLevelPopupSet {top: 16%;}
+}

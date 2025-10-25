@@ -1,0 +1,185 @@
+/***********************************start dashboard css**************************************************/
+.dashboard_card_main {margin: 10px 10px 0 10px;}
+.profile-showdropdown ul li a.router-link-active {background: #f3ffe2;color: #1a1a1a;}
+.dashboard_card_main .card-header-graph .card-title h4 {margin-bottom: 0 !important;color: #1a1a1a;font-weight: 400;font-size: 13px;font-family: 'poppins';text-transform:capitalize;margin-top:0;}
+
+
+/****************************end dashboard css**************************/
+.card-title.graph_title h4 img {padding-right: 10px;}
+.dashboard_card_main .card-header-graph .card-title p {font-weight: 600;font-size: 15px;font-family:'Poppins';}
+.card-header-graph {padding: 10px 10px 0 10px;clear:both;}
+.card-title.graph_title {float: left;margin-bottom: 0 !important;}
+.card_header_drop_right {position:absolute;top:6px;right:5px;}
+.card-title.graph_title p {margin-bottom: 0;font-weight: 600;font-size: 13px;color: #1a1a1a;margin-left: 32px;}
+.clearfix{content:"";display:block;clear:both;}
+.card.sopopq {padding: 10px 20px;}
+.sopopq_image {text-align: center;}
+.sopopq_content h6 {color: #1a1a1a;font-size: 12px;font-weight: 400;font-family: 'Poppins';margin-top: 0;}
+.sopopq_content h4 {margin-bottom: 0 !important;font-weight: 600;font-size: 13px;color: #1a1a1a;font-family: 'Poppins';margin-top:0;}
+.dashboard_name_list { float: left;width:50%;}
+.dashboard_name_amount {float: right;}
+.dashboard_name_list h6 {color: #1a1a1a;font-weight: 400;font-size: 12px;margin-bottom: 0 !important;font-family: 'Poppins';text-overflow: ellipsis;white-space: nowrap;word-wrap: break-word;overflow: hidden;margin-top:0;}
+.dashboard_name_amount h6 {font-weight: 600;font-size: 12px;color: #1a1a1a;margin-bottom: 0;font-family: 'Poppins';margin-top:0;}
+.view_more_btn {text-align: right;padding: 0px 10px 7px 0;margin:5px 0;}
+.view_more_btn a {color: #2980b9;font-size:11px;font-weight:400;}
+.view_more_btn a i {padding-left: 2px;}
+.card-title.graph_title h4 img {width: 30px;}
+.rpp_box {min-height: 220px;height: auto;}
+.balance_cb_dropdown {position:absolute;right:5px;}
+.sopopq_inner_box {padding: 15px 10px;border-bottom: 1px dotted #868686;}
+.sopopq_inner_box:last-child {border-bottom:none;}
+.main_top_reports_table_box{padding: 10px;box-shadow: 0px 10px 20px 0px #0000001a;border-radius: 10px;background:#fff;min-height:290px;}
+.sopopq_image img {margin-right: 15px;width:20px;}
+.receipe-content {padding: 8px 10px;border-bottom: 1px dotted #868686;margin-bottom: 0px;margin-top:5px;}
+/***************/
+.side-menu__item i.sub-angle {color: #1a1a1a;font-size: 10px !important;}
+.sub-slide.is-expanded .sub-angle{color: #ffffff;font-size: 10px !important;}
+i.sub-angle {font-weight: 400;font-size:10px !important;line-height:40px;}
+span.sub_menu_span_color {color: #008000;}
+span.sub_menu_span_color {color: #1ade1a;padding-left: 10px;font-size: 12px;}
+a.side-menu__item.active span.side-menu__label {color: #1a1a1a !important;font-weight: 600;}
+.side-menu__icon.sidebar_unfill_icon {filter: invert(1);}
+.slide-item {color: #ffffff!important;}
+.side-menu__icon.sidebar_mobile_fill_active {filter: invert(1);}
+.slide.is-expanded .slide-menu li a:hover {color: #fff !important;}
+@media (min-width: 768px){
+.sidenav-toggled .app-sidebar__logo {padding: 5.2px 12px !important;width: 70px;border-right: 0px !important;}
+}
+button.upgrade_button {padding: 5px 15px 5px 15px;color: #424497;background: #ffffff;border: none;border-radius: 5px;font-size: 16px;font-weight: 500;border: 1px solid #424497;font-family: 'Poppins';cursor: pointer;-moz-box-shadow: inset 0px -3px 0px #0c9800;}
+.top_customers_dropdown .custom_dropdown_new {width: 150px;font-size: 11px;padding: 0.175rem;text-overflow: ellipsis;white-space: nowrap;word-wrap: break-word;display: inline-block;}
+.custom_dropdown_new_balance{width: 100px;font-size: 11px;padding: 0.175rem;}
+.sales_receivables_dropdown{width: 100px;font-size: 11px;padding: 0.175rem;}
+.receipt_purchase_payables_dd{width: 100px;font-size: 11px;padding: 0.175rem;}
+.main_dropdown_header {width:auto;font-weight:600;font-size: 12px;border: none;border-bottom: 1px solid transparent;border-radius: 0 !important;padding: 0;font-family: 'Poppins';border:1px solid transparent;}
+.subscribe_pad {border-radius: 30px;padding: 5px 0px 5px 15px;background: transparent;}
+.color-red{color:red;}
+.mobile-device-hide-subscription{display: block;}
+.mobile-device-show-subscription{display: none;}
+
+.title_text_message_text {padding: 4px;background: #f4ffe5;text-align: center;}
+.title_text_message_text a{color:#004bff;font-size:12px;font-weight:500;text-decoration: underline;}
+.add_user_icon a i {padding-right: 7px;}
+.modal-active{display:block;}
+.modal-backdrop{background-color: #00000096;}
+/*************************start header dropdown css******************/
+.btn-group, .btn-group-vertical{position: relative;display: inline-block;}
+.open>.dropdown-menu {display: block;}
+.caret {display: inline-block;width: 0;height: 0;margin-left: 2px;vertical-align: middle;border-top: 4px solid;border-right: 4px solid transparent;border-left: 4px solid transparent;}
+span.filter-option.pull-left {color: #1a1a1a;font-weight: 500;}
+span.filter-option.pull-left span {color: #8ac33e;font-weight: 400;font-size: 11px;font-style: italic;}
+/********************end header dropdown css****************************/
+ul.slide-menu.inner_sub_slide_menu li ul li a.slide-item:before{left: 2% !important;}
+ul.slide-menu.inner_sub_slide_menu li ul li a.slide-item.router-link-exact-active.router-link-active:before {left: 2% !important;background: transparent !important;}
+header#__BVID__16___BV_modal_header_ {padding: 10px 20px 10px 20px;background: #8cc63e;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+h5#__BVID__16___BV_modal_title_ {margin-bottom: 0 !important;color: #fff;font-weight: 600;}
+/*****************start create transaction css**************/
+button.slide-toggle img {width: 30px;}
+button.slide-toggle {height: 50px;width: 50px;background: #1a1a1a;border-radius: 50%;text-align: center;line-height: 50px;}
+.create_transaction {position: fixed;bottom: -5%;right: 25px;}
+.create_transaction_box {position: absolute;right: 0px;bottom: 100%;}
+span.header-profile.new_transaction_menu {padding: 5px 10px;background: #1a1a1a;color: #fff;border-radius: 5px;}
+span.header-profile.new_transaction_menu img {margin-left: 10px;}
+ul.transaction_menu li {padding: 10px 0px 10px 0px;margin: 0;}
+img.create_crown_image {width: 14px;float: right;margin-top: 0px;}
+img.user_crown {width: 16px;margin-left: 5px;margin-top: -3px;}
+ul.transaction_menu li a {color: #1a1a1a;font-size:12px;margin-left:5px;transition:all 0.5s ease-in-out;font-weight:500 !important;}
+ul.transaction_menu {margin-bottom: 0;}
+li.main_heading_transaction {background: #1a1a1a;padding: 5px 10px !important;margin-bottom: 5px;color:#fff;font-size:12px !important;}
+ul.transaction_menu li i {font-size: 8px;padding-right: 5px;}
+ul.transaction_menu li a.router-link-exact-active.router-link-active {color: #8bc53e !important;text-decoration: underline !important;}
+ul.transaction_menu li a:hover {color: #8bc43e;text-decoration: underline;transition: all 0.5s ease-in-out;}
+/*******************end create transaction css*********************/
+ul.slide-menu.slide_custom_menu.open li a.slide-item.router-link-exact-active.router-link-active {text-decoration: none;}
+ul.side-menu li.slide a.side-menu__item.router-link-exact-active.router-link-active {text-decoration: none;}
+.modal-header {padding: 3px 20px 2px 20px;background: #5BBC21;border-top-left-radius: 8px;border-top-right-radius: 8px;box-shadow:none;align-items: center;justify-content: space-between;}
+.modal-content{border-radius:8px !important;border:none !important;}
+.modal-title {color: #fff;font-weight: 700;margin-top:0;margin-bottom: 0 !important;line-height: inherit !important;font-size:16px;}
+/***************/
+
+.header_icon_menu {width: 230px;position: fixed;z-index: 999999999;right: 20px;bottom: 65px;background-color: #fff;padding: 20px 20px 10px 20px;transition: 0.5s ease-in-out;box-shadow: 0px 16px 18px rgb(4 4 7 / 10%);border-radius: 10px;}
+.header_icon_menu .close{position: absolute;top: 10px;right: 10px;}
+  /*****************************/
+.modal-vue .overlay {position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 37%);}
+.header_icon_menu button.close {color: #1a1a1a;font-size: 13px;height: 30px;width: 30px;background: #fff;border-radius: 50%;position: absolute;top: -10px;right: -10px;}
+.header_icon_menu button.close:hover{color:#1a1a1a !important;}
+ul.slide-menu.slide_custom_menu li {margin: 0 15px;}
+p.avgpaydays {font-size: 10px;margin-bottom: 0 !important;color: red;position: absolute;font-weight: 400;}
+.mobile-device-show-premium-section{display: none;}
+.mobile-device-show-premium{display:none;}
+.rpp_middle_main {min-height: 132px;height: auto;}
+.main_only_lock_icon_image{min-height:132px;height:auto;display: flex;align-items: center;justify-content: center;}
+.main_only_lock_icon_image span {height: 55px;width: 55px;background: #edf0fa;text-align: center;line-height: 55px;border-radius: 50%;}
+.main_only_lock_icon_image img.lock_dashboard_icon{width: 25px;}
+span img.new_lock_white_sidebar {width: 11px;position: absolute;right: 3px;top: 13px;}
+span.sopopq_inner_lock_image {position: absolute;right: 10px;top: 20px;height: 35px;width: 35px;background: #edf0fa;text-align: center;line-height: 35px;border-radius: 50%;}
+.current_balance_lock{position: relative;}
+span.only_current_lock_image{position: absolute;right: 10px;top: 0px;height: 35px;width: 35px;background: #edf0fa;text-align: center;line-height: 35px;border-radius: 50%;}
+span.only_current_lock_image img{width:15px;}
+span.sopopq_inner_lock_image img {width: 15px;}
+.bank_sopopq_box{position: relative;}.cash_sopopq_box{position: relative;}
+.sales_order_sopopq_box{position: relative;}
+.purchase_order_sopopq_box{position: relative;}
+.quotations_sopopq_box{position: relative;}
+span.table_lock_image {height: 55px;width: 55px;background: #edf0fa;text-align: center;line-height: 55px;border-radius: 50%;}
+span.table_lock_image img {width: 25px;}
+.bottom_table_dashboard_space{padding-bottom: 10px;}
+div#link_popup .modal-dialog {max-width: 450px;}
+div#link_popup_sidebar .modal-dialog {max-width: 450px;}
+div#link_popup___BV_modal_body_ {height: 220px;overflow-y: auto;}
+div#link_popup_sidebar___BV_modal_body_ {height: 220px;overflow-y: auto;}
+ul.vch_type_list li {margin-bottom: 5px;border-bottom: 1px solid #ddd;padding-bottom:5px;}
+div#alert_modal_for_get_data___BV_modal_outer_ .modal-dialog {max-width: 400px;}
+.email_modal_body.alert_message_load_data h4 {font-size: 18px;font-family: 'Poppins';color: #1a1a1a;font-weight: 500;line-height: 30px;text-align: center;}
+.okay_footer_button{text-align: center;}
+.okay_footer_button button {background: #1a1a1a;color: #fff;padding: 10px 20px;border-radius: 5px;width: 35%;text-align: center;margin: 10px auto;margin-top:15px;}
+header#alert_modal_for_get_data___BV_modal_header_ {background: #eee;}
+header#alert_modal_for_get_data___BV_modal_header_ button {color: #1a1a1a;}
+header#alert_modal_for_get_data___BV_modal_header_ button:hover {color: #1a1a1a !important;}
+header#alert_modal_for_get_data___BV_modal_header_ h5 {color: #1a1a1a;}
+#back-to-top{display: none !important;}
+ul.sub-slide-menu.slide_custom_menu.inner_submenu_design.open a.slide-item:hover {color: #5BBC21 !important;}
+ul.slide-menu.slide_custom_menu.open li a.slide-item:hover {color: #5BBC21 !important;}
+ul.slide-menu.slide_custom_menu.open li a.slide-item:focus {color: #5BBC21 !important;}
+ul.sub-slide-menu.slide_custom_menu.inner_submenu_design.open a.slide-item:focus {color: #5BBC21 !important;}  
+
+/***********************start new install css*************************************/
+.install-tally-connector-box {padding: 15px 20px;background: #fff;margin-bottom: 5px;box-shadow: 1px 1px 5px #ddd;}
+.heading-install-tally img {height: 25px;width: 25px;margin-right: 10px;}
+.heading-install-tally h4 {font-weight: 600;font-family: 'poppins';color: #1a1a1a;}
+.intall-tally-paragraph p {color: #545454;font-weight: 400;font-size: 13px;margin-bottom: 0;}
+.intall-tally-paragraph p span {background: #FDFF93;font-weight: 600;padding: 1px 5px;}
+.right-install-tally {text-align: center;}
+button.intall-tally-btn {background: #212934;color: #fff;padding: 5px 12px;border-radius: 3px;}
+button.intall-tally-btn img {width: 14px;margin-left: 10px;}
+.install-tally-button {margin-bottom: 10px;}
+.stepbystep a {color: #0F51F6;text-decoration: underline;}
+.stepbystep a img {margin-left: 10px;width: 11px;}
+/* .install-tally-close {position: absolute;right: 10px;top: 10px;font-size: 15px;cursor: pointer;} */
+.SupportNumberWeb1Icon {padding: 0px 10px;position:fixed;bottom:0px;left:5px;background:#1a1a1a;z-index: 10;}
+.SupportNumberWeb1Icon i {color: #dcdcdc;font-size: 15px;margin-right: 15px;}
+.SupportNumberWeb1Icon li {list-style: none;}
+.app.sidebar-mini.sidenav-toggled .side-menu__item i {margin-left: 10px;}
+.app.sidebar-mini.sidenav-toggled.sidenav-toggled1 .SupportNumberWeb1Icon {left: -5px;}
+.SupportNumberWeb1Icon a span {text-decoration: underline;}
+/* .serverDown {width: 50%;
+  height: auto;
+  position: fixed;
+  z-index: 999999999;
+  top: 43%;
+  left: 38%;
+  background-color: #fff;
+  padding: 20px 20px 10px 20px;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 16px 18px rgb(4 4 7 / 10%);
+  border-radius: 10px;}
+  .serverDown h1 {
+    color: black;
+  }
+  .overlay2 {position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 37%);} */
+  /* .overlay2 {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: transparent;}
+  div#bv-modal-serverdown .modal-dialog {max-width: 500px;}
+header#bv-modal-serverdown___BV_modal_header_ {background: #feeaea;border-bottom:1px solid #f1caca;}
+header#bv-modal-serverdown___BV_modal_header_ .modal-title {color: #ba1515;font-weight: 600;}
+header#bv-modal-serverdown___BV_modal_header_ button.close {color: #ba1515;}
+header#bv-modal-serverdown___BV_modal_header_ button.close:hover {color: #ba1515;} */
+  

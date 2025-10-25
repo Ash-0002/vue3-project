@@ -1,0 +1,599 @@
+.tab-content.new-dashboard-tabs .hidden {display: none;}
+ul.dashboard-tab-ul {margin-bottom: 0px;list-style: none;background: #FFFFFF;padding: 10px 10px;border-bottom: 1px solid #E4E4E4;}
+a.dashboard-tab-anchor.dashboard-tabing-link {font-style: normal;font-weight: 500;font-size: 14px;cursor: pointer;padding: 10px 20px;color: #1a1a1a;border-bottom: 2px solid transparent;}
+a.dashboard-tab-anchor.active-dashboard-tabing-link {color: #307A03;border-bottom: 2px solid #307A03;font-weight: 600;font-size: 14px;padding: 10px 20px;}
+li.dashboard-tab-li {display: inline;}
+.inner-tab-content {padding: 10px;}
+.new-box-right-caption select{width: auto;border-radius: 5px;font-size: 13px;font-weight: 500;color: #1a1a1a;appearance: auto;cursor:pointer;}
+.summary-box {border: 1px solid #DDDDDD;background: #fff;}
+.new-box-title {padding: 10px 15px;background: #F8F8F8;border-bottom: 1px solid #ddd;}
+.new-box-heading-left {float: left;}
+.new-box-right-caption {float: right;}
+.new-box-heading-left h5 {font-size: 15px;color: #1a1a1a;margin-bottom:4px !important;}
+.new-box-right-caption select:focus {outline: 0;border: none;}
+.new-box-field-summary {border-bottom: 1px solid #ddd;padding:12px 20px;}
+.new-box-field-inner {position: relative;border-right:1px solid #ddd;}
+.new-box-field-inner p {margin-bottom: 5px;text-transform: uppercase;color: #5A5A5A;font-size: 12px;font-weight:500;}
+.new-box-field-inner h6 {font-family: 'Poppins';color: #1a1a1a;font-weight: 600;font-size: 13px;margin-bottom: 0 !important;}
+span.right-arrow-new-dashboard {font-size: 9px;position: absolute;right: 20px;bottom: 10px;color: #5A5A5A;}
+.border-right-none {border-right: none !important;}
+.new-box-heading-left h5 img {width: 16px;margin-top: -3px;}
+.bg-light-red {background: #FFEFEF;}
+p.dark-color-red {color: #ED304F;}
+span.recharge-span {font-size: 10px;position: absolute;right: 20px;bottom: 0px;color: #2980b9;}
+span.low_stock {background: #ED304F;font-size: 9px;color: #fff;text-transform: uppercase;padding: 1px 6px;margin-left: 3px;border-radius: 2px;}
+.new-box-field-inner h6 span.content_span {font-size: 10px;font-weight: 400;color: #626262;}
+.new-box-field-inner h6.flot_left {float: left;padding-right: 10px;border-right: 1px solid #ddd;margin-right: 10px;}
+.new-graph-amount-top {padding: 10px;}
+.new-graph-amount-left-right-combo {padding: 10px;border-radius: 3px;}
+.new-graph-amount-left-right-combo h6 {color: #1a1a1a;float: left;padding-top:4px;font-weight: 500;margin-bottom: 0 !important;}
+.new-graph-amount-left-right-combo p {float: right;margin-bottom: 0 !important;font-weight: 600;color: #1a1a1a;}
+.bottom-revenue-collection {border-top: 1px solid #ddd;margin-top: 10px;padding-top: 10px;height:70px;}
+.receivables-box-bottom-revenue-collection {height: 70px;}
+.revenue-collection-monthly h5 {color: #1a1a1a;text-transform: uppercase;font-size: 13px;font-weight: 600;font-family: 'Poppins';}
+.revenue-collection-monthly {border-right: 1px solid #ddd;}
+.revenue-collection-monthly h6 {color: #1a1a1a;font-family: 'Poppins';font-weight: 600;}
+.revenue-collection-monthly p {font-size: 12px;}
+span.grow-count {color: #307A03;}
+span.percentage-count {font-weight: 600;}
+span.low-count {color: #ED304F;}
+a.view-all-new-dashboard-box {color: #2980b9;}
+.days-wise-dropdown-filter select {width: auto;border-radius: 5px;font-size: 12px;font-weight: 400;color: #1a1a1a;appearance: auto;padding: 2px 5px;cursor: pointer;border: 1px solid #7a7a7a;}
+.days-wise-dropdown-filter {float: right;}
+h5.rectangle_box {height: 10px;width: 50px;margin-bottom: 0 !important;}
+.change_days_rect{float:left;}
+.change_days_text_amount {margin-left: 30px;text-align: right;}
+.change_days_text_amount h6 {font-family: poppins;color: #1a1a1a;font-size: 12px;font-weight: 500;margin-bottom: 2px !important;}
+.change_days_text_amount p {color: #1a1a1a;font-weight: 600;font-family: 'Poppins';font-size: 14px;margin-bottom:5px;}
+.bgfifteen{background: #77FCAC;}
+.bgthirty{background: #FFD77A;}
+.bgfourtyfive{background: #FFAA7A;}
+.bgabovefourtyfive{background: #FF7D7F;}
+.top-table-tabing-inner-content .hidden {display: none;}
+.top-table-tabing {padding: 10px;height: 360px;background: #fff;overflow-y: auto;}
+ul.top-table-tabing-ul {padding-top: 10px;}
+ul.top-table-tabing-ul {display: flex;align-items: center;white-space: nowrap;overflow: hidden;overflow-x: auto;height: 40px;padding-bottom: 10px;}
+a.top-table-tabing-anchor.top-table-active-link {color: #1a1a1a;border: 1px solid #1a1a1a;padding: 5px 10px;border-radius: 4px;font-size: 12px;}
+a.top-table-tabing-anchor.top-table-anchor-link {padding: 5px 10px;border-radius: 4px;border: 1px solid transparent;color: #5c5c5c;cursor: pointer;font-size: 12px;}
+.customers-table-top-new table {width: 100%;}
+.customers-table-top-new table tr td {padding: 5px 10px;color: #1a1a1a;font-weight: 600;height:40px;font-size:12px;}
+.customers-table-top-new {height: 320px;overflow-y: auto;}
+.days-wise-dropdown-filter select:focus {outline: 0;}
+.grey-light-bg {background: #f7f7f7;}
+.green-light-bg {background: #eaffea;}
+.red-light-bg {background: #fbe2e2;}
+body *::-webkit-scrollbar-thumb, body *:hover::-webkit-scrollbar-thumb{background: #eee !important;}
+ul.top-table-tabing-ul::-webkit-scrollbar {height:4px;}
+ul.top-table-tabing-ul::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); border-radius: 10px;}
+ul.top-table-tabing-ul::-webkit-scrollbar-thumb {border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 25%); }
+h5.dashboard-title-new-heading {font-size: 13px;padding: 5px 20px;font-weight: 600;font-family: poppins;margin-bottom: 0 !important;}
+.daybook-table-custom {padding: 10px;background: #fff;height:360px;overflow-y:auto;}
+.daybook-table-custom table {width: 100%;}
+.daybook-table-custom table tr th {height: 40px;padding: 10px;font-size: 12px;color: #525252;border-bottom:4px solid #d0d0d0;}
+.daybook-table-custom table tr td {font-size: 11px;padding: 10px;height:40px;color:#1a1a1a;}
+.daybook-table-custom table tr:last-child {border-bottom: none;}
+ul.dashboardnew_sortby_filter {margin-bottom: 0 !important;}
+ul.dashboardnew_sortby_filter li{font-size:11px;}
+.main-div-daybook-table {height: 305px;overflow-y: auto;}
+/******************start popup css******************************/
+.modal-vue-setup-connector{position:relative;}
+.modal-vue-setup-connector .overlay{position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.521);backdrop-filter: blur(4px);}
+.main-modal-vue-setup-connector{position: fixed;z-index: 99999999999;background-color: #fff;padding: 20px;transition: 0.5s ease-in-out;transform: translate(-50%, -50%);top: 50%;left: 50%;border-radius: 10px;width:auto;}
+.top-heading-tally-connector-setup-popup h4 {color: #1a1a1a;}
+.top-heading-tally-connector-setup-popup p {color: #8C8C8C;font-size: 12px;}
+.top-heading-tally-connector-setup-popup {margin-bottom: 30px;}
+button.download-popup-tally-connector-new-btn {background: #1a1a1a;padding: 12px 24px;color: #fff;font-size: 20px;text-transform: uppercase;border-radius: 5px;}
+button.download-popup-tally-connector-new-btn i {padding-left: 10px;}
+.setup-tally-connector-button-download-button-new{position:relative;margin:30px 0;}
+.arrow-image-setup-tally-connector-popup {position: absolute;top: -15px;}
+.mobile-device-setup-connector-popup-hide{display: block;}
+.mobile-device-setup-mobile-popup-show{display: none;}
+.new-button-premium-after-login-button-div {background-image: url("../images/1.0/new-dashboard/premiumbutton.png");width: 100%;padding: 8px 18px;}
+.new-button-premium-after-login-button-div a {color: #fff;}
+.new-button-premium-after-login-button-div a img {margin-right: 5px;}
+.text-right {text-align: right;}
+.ThreeDots{position: absolute;right:20px;}
+.ThreeDots i {font-size: 20px;color: #1a1a1a;}
+.OpenLogoutDropdown {display: block;position: absolute;right: 0px;padding: 5px 10px;border-radius: 5px;box-shadow: 1px 1px 5px #ddd;min-width: auto;}
+.OpenLogoutDropdown a {color: #1a1a1a;font-size: 14px;}
+.TallyThemeButtonHeader {background-image: url(../images/1.0/new-dashboard/TallyThemeButton.png);padding: 6px 10px;/* background: linear-gradient(90deg, #E74D48 0%, #EE8311 100%); */border-radius: 5px;}
+.TallyThemeButtonHeader a {color: #fff;font-size:12px;}
+.TallyThemeButtonHeader a img {margin-right: 5px;width:20px;}
+.TallyThemeButtonHeader a span {background: #fff;border-radius: 2px;color: #E75144;padding: 0 5px;font-style: italic;font-size: 9px;margin-left: 4px;}
+.rightDropdownVoucherpoint ul li {margin: 10px 0;}
+.rightDropdownVoucherpoint {display:none;position: fixed;background: #fff;padding: 5px 15px;box-shadow: 1px 1px 5px #959595;border-radius: 8px;left: 190px;top: 100px;width:180px;text-align:left;}
+.rightDropdownVoucherpoint li a {font-weight: 500 !important;font-size:12px;color:#1a1a1a;}
+.rightDropdownVoucherpoint li a:hover{color:#5bbc21;}
+.rightDropdownVoucherpoint ul {display: block !important;}
+img.SidebarCrownImageVoucher{width:12px;float:right;margin-top:5px;}
+/******************end popup css********************************/
+/******************Start subscription css************************/
+.SubscriptionEndDiv{border-radius:10px;}
+.SubscriptionCurrent{background: #E6F2FF;}
+.SubscriptionExpired{background: #FFEFF1;}
+.SubscriptionEndDiv a{background: #fff;border-radius:10px;color:#1a1a1a;font-weight:600;font-size:14px;border:1px solid #EAEAEA;}
+.SubscriptionEndDiv h6{color:#1a1a1a;font-weight:600;font-size:14px;}
+/******************End subscription css************************/
+/************start mobile version css for header**********************/
+.mobile-view-button-header-div button {display: flex;align-items: center;padding: 11px 15px;border-right: 1px solid #ddd;border-left: 1px solid #ddd;margin: 0 15px;}
+.mobile-view-button-header-div button i {font-size: 35px;margin-right: 10px;}
+.mobile-view-button-header-div button span {text-align: left;font-size: 12px;color: #1a1a1a;font-weight: 500;}
+
+.GSPLoginInHeader button {display: flex;align-items: center;padding: 11px 15px;border-left: 1px solid #ddd;margin: 0 0px 0 15px;}
+.GSPLoginInHeader button span {text-align: left;font-size: 12px;color: #1a1a1a;font-weight: 500;}
+.GSPLoginInHeader button img {margin-right: 10px;}
+.GSPLoginInHeaderLinked button {display: flex;align-items: center;padding: 20px 15px;border-left: 1px solid #ddd;margin: 0 0px 0 15px;}
+.GSPLoginInHeaderLinked button span {text-align: left;font-size: 12px;color: #1a1a1a;font-weight: 500;}
+.GSPLoginInHeaderLinked button img {margin-right: 10px;width:22px;}
+/************end mobile version css for header***********************/
+/************Start New Header Dropdown CSS***************/
+.text-green-color{color: rgba(58, 154, 13, 1);}
+.text-red-color{color:rgba(231, 77, 72, 1);}
+.NewHeaderDropdownPartTop {width: 200px;display: flex;align-items:top;justify-content: space-between;}
+.NewHeaderDropdownHeadingPortion h6 {font-size: 12px;color: #1a1a1a;margin-bottom: 0;font-weight: 600;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 1;line-clamp: 2;-webkit-box-orient: vertical;}
+.NewHeaderDropdownHeadingPortion p {font-size: 11px;font-weight: 400;margin-bottom: 0;}
+.OpenNewHeaderPortionPart {position: absolute;top:45px;width: 400px;background: #fff;max-height:70vh;overflow-y:auto;height:auto;}
+ul.NewHeaderDropdownPortionUl li h6 {color: #1a1a1a;font-size: 12px;margin-bottom: 0;}
+ul.NewHeaderDropdownPortionUl li p {font-size: 11px;font-weight: 400;margin-bottom: 0;}
+ul.NewHeaderDropdownPortionUl {margin-bottom: 0;padding: 10px;}
+ul.NewHeaderDropdownPortionUl li {margin-bottom: 5px;padding-bottom: 5px;border-bottom: 1px solid #ddd;}
+.MainNewHeaderDropdownWithDescription {cursor: pointer;z-index: 11;}
+ul.NewHeaderDropdownPortionUl li:last-child {border-bottom: none;margin-bottom: 0;padding-bottom: 0;}
+.NewHeaderMyCompaniesHeading {background: rgba(242, 242, 242, 1);padding: 10px;}
+.NewHeaderMyCompaniesHeading h4 {margin-bottom: 0;font-size: 14px;font-weight: 600;color: rgba(26, 26, 26, 1);}
+.NewHeaderAddCompaniesHeading {background: rgba(242, 242, 242, 1);padding: 10px;}
+.NewHeaderAddCompaniesHeading h4 {margin-bottom: 0;font-size: 14px;font-weight: 600;color: rgba(26, 26, 26, 1);}
+.NewHeaderAddCompaniesHeading h4 i {font-size: 10px;font-weight: 300;color: rgba(98, 98, 98, 1);height: 16px;width: 16px;border: 1px solid rgba(98, 98, 98, 1);border-radius: 50%;text-align: center;line-height: 14px;margin-left: 6px;}
+ul.NewHeaderPortionAddCompaniesUl {margin-bottom: 0;padding: 10px;}
+.AddCompaniesPartPortionMain {display: flex;align-items: center;justify-content: space-between;}
+.AddCompaniesPartHeading{width:240px;}
+.AddCompaniesPartHeading p {color: #1a1a1a;font-size: 12px;margin-bottom: 0;}
+.AddCompaniesPartHeading p span {color: rgba(176, 176, 176, 1);font-size: 8px;font-weight: 500;}
+ul.NewHeaderPortionAddCompaniesUl li {margin-bottom: 5px;padding-bottom: 5px;border-bottom: 1px solid #ddd;}
+.AddCompniesPartButtonAdd button {padding: 3px 10px;color: #fff;border-radius: 5px;background: #1a1a1a;font-weight: 400;}
+.AddCompniesPartButtonAdd button i {margin-right: 5px;}
+.AddCompniesPartButtonSync button {padding: 3px 10px;border: 1px solid rgba(26, 26, 26, 1);border-radius: 5px;color: rgba(26, 26, 26, 1);}
+.AddCompniesPartButtonSync button i {margin-right: 5px;}
+ul.NewHeaderDropdownPortionUl li h6 i{border-radius: 50%;color: #5bbc21;font-size: 16px;float: right;line-height: 30px;}
+.overlayheaderdropdown{position: fixed;top: 60px;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);z-index: 10;}
+
+
+/*********start Info Delete Popup CSS**********************/
+ul.NewHeaderDropdownPortionUl li h6 i.fa.fa-check {margin-right:25px;}
+.three-dots-menu i {position: absolute;right: -10px;top: -12px;color: #585858 !important;height: 35px;width: 35px;text-align: center;}
+.three-dots-menu {position: relative;}
+.ellipsepartinfodelete {position: absolute;right: 0px;top: 10px;background: #fff;padding: 8px 12px 2px 12px;box-shadow: 1px 1px 5px #ddd;z-index: 1;}
+.ellipsepartinfodelete p {margin-bottom: 10px !important;font-size: 11px !important;font-weight:500 !important;}
+.InfoDeletepopupmainportion{position:relative;}
+.InfoDeletepopupmainportion .InfoDeletePopupOverlay{position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.521);}
+.popup-content-Info-Delete-Popup{position: fixed;z-index: 99999999999;background-color: #fff;padding: 20px;transition: 0.5s ease-in-out;transform: translate(-50%, -50%);top: 50%;left: 50%;border-radius: 5px;width:auto;}
+.popup-content-Info-Delete-Popup button {margin: 0 10px;padding: 5px 15px;border-radius: 3px;}
+button.DeletePopupDeletebutton{background:#d31919;color:#fff;border:1px solid #d31919;}
+button.DeletePopupCancelbutton{background:#ddd;color:#1a1a1a;border:1px solid #ddd;}
+
+.OnlyInfoPopupMainPortion{position:relative;}
+.OnlyInfoPopupMainPortion .InfoDeletePopupOverlay{position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.521);}
+.popup-content-Only-Info-Popup{position: fixed;z-index: 99999999999;background-color: #fff;padding: 20px;transition: 0.5s ease-in-out;transform: translate(-50%, -50%);top: 50%;left: 50%;border-radius: 5px;width:500px;}
+.InfoPopupOnlyHeaderPortion h3 {font-size: 16px;font-weight: 600;position: relative;margin-bottom: 0;}
+.InfoPopupOnlyHeaderPortion button {position: absolute;top: 20px;right: 16px;}
+.InfoPopupOnlyHeaderPortion {padding-bottom: 10px;border-bottom: 1px solid #ddd;margin-bottom: 10px;}
+.infoPopupCaptionDetailsPortion p {display: flex;align-items: center;justify-content: space-between;margin-bottom: 10px;font-size: 12px;font-weight: 400;}
+.infoPopupCaptionDetailsPortion p span {font-weight: 600;}
+.overlaydropdownheader {position: fixed;top:60px;left:0;width:100%;height:100vh;background-color: #00000073;z-index:-1;}
+.NotSyncPopupImage img {width: 40px;margin: 0px 0 15px 0;}
+
+.three-dots-menuMobile i {position: absolute;right: -10px;top: -12px;color: #585858 !important;height: 35px;width: 35px;text-align: center;}
+.three-dots-menuMobile {position: relative;}
+.ellipsepartinfodeleteMobile {position: absolute;right: 0px;top: 10px;background: #fff;padding: 8px 12px 2px 12px;box-shadow: 1px 1px 5px #ddd;z-index: 1;}
+.ellipsepartinfodeleteMobile p {margin-bottom: 10px !important;font-size: 11px !important;font-weight:500 !important;}
+.InfoDeletepopupmainportionMobile{position:relative;}
+.InfoDeletepopupmainportionMobile .InfoDeletePopupOverlayMobile{position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.521);}
+.popup-content-Info-Delete-PopupMobile{position: fixed;z-index: 99999999999;background-color: #fff;padding: 20px;transition: 0.5s ease-in-out;transform: translate(-50%, -50%);top: 50%;left: 50%;border-radius: 5px;width:90%;}
+.popup-content-Info-Delete-PopupMobile button {margin: 0 10px;padding: 5px 15px;border-radius: 3px;}
+button.DeletePopupDeletebuttonMobile{background:#d31919;color:#fff;border:1px solid #d31919;}
+button.DeletePopupCancelbuttonMobile{background:#ddd;color:#1a1a1a;border:1px solid #ddd;}
+
+.OnlyInfoPopupMainPortionMobile{position:relative;}
+.OnlyInfoPopupMainPortionMobile .InfoDeletePopupOverlayMobile{position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.521);}
+.popup-content-Only-Info-PopupMobile{position: fixed;z-index: 99999999999;background-color: #fff;padding: 20px;transition: 0.5s ease-in-out;transform: translate(-50%, 0%);bottom: 0%;left: 50%;border-radius: 0px;width:98%;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.InfoPopupOnlyHeaderPortionMobile h3 {font-size: 16px;font-weight: 600;position: relative;margin-bottom: 0;}
+.InfoPopupOnlyHeaderPortionMobile button {position: absolute;top: 20px;right: 16px;}
+.InfoPopupOnlyHeaderPortionMobile {padding-bottom: 10px;border-bottom: 1px solid #ddd;margin-bottom: 10px;}
+.infoPopupCaptionDetailsPortionMobile p {display: flex;align-items: center;justify-content: space-between;margin-bottom: 10px;font-size: 12px;font-weight: 400;}
+.infoPopupCaptionDetailsPortionMobile p span {font-weight: 600;}
+.OTPResendTimerverifyOTP span.ResendTimerText{color:#49454F;font-weight:500;font-size:14px;}
+a.ResendOTPButtonforProfile{color: #0092F1;font-weight:600;}
+span.normalboldtextcountdown{color:#1a1a1a;font-weight:600;}
+/************End New Header Dropdown CSS**************/
+/************New Whatsapp flow css****************/
+td.WhatsPDFIconPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OnlyWhatsappPopupMainPortion {
+    position: relative;
+  }
+  
+  .InfoDeletepopupmainportion .InfoDeletePopupOverlay {
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.521);
+  }
+  
+  .popup-content-Only-Whatsapp-Popup {
+    position: fixed;
+    z-index: 99999999999;
+    background-color: #fff;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    width: auto;
+  }
+  
+  .popup-content-Only-Whatsapp-Popup button {
+    border-radius: 50%;
+    height:28px;
+    width:28px;
+    text-align:center;
+    position: absolute;
+    top: -35px;
+    right:0;
+    background:#EFEFEF;
+  }
+  .WhatsappPopupOverlay {
+      position: fixed;
+      z-index: 9999999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.521);
+  }
+  .WhatsappPopupOnlyHeaderPortion {
+    text-align: center;
+}
+
+.WhatsappPopupOnlyHeaderPortion h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.whatsappMainPopupQRCodeImage img {
+    width: 200px;
+}
+
+.WhatQRcodePortionCaption h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #626262;
+    margin-bottom: 18px;
+}
+
+.WhatQRcodePortionCaption p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 10px;
+}
+
+.SuportCallWahtsapp {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    margin-top:10px;
+}
+
+.SuportCallWahtsapp p {
+    margin-bottom: 0;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.SuportCallWahtsapp p a {
+    color: #008FE9;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.CongratulationCaptionText h4{
+    font-size:20px;
+    color:#1a1a1a;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+.CongratulationCaptionText p{
+    font-size:16px;
+    color:#8E8D8D;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+.BillSuccesCaptionPart {
+    background: #F3FFF7;
+    border-radius: 8px;
+    border-left: 5px solid #5bbc21;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    width: 330px;
+    justify-content: space-between;
+}
+.ReportErrorMsg {
+    background: #fff6f8;
+    border-radius: 8px;
+    border-left: 5px solid #d32f2f;
+    color: #b71c1c;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    width: 330px;
+    justify-content: space-between;
+}
+.IconTextSuccessBill {
+    display: flex;
+    align-items: center;
+}
+.BillSuccessFullySent {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    z-index: 5;
+}
+
+.BillSuccesCaptionPart p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+.BillSuccesCaptionPart i.fa.fa-check-circle {
+    color: #5bbc21;
+    font-size: 18px;
+    margin-right: 14px;
+}
+
+.CrossIconPart {
+    color: #b71c1c;
+    font-size: 18px;
+    margin-right: 14px;
+}
+.SuccessBillCrossIconSet{cursor: pointer;}
+.PreviewSendWhatsappbutton button {
+    position: unset;
+    background: #1a1a1a;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.PreviewSendWhatsappbutton {
+    text-align: center;
+}
+
+.WhatsappPreviewHeading {
+    text-align: center;
+    position: absolute;
+    top: -35px;
+    color: #fff;
+    width: 100%;
+    left:0;
+}
+
+.PreviewWhatsappCaption h5 {
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+span.PreviewNumber {
+    color: #8E8D8D;
+}
+
+.PreviewWhatsappCaption h5 span {
+    padding-left: 10px;
+}
+
+.PreviewWhatsappGreenBox {
+    width: 310px;
+    margin: 20px 0;
+    background: #E5FFD8;
+    padding: 20px;
+}
+
+.PreviewWhatsappGreenBox h6 {
+    background: #DAF4CE;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.PreviewWhatsappGreenBox h6 a {
+    color: #0056FE;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.PreviewWhatsappGreenBox p {
+    margin-top: 15px;
+}
+.SetOnlyImageNotContent img{width:20px !important;padding-right:0px !important;}
+/********Start New Renewal Banner CSS***************/
+.NewBlueRenewalBannerDesign {position:relative;background: #DAF1FB;padding: 10px 10px;margin: 10px 20px 0px 20px;border-radius: 10px;}
+.WithoutTimerRenewTodayOffTextAmount {display: flex;align-items: end;justify-content: center;}
+.WithoutTimeClaimNowButtonRenewal {text-align: right;}
+.CrownIconRenewalBannerPlansEnds img {width: 35px;margin-right: 12px;}
+.CrownIconRenewalBannerPlansEnds span {color: #BA0407;}
+.WithoutTimerRenewTodayOffTextAmount p {margin-bottom: 0;color: #18487F;font-size: 16px;font-weight: 600;}
+.WithoutTimerRenewTodayOffTextAmount h4 {color: #1a1a1a;font-weight: 700;font-size: 22px;margin-bottom: 0;margin-left: 20px;margin-right: 5px;}
+.WithoutTimerRenewTodayOffTextAmount h6 {margin-bottom: 0;font-size: 12px;font-weight: 600;text-decoration: line-through;}
+.WithoutTimeClaimNowButtonRenewal button {margin-right:25px;background: #18487F;padding: 7px 15px;color: #fff;font-size: 12px;border-radius: 30px;}
+.WithoutTimeClaimNowButtonRenewal button i {padding-left: 5px;}
+span.ClockIconBannerRenealRight {position: absolute;right: 0px;top: 0px;}
+
+.NewBlueRenewalBannerDesignWithTimer {position:relative;background: #DAF1FB;padding: 10px 10px;margin: 10px 20px 0px 20px;border-radius: 10px;}
+.RenewalBannerDiscountOffWithTimer{display:flex;align-items: center;}
+.CrownIconRenewalBannerPlansEndsWithTimer img {width: 35px;margin-right: 12px;}
+.CrownIconRenewalBannerPlansEndsWithTimer span {color: #BA0407;}
+.WithTimerRenewTodayOffTextAmount {display: flex;align-items: end;}
+.WithTimeClaimNowButtonRenewal {text-align: right;}
+.WithTimerRenewTodayOffTextAmount p {margin-bottom: 0;color: #18487F;font-size: 16px;font-weight: 600;}
+.WithTimerRenewTodayOffTextAmount h4 {color: #1a1a1a;font-weight: 700;font-size: 22px;margin-bottom: 0;margin-left: 20px;margin-right: 5px;}
+.WithTimerRenewTodayOffTextAmount h6 {margin-bottom: 0;font-size: 12px;font-weight: 600;text-decoration: line-through;}
+.WithTimeClaimNowButtonRenewal button {margin-right:25px;background: #18487F;padding: 7px 15px;color: #fff;font-size: 12px;border-radius: 30px;}
+.WithTimeClaimNowButtonRenewal button i {padding-left: 5px;}
+.WithTimerTopDivPart {display: flex;align-items: center;justify-content: start;position:relative;z-index: 1;}
+.WithOriginalTimePartDiv {float: left;}
+.WithTimerDaysHoursMinsSecond p {margin-bottom: 0;}
+.WithTimerDaysHoursMinsSecond {text-align: center;margin: 0 10px;color: #18487F;}
+.WithTimerDaysHoursMinsSecond h4 {font-size: 16px;font-weight: 700;margin-bottom: 0;}
+.WithTimerDaysHoursMinsSecond p {font-size: 11px;font-weight: 600;}
+.WithOriginalTimePartDiv {position: relative;}
+.WithOriginalTimePartDiv::before {content: "";display: block;position: absolute;height: 39px;width: 39px;background: #ffffff70;border-radius: 50%;z-index: 0;left: 46%;top: -2px;}
+.WithOriginalTimePartDiv::after {content: "";display: block;position: absolute;height: 50px;width: 50px;background: #ffffff69;border-radius: 50%;z-index: 0;left: 43%;top: -8px;}
+/********End New Renewal Banner CSS****************/
+/************************************/
+@media only screen and (max-width:1600px)
+{
+    ul.dashboard-tab-ul{padding:5px 10px;}
+    a.dashboard-tab-anchor.active-dashboard-tabing-link{font-size:13px;padding:5px 20px;}
+    a.dashboard-tab-anchor.dashboard-tabing-link{font-size:13px;padding:5px 20px;}
+    .new-box-title{padding:7px 15px;height: 42px;line-height: 28px;}
+    .new-box-heading-left h5{font-size:14px !important;}
+    .new-box-right-caption select{font-size:12px !important;}
+    .new-box-field-summary{padding:8px 15px;}
+    .new-box-field-inner p{font-size:11px !important;}
+    .new-box-field-inner h6{font-size:12px !important;}
+    .new-graph-amount-left-right-combo{padding:5px 10px;}
+    .new-graph-amount-left-right-combo h6{font-size:12px !important;}
+    .new-graph-amount-left-right-combo p{font-size:13px !important;}
+    .graph_height_set_new {height: 190px !important;}
+    .revenue-collection-monthly h5{font-size:12px !important;}
+    .revenue-collection-monthly h6{font-size:12px !important;}
+    .revenue-collection-monthly p{font-size: 11px;margin-bottom: 5px !important;}
+    .customers-table-top-new{height:272px;}
+    .customers-table-top-new table tr td{font-size:11px;}
+    h5.rectangle_box{height: 8px;width: 45px;}
+    .change_days_text_amount h6{font-size: 11px !important;}
+    .change_days_text_amount p{font-size:13px !important;}
+    .new-dashboard-new-subscription p{font-size: 12px !important;}
+}
+@media only screen and (max-width:1400px){
+    .receivables-box-bottom-revenue-collection {height: 58px;margin-top:5px;}
+}
+@media only screen and (max-width:1200px){
+    .WithoutTimeClaimNowButtonRenewal{text-align: left;margin:10px 0;}
+    .WithoutTimerRenewTodayOffTextAmount{justify-content: start;}
+}
+@media only screen and (max-width:1170px){
+    .GSPLoginInHeader button{padding:11px 10x;margin: 0 0px 0 10px;}
+    .GSPLoginInHeaderLinked button{padding:20px 10x;margin: 0 0px 0 10px;}
+    .mobile-view-button-header-div button{padding: 11px 10px;margin: 0 10px;}
+    .TallyThemeButtonHeader a{font-size:11px;}
+}
+@media only screen and (max-width:991.98px){
+
+    /****************start mobile after login flow popup**************************/
+    .TallyThemeButtonHeader{display: none;}
+    .mobile-device-after-login-setup-redirect{position: fixed;z-index: 99999999999;background-color: #fff;padding: 20px;transition: 0.5s ease-in-out;transform: translate(-50%, -50%);top: 50%;left: 50%;border-radius: 10px;width: auto;}
+    ul.after-login-ul-mobile-device-main {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+    ul.after-login-ul-mobile-device-main li {display: inline-block;font-size: 10px;color: #d86524;padding-right: 5px;}
+    ul.after-login-ul-mobile-device-main li img {margin-right: 10px;width:38px;}
+    ul.after-login-ul-mobile-device-main li p {margin-bottom: 0;color: #1a1a1a;font-size: 15px;font-weight: 600;}
+    ul.mobile-device-after-login-popup-rating-star {margin-bottom: 0;}
+    .taly-mobile-logo-for-mobile-device-after-login-image {margin: 0 0 25px 0;}
+    .taly-mobile-logo-for-mobile-device-after-login-image img {width: 280px;}
+    .mobile-device-after-login-popup-button a {color: #fff;padding: 10px 40px;background: #5BBC21;font-size: 16px;border-radius: 8px;}
+    .mobile-device-after-login-popup-button {text-align: center;margin: 30px 0;}
+    .after-login-mobile-device-popup-footer-text {text-align: center;}
+    .after-login-mobile-device-popup-footer-text p {color: #000;font-size: 14px;}
+    .after-login-mobile-device-popup-footer-text p span {font-weight: 600;}
+    .complete-installation-text-popup-afterlogin {padding: 10px 10px;background: #EDF4FF;margin: 10px 0 20px 0;border-radius: 5px;}
+    .complete-installation-text-popup-afterlogin p {color: #2565E0;margin-bottom: 0;font-size: 13px;}
+    /****************end mobile after login flow popup**************************/
+
+
+
+    .mobile-device-setup-connector-popup-hide{display: none;}
+    .mobile-device-setup-mobile-popup-show{display: block;}
+    .main-modal-vue-setup-connector{width:430px;}
+    .bottom-revenue-collection{height: auto;}
+    .revenue-collection-monthly {border-right: 0 !important;}
+    .new-box-title {height: auto !important;}
+    .new-box-right-caption {float: left !important;}
+    .receivables-box-bottom-revenue-collection {height: auto;}
+    .SupportNumberWeb1Icon{display:none;}
+    .RenewalBannerDiscountOffWithTimer{display: block;}
+    .WithOriginalTimePartDiv{width:100%;}
+    .WithTimeClaimNowButtonRenewal button {margin: 10px 0;}
+    .WithOriginalTimePartDiv::before{display: none;}
+    .WithOriginalTimePartDiv::after{display: none;}
+    .WithTimeClaimNowButtonRenewal{text-align: left;}
+}
+@media only screen and (max-width:768px){
+    .overlayheaderdropdownmobile{position: fixed;top: 60px;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);z-index: 10;}
+ul.NewHeaderDropdownPortionUlMobile li h6 i.fa.fa-check{margin-right:25px;}
+.NewDropdownInHeaderPartMobile{width:100%;}
+.NewHeaderDropdownPartTopMobile {padding: 5px 15px;display: flex;align-items: center;justify-content: space-between;}
+.NewHeaderDropdownHeadingPortionMobile h6 {font-size: 12px;color: #1a1a1a;margin-bottom: 0;font-weight: 600;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 1;line-clamp: 2;-webkit-box-orient: vertical;}
+.NewHeaderDropdownHeadingPortionMobile p {font-size: 11px;font-weight: 400;margin-bottom: 0;}
+.NewHeaderDropdownHeadingPortionMobile {width:100%;max-width:100%;}
+.NewHeaderDropdownArrowIconMobile {text-align: right;}
+.OpenNewHeaderPortionPartMobile {position: absolute;top:45px;width: 400px;background: #fff;max-height:45vh;overflow-y:auto;height:auto;}
+ul.NewHeaderDropdownPortionUlMobile li h6 {color: #1a1a1a;font-size: 12px;margin-bottom: 0;}
+ul.NewHeaderDropdownPortionUlMobile li p {font-size: 11px;font-weight: 400;margin-bottom: 0;}
+ul.NewHeaderDropdownPortionUlMobile {margin-bottom: 0;padding: 10px;}
+ul.NewHeaderDropdownPortionUlMobile li {margin-bottom: 5px;padding-bottom: 5px;border-bottom: 1px solid #ddd;}
+.MainNewHeaderDropdownWithDescriptionMobile {cursor: pointer;z-index: 11;}
+ul.NewHeaderDropdownPortionUlMobile li:last-child {border-bottom: none;margin-bottom: 0;padding-bottom: 0;}
+.NewHeaderMyCompaniesHeadingMobile {background: rgba(242, 242, 242, 1);padding: 10px;}
+.NewHeaderMyCompaniesHeadingMobile h4 {margin-bottom: 0;font-size: 14px;font-weight: 600;color: rgba(26, 26, 26, 1);}
+.NewHeaderAddCompaniesHeadingMobile {background: rgba(242, 242, 242, 1);padding: 10px;}
+.NewHeaderAddCompaniesHeadingMobile h4 {margin-bottom: 0;font-size: 14px;font-weight: 600;color: rgba(26, 26, 26, 1);}
+.NewHeaderAddCompaniesHeadingMobile h4 i {font-size: 10px;font-weight: 300;color: rgba(98, 98, 98, 1);height: 16px;width: 16px;border: 1px solid rgba(98, 98, 98, 1);border-radius: 50%;text-align: center;line-height: 14px;margin-left: 6px;}
+ul.NewHeaderPortionAddCompaniesUlMobile {margin-bottom: 0;padding: 10px;}
+.AddCompaniesPartPortionMainMobile {display: flex;align-items: center;justify-content: space-between;}
+.AddCompaniesPartHeadingMobile{width:210px;}
+.AddCompaniesPartHeadingMobile p {color: #1a1a1a;font-size: 12px;margin-bottom: 0;}
+.AddCompaniesPartHeadingMobile p span {color: rgba(176, 176, 176, 1);font-size: 8px;font-weight: 500;display: block;}
+ul.NewHeaderPortionAddCompaniesUlMobile li {margin-bottom: 5px;padding-bottom: 5px;border-bottom: 1px solid #ddd;}
+.AddCompniesPartButtonAddMobile button {padding: 3px 10px;color: #fff;border-radius: 5px;background: #1a1a1a;font-weight: 400;}
+.AddCompniesPartButtonAddMobile button i {margin-right: 5px;}
+.AddCompniesPartButtonSyncMobile button {padding: 3px 10px;border: 1px solid rgba(26, 26, 26, 1);border-radius: 5px;color: rgba(26, 26, 26, 1);}
+.AddCompniesPartButtonSyncMobile button i {margin-right: 5px;}
+ul.NewHeaderDropdownPortionUlMobile li h6 i{border-radius: 50%;color: #5bbc21;font-size: 16px;float: right;line-height: 30px;}
+
+.popup-content-Only-Whatsapp-Popup{width:90%;}
+.WhatsappPopupOnlyHeaderPortion h6{margin-bottom:10px;font-size: 16px;}
+.WhatQRcodePortionCaption h5{font-size: 16px !important;margin-bottom:0px;}
+.WhatQRcodePortionCaption p{font-size: 13px;margin-bottom:5px;}
+.SuportCallWahtsapp p{font-size: 14px;}
+.SuportCallWahtsapp p a{font-size: 14px;}
+.whatsappMainPopupQRCodeImage img{width:auto;}
+.BillSuccessFullySent {top: 15px;}
+}
+@media only screen and (max-width:767px){
+    .OpenNewHeaderPortionPartMobile{width:100%;}
+    .overlayheaderdropdownmobile{top:105px;}
+    .PreviewWhatsappGreenBox{width:auto;}
+}
+@media only screen and (max-width:600px){
+    .main-modal-vue-setup-connector{width:96%;}
+    .new-box-heading-left h5{font-size:12px !important;}
+}
+@media only screen and (max-width:375px){
+    .arrow-image-setup-tally-connector-popup{left:-10px;}
+}

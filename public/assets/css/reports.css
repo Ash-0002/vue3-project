@@ -1,0 +1,187 @@
+#reports_tab_content .reportas_tab_heading {font-family: 'Poppins';font-style: normal;font-weight: 500 !important;font-size: 15px !important;line-height: 24px;color: #1A1A1A;cursor: text;padding: 10px 20px 10px 20px;display: inline-block;background: #E3E3E3;width: 100%;}
+#reports_tab_content .tabs-menu ul li a {background: rgba(243, 243, 243, 0.7);border-bottom: 1px solid #fff;font-family: 'Poppins';font-style: normal;font-weight: 400;font-size: 14px;color: #1A1A1A;width:100%;border-radius: 0 !important;padding: 10px 20px 10px 20px;}
+#reports_tab_content .tabs-menu ul li{width:100%;}
+#reports_tab_content .tabs-menu ul.items_ul_nav_tabs li a.active {background: #8CC63E !important;box-shadow: 1px 0px 5px rgb(0 0 0 / 25%);font-family: 'Poppins';font-style: normal;font-weight: 500;font-size: 16px;color: #FFFFFF !important;border-bottom: 0px;}
+#reports_tab_content .tabs-menu-body {border: 0;padding: 0;}
+.report_right_card {background: #FFFFFF;box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);border-radius: 5px;padding:15px 15px 100px 15px;}
+table.balance_sheet_table1 th {font-family: 'Poppins';font-style: normal;font-weight: 500;font-size: 16px;line-height: 24px;color: #4F5B79;background: #E3E3E3;}
+.report_right_card table {width: 100%;table-layout: fixed;border-spacing:0;}
+.report_right_card table {width: 100%;table-layout: fixed;border-spacing:0;}
+table.balance_sheet_table1 td{font-family: 'Poppins';font-style: normal;font-weight: 400;font-size: 14px;color: #4F5B79;border-bottom: 1px solid #D9D9D9;}
+table.balance_sheet_table1 th, table.balance_sheet_table1 td {padding-top: 15px;padding-bottom: 15px;padding-left: 30px;border-top: 1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;}
+.green_text {color: #0C9800 !important;}
+.red_text {color: #FF3636 !important;}
+#reports_tab_content .card {border-radius: 0 !important;border: 0;border-radius: 0 !important;border: 0;height: auto;overflow: auto;overflow-x: hidden;}
+.report_tab_left_panel {background: rgba(243, 243, 243, 0.7);}
+.reports_top_card {background: #1A1A1A;padding: 15px 5px;}
+.reports_top_card h3 {font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 20px;color: #FFFFFF;margin: 0;}
+.report_card_div {padding: 15px;margin-top: 15px;}
+span.display_date {font-family: 'Poppins';font-style: normal;font-weight: 500;font-size: .81rem;color: #FFFFFF;}
+span.display_date a {color: #FFFFFF;text-decoration: underline;padding: 0 10px;}
+/**************************/
+table.profit_loss_table1 th {padding-top: 15px;padding-bottom: 15px;padding-left: 30px;border-top: 1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;background: #F1F5F9;font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 16px;line-height: 24px;color: #1A1A1A;}
+table.profit_loss_table1 th, table.profit_loss_table1 td {padding-top: 15px;padding-bottom: 15px;padding-left: 30px;border-top: 1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;}
+table.profit_loss_table1 td {font-family: 'Poppins';font-style: normal;font-weight: 400;font-size: 14px;color: #4F5B79;}
+td.selected_value {background: #E3E3E3;font-size: 16px !important;}
+table.profit_loss_table1 td.tfoot_td {font-family: 'Poppins';font-style: normal;font-weight: 500;font-size: 16px;line-height: 24px;color: #1A1A1A;background-color: #f1f5f9;border-bottom: 1px solid #8cc63e;}
+table.table.balancesheet_table tr th {padding: 10px 15px;font-weight: 600;}
+table.table.balancesheet_table tr td {padding: 10px 15px;color: #4F5B79;font-weight:500;}
+table.table.balancesheet_table tr td span.font_sans {color: #4F5B79;font-weight: 600;}
+.bg-grey{background: #E3E3E3 !important;}
+.font-weight-600{font-weight:600 !important;}
+.border-bottom-green {border-bottom: 2px solid #8cc63e;}
+.expenses_graph_div {width: 650px;margin: 0 auto;padding-top: 20px;}
+.status-pending p {color: #FFA800 !important;text-decoration: none;}
+.status-completed p{color: #0C9800 !important;text-decoration: none;}
+.status-generated p{color: #0C9800 !important;text-decoration: none;}
+.status-rejected p{color: #FF3636 !important;text-decoration: none;}
+.status-cancelled p{color: #FF3636 !important;text-decoration: none;}
+.customers_value h3 {font-size: 22px;color: #1a1a1a;font-weight: 700;font-family: 'Poppins';margin-bottom: 5px;}
+li.single_date_picker_daybook .daterangepicker.ltr.show-calendar.show-ranges.single.openscenter.linked {min-width: 275px !important;}
+.customers_value h5 {font-size: 18px;color: #1a1a1a;font-weight: 400;font-family: 'Poppins';margin-bottom: 0;}
+.ledger_report_list h3 {font-size: 18px;color: #1a1a1a;font-weight: 500;font-family: 'Poppins';margin-bottom: 0;}
+.ledger_report_list i {color: #1a1a1a;font-size: 16px;}
+.ledger_report_list {display: flex;justify-content: space-between;align-items: center;border-bottom: 1px solid #4F5B79;padding: 15px 0;}
+.ledgers_reports_inner {border: 1px solid #C1C1C1;padding: 10px 30px 30px 30px;}
+span.display_date a span {text-decoration: underline;}
+.gst_table .v-data-table {width: 100%;display: block;white-space: nowrap;overflow-x: scroll;}
+/********** month year slider css start **********/
+.month.in.next {animation: moveFromTopFadeMonth 0.4s ease-out;opacity: 1;}
+.month.out.next {animation: moveToTopFadeMonth 0.4s ease-in;opacity: 1;}
+.month.in.prev {animation: moveFromBottomFadeMonth 0.4s ease-out;opacity: 1;}
+.month.out.prev {animation: moveToBottomFadeMonth 0.4s ease-in;opacity: 1;}
+.date_slider {float: right;}
+.date_slider_list {display: flex;justify-content: center;align-items: center;}
+.date_slider_list p {margin: 0;padding: 0;font-size: 14px;font-weight: 500;color: #1a1a1a;font-family: 'Poppins';text-decoration: underline;}
+.date_slider_list a.waves-effect.waves-light.btn {color: #1a1a1a;}
+/********** month year slider css end **********/
+canvas#pie-chart{width:auto !important;height:250px !important;}
+a.delete_icon_reports i {color: #DD3F3F;}
+ul.daywise_filter li {display: inline;font-weight: 500;margin: 0 10px;padding: 5px 10px;background: #f2f2f2;cursor: pointer;}
+ul.daywise_filter {margin-bottom: 0;float: right;}
+ul.daywise_filter li.active {background: #8cc63e;color: #fff;font-weight: 600;}
+/****************************start new div table****************************************************/
+.balancesheet_under_table table {width: 100%;}
+.heading_balancesheet_th {padding: 10px 15px;border-bottom: 1px solid #D9D9D9 !important;border-top: 1px solid #D9D9D9;background: #e3e3e3;}
+.heading_profitloss_th {padding: 10px 15px;border-bottom: 1px solid #D9D9D9 !important;border-top: 1px solid #D9D9D9;background: #F1F5F9;}
+table.perticulars_bank_aacounts tr th{background: #F1F5F9;border-bottom: 1px solid #D9D9D9 !important;border-top: 1px solid #D9D9D9;}
+.bheading-title h6 {font-weight: 600;margin-bottom: 0 !important;color: #384b6e;font-family: 'Poppins';font-size:0.81rem;}
+.heading_balancesheet_td {padding: 10px 15px;border-bottom: 1px solid #D9D9D9 !important;border-top: 1px solid #D9D9D9;}
+.new_balancesheet_td{border-top:none !important;border-bottom:none !important;}
+.tdheading-title h6 {font-weight:500;color: #4F5B79;font-family: 'Poppins';font-size:13px;margin-bottom:0 !important;}
+.right_side{float: right;}
+table.table.balancesheet_table tr th {background: #F1F5F9;border-bottom: 1px solid #D9D9D9 !important;border-top: 1px solid #D9D9D9;}
+table.table.balancesheet_table tr td span {padding: 0;}
+.v-item-group.theme--light.v-expansion-panels {display: contents;}
+button.v-expansion-panel-header {padding: 0;text-align: left;align-items:center;}
+.v-expansion-panel--active:not(:first-child), .v-expansion-panel--active + .v-expansion-panel{margin-top:0 !important;}
+.v-expansion-panel--active > .v-expansion-panel-header{min-height:auto !important;}
+.v-expansion-panel-content__wrap{padding:0 5px 5px 15px !important;}
+table.table.perticulars_bank_aacounts tr th {font-size: 0.75rem;font-weight: 600;}
+table.table.perticulars_bank_aacounts tr td {font-size: 11px;}
+table.table.perticulars_bank_aacounts td a {padding: 0;}
+table.table.perticulars_bank_aacounts tr td span {padding: 0 !important;}
+a.onclick_closing_details h6 {color: #0F51F6 !important;}
+.padding_right_15{padding-right:15px;}
+/****************************end new div table******************************************************/
+/******start New Create sales and order my quotation css************/
+button.CreateSalesButtonImageQuotation img {width: 16px;margin: 0 10px;}
+button.CreateSalesOrderButtonImageQuotation img {width: 18px;}
+.SalesCreateOrderVoucherPopupMainDiv {width: 300px;padding: 0;position: fixed;z-index: 99999999999;background-color: #fff;transition: 0.5s ease-in-out;transform: translate(-50%, -50%);top: 50%;left: 50%;border-radius: 5px;}
+.HeadingVouchertypePortion {padding: 10px 15px;background: #5bbc21;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.HeadingVouchertypePortion h6 {color: #fff;margin-bottom: 0;}
+ul.VouchertypePopupInnerPoint {padding: 10px;max-height: 290px;overflow-y: auto;}
+ul.VouchertypePopupInnerPoint li {padding: 5px;border-bottom: 1px solid #ddd;cursor: pointer;}
+.CrossIconVoucherTypePopupSalesCreate button {border-radius: 50%;height: 24px;width: 24px;text-align: center;position: absolute;top: -30px;right: 0;background: #ffffff;}
+.SalesCreateVoucherpopupOrderOverlay{position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.521);}
+/******end New Create sales and order my quotation css*************/
+/********************start voucher type filter******************/
+button.voucher_type_filter {position: relative;}
+.voucher_type_filter_data {position: absolute;background: #fff;z-index: 1;top: 35px;width: 100%;}
+ul.filter_data_voucher li label {margin-right: 0;font-size: 13px;color: #4F5B79;font-weight: 400;margin-bottom: 8px;}
+ul.filter_data_voucher li label.select_all_600{font-weight:600;}
+ul.filter_data_voucher {padding: 10px  10px 0 10px !important;box-shadow:1px 1px 5px #ddd;}
+ul.filter_data_voucher li label input {margin-right: 10px;margin-top:3px;}
+ul.filter_data_voucher li {margin-left: 0;}
+button.voucher_type_filter i {padding-left: 5px;font-size: 14px;}
+.balancesheet_under_table table tr td a {padding: 0;}
+.balancesheet_under_table table tr td {font-size: 11px;}
+.balancesheet_table_main .v-expansion-panel-header {min-height: 40px !important;}
+.custom_table button.v-expansion-panel-header {min-height: 40px !important;}
+.only_balancesheet_date_filter .daterangepicker.ltr.show-calendar.show-ranges.openscenter.linked {display: none;}
+.only_profitloss_date_filter .daterangepicker.ltr.show-calendar.show-ranges.openscenter.linked {display: none;}
+.only_trialbalance_date_filter .daterangepicker.ltr.show-calendar.show-ranges.openscenter.linked {display: none;}
+/*****************************end voucher type filter*********************************************************************/
+.voucher_type_filter_data ul.filter_data_voucher li {width: 100%;}
+ul.voucher_type_div {align-items: center;}
+.parties_datefilter_vue.only_balancesheet_date_filter .reportrange-text i {display: none;}
+.parties_datefilter_vue.only_profitloss_date_filter .reportrange-text i {display: none;}
+.parties_datefilter_vue.only_trialbalance_date_filter .reportrange-text i {display: none;}
+.without_inline_filter.filter_items_sold_by_vales{width:auto !important;}
+.view_pdf_bpltb {text-align: right;}
+table.table.balancesheet_table tr th.tfoot_th {background: #eee;}
+
+/****************start new reports page css *************************************/
+.reports-new-design-inner-boxes {padding: 15px;background: #fff;border-radius: 10px;border: 1px solid #a3a3a3;height:415px;}
+.reports-new-design-boxes {margin: 20px 0;}
+.reports-inner-title-caption h4 {font-size: 16px;margin-bottom: 0 !important;}
+.reports-inner-title-caption p {font-size: 13px;}
+ul.inner-reports-ul-section-part li {width: 100%;border-bottom: 1px solid #ddd;padding: 10px;}
+ul.inner-reports-ul-section-part li a img {width: 25px;margin-right: 20px;}
+ul.inner-reports-ul-section-part li a i {float: right;font-size: 11px;margin-top: 8px;}
+ul.inner-reports-ul-section-part li a {color: #525252;font-weight: 600;font-size: 13px;}
+ul.inner-reports-ul-section-part li:last-child {border-bottom: none;}
+ul.inner-reports-ul-section-part li a span.crown-add-only-paid-user {float: right;}
+ul.inner-reports-ul-section-part li a span.crown-add-only-paid-user img {width: 14px;margin: 0;}
+ul.inner-reports-ul-section-part li a span.lock-icon-reports-red-image {float: right;}
+ul.inner-reports-ul-section-part li a span.lock-icon-reports-red-image img {width:16px;margin: 0;}
+/*******************rejected message caption**************************/
+.rejected-message-caption span.forRejectedmessagecaption {padding: 5px 10px;background: #fff;box-shadow: 1px 1px 5px #ddd;border-left: 3px solid #FF3636;opacity: 0;display: none;position: absolute;top: 28px;left: 10;z-index: 999 !important;overflow:visible !important;width:200px;white-space: normal;}
+.rejected-message-caption span.forRejectedmessagecaption {color: #FF3636;font-weight: 400;font-size: 10px;}
+td.status-rejected {position: relative;}
+td.status-rejected:hover .rejected-message-caption span.forRejectedmessagecaption {opacity: 1;display:block;}
+.rejected-message-caption span.forPendingmessagecaption {padding: 5px 10px;background: #fff8ec;box-shadow: 1px 1px 5px #ddd;border-left: 3px solid #FFA800;opacity: 0;display: none;position: absolute;top: 28px;left: 10;z-index: 999 !important;overflow:visible !important;width:200px;white-space: normal;}
+.rejected-message-caption span.forPendingmessagecaption {color: #FFA800 ;font-weight: 400;font-size: 10px;}
+td.status-pending {position: relative;}
+td.status-pending:hover .rejected-message-caption span.forPendingmessagecaption {opacity: 1;display:block;}
+.my-voucher-table-overflow-visible .v-data-table__wrapper{overflow:visible !important;}
+.set-trial-balance-total-bottom{padding:10px 15px;}
+.right-margin-set-trial-balance-amount-bottom-debit {margin-right: 10px;font-weight:600;color:#1a1a1a;}
+.right-margin-set-trial-balance-amount-bottom-credit {margin-right: 15px;font-weight:600;color:#1a1a1a;}
+.set-balancesheet-profitloss-bottom {padding: 10px 15px;color: #4f5b79;}
+.right-set-amount-balancesheet-profitloss {margin-right: 15px;}
+.profit-loss-page-redirect-text-balancesheet a{color: #4f5b79;}
+
+/***********Start Tally Data Backup CSS**************/
+.TallyDataBackupTopPart {padding: 20px;background: #fff;border-radius: 10px;}
+table.TableTallyDataBackup tr th {background: #f1f5f9;padding: 10px 10px;font-weight: 600;color: #1a1a1a;font-size:14px;}
+span.databackup-conpanyname {font-size: 10px;}
+table.TableTallyDataBackup tr td {padding: 8px 10px;font-size: 13px;}
+table.TableTallyDataBackup tr td img {width: 22px;}
+/***********End Tally Data Backup CSS**************/
+
+/*****************New Reports CSS Start*********************/
+.newreportsheadingportion h3{font-size: 16px !important;color: #1a1a1a;font-weight: 600;font-family: 'Poppins';margin-bottom: 5px !important;}
+.search-container-reports {position: relative;border: 1px solid #B9B9B9;border-radius: 5px;padding: 0px 10px;display: flex;color: #7c7c7c;align-items: center;background-color: #fff;width:auto;}
+.search-container-reports .search-icon {font-size: 14px;color: #7c7c7c;margin-right: 8px;font-weight: 100;}
+.search-container-reports .search-input {flex: 1;border: none;outline: none;font-size: 14px;padding: 5px;font-weight: 400;background: #fff;}
+.newreportsheadingsearch{float: right;}
+.ReportsPortionHeadingPart {padding: 10px 15px;background: #F0F0F0;display: flex;align-items: center;}
+.ReportsPortionHeadingPart .heading_icon{width: 17px; height: 17px;}
+.ReportsPortionHeadingPart h5 {font-size: 16px !important;font-weight: 500;color: #1a1a1a;margin-bottom: 0;margin-left: 10px;}
+.ReportsPortionULdiv {background: #fff;}
+.ReportsPortionULdiv ul {margin-bottom: 0;}
+.ReportsPortionULdiv ul li div{border-bottom: 1px solid #ddd;padding: 8px 0;display: flex;justify-content: space-between; padding-left: 20px;}
+.ReportsPortionULdiv ul li span{margin-right: 30px; display: inline-block;}
+.ReportsPortionULdiv ul li .star_icon{ cursor: pointer; margin-right: 20px;}
+.ReportsPortionULdiv ul li .star_icon img{width: 14px; height: 14px;}
+.ReportsPortionULdiv ul li button, .ReportsPortionULdiv ul li a {font-size: 14px;font-weight: 400;color: #3E3E3E;padding-right:30px;cursor: pointer; text-align: left;}
+/* .reports_no-results { display: flex; justify-content: center; align-items: center; height: 50vh;} */
+.reports_no-results .no-results-box {background: #FFFFFFAB; width: 90%; border-radius: 5px; text-align: center; min-height: calc(100vh - 150px); margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px;}
+.reports_no-results .no-report-image { width: 120px;height: 120px;}
+.reports_no-results .no-report-text {font-size: 18px;font-weight: 500;color: #aaa;margin-top: 10px;}
+.reports_clear-icon{cursor: pointer;}
+@media only screen and (max-width:768px){
+    .setmobileheaderportion{margin-top:15px;padding:10px 15px !important;}
+}
+/*****************New Reports CSS End*********************/

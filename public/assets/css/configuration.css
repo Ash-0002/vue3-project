@@ -1,0 +1,161 @@
+ul.configurations-tab-ul {border-bottom: 1px solid #DDDDDD;margin: 0 0;padding: 5px 0px 0px 0px;}
+.configuration_card.card {padding: 0;border: 0;}
+ul.configurations-tab-ul a.link {font-size: 14px;color: #1a1a1a;font-weight: 400;padding: 5px 60px;display: block;cursor: pointer;}
+ul.configurations-tab-ul a.link.active {color: #307A03;font-weight: 600;border-bottom: 1px solid #307A03;}
+.configurations-tabing-inner-content {padding: 10px 40px;}
+.configurations_tabing_inner {border: 1px solid #E4E4E4;border-radius: 5px;}
+.configurations_tabing_inner ul {margin: 0;background-color: #F1F5F9;border-bottom: 1px solid #E4E4E4;border-top-left-radius: 4px;border-top-right-radius: 4px;}
+.configurations_tabing_inner a.inner_link {padding: 10px 20px;display: block;font-size: 14px;color: #1a1a1a;font-weight: 400;cursor: pointer;}
+.configurations_tabing_inner a.inner_link.active {color: #307A03;font-weight: 600;}
+.detail_inner_content {padding: 10px 20px;}
+.configuration_checkbox .custom-control {padding-left: 0;}
+select.configuration_select:focus-visible {outline: none;}
+select.configuration_select {border: 0;width:250px;padding: 10px 10px;border-radius: 5px;font-size: 12px;font-weight: 500;color: #1A1A1A;appearance: auto;margin-left: 10px;margin-bottom: 5px;background-color: #E9ECF1;}
+.detail_inner_content h3 {margin: 0 0 10px 0 !important;padding: 0;font-size: 16px;color: #1a1a1a;font-weight: 600;}
+.voucher_inner_content table {table-layout: fixed;}
+.voucher_inner_content .table-responsive table th {background-color: #F7F7F7;border-top: 1px solid #E4E4E4;border-bottom: 1px solid #E4E4E4 !important;padding: 10px 10px;font-size: 14px;color: #1a1a1a;font-weight: 600;}
+.voucher_inner_content {margin-top: 20px;}
+input.configur_voucher_input {background-color: #ffffff;border: 1px solid #C6C6C6;padding: 5px 10px;border-radius: 5px;font-size: 12px;color: #1a1a1a;font-weight: 400;}
+.configur_voucher_input:disabled {background-color: #E9ECF1 !important;border: 1px solid #E9ECF1 !important;}
+.voucher_inner_content tbody tr:nth-of-type(even) {background-color: #ffffff;}
+.voucher_inner_content tr {border-bottom: 0;}
+/* .voucher_inner_content td {border-bottom: 0 !important;padding: 0 10px !important;} */
+.voucher_inner_content td {border-bottom: 0 !important;padding:5px 10px 0px 10px !important;vertical-align: top;}
+.configuration_checkbox label.custom-control-label {padding-left: 25px;cursor: pointer;}
+.configuration_checkbox .custom-control-label::after {left: 0;}
+.configuration_checkbox .custom-control-label::before {left: 0;}
+/******** invoice custom radio button css start **********/
+.invoice_radio_button .invoice_radio:checked,
+.invoice_radio:not(:checked) {position: absolute;left: -9999px;}
+.invoice_radio_button .invoice_radio:checked + label,
+.invoice_radio:not(:checked) + label{position: relative;padding-left: 28px;cursor: pointer;line-height: 20px;display: inline-block;color: #666;}
+.invoice_radio_button .invoice_radio:checked + label:before,
+.invoice_radio:not(:checked) + label:before {content: '';position: absolute;left: 0;top: 0;width: 18px;height: 18px;border: 1px solid #ddd;border-radius: 100%;background: #D9D4D4;}
+.invoice_radio_button .invoice_radio:checked + label:after,
+.invoice_radio:not(:checked) + label:after {content: '';width: 10px;height: 10px;background:#0075E7;position: absolute;top: 4px;left: 4px;border-radius: 100%;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;}
+.invoice_radio_button .invoice_radio:not(:checked) + label:after {opacity: 1;-webkit-transform: scale(0);transform: scale(1);background-color: white;width: 10px;height: 10px;position: absolute;top: 4px;left: 4px;border-radius: 100%;z-index: 9999;}
+.invoice_radio_button .invoice_radio:checked + label:after {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+
+.invoice_radio_button .invoice_radio:checked + label:before {background-color: #C1DAF3;}
+/******** invoice custom radio button css over *********/
+.invoice_template_content {padding: 10px 10px;}
+.invoice_radio_button {padding: 10px 10px;}
+.invoice_radio_button label {font-size: 14px;color: #1a1a1a !important;font-weight: 600;}
+.configuration_checkbox .custom-control-input{margin-left: 0;}
+.configuration_checkbox .custom-control-label:before{border-radius: 3px;}
+.customize_declaration textarea {background-color: #ffffff;border: 1px solid #C6C6C6;padding: 5px 10px;border-radius: 5px;width: 100%;resize: none;font-size: 12px;color: #1a1a1a;font-weight: 400;}
+.declaration_input:disabled {background-color: #E9ECF1 !important;border: 1px solid #E9ECF1 !important;}
+.configuration_checkbox.invoice_checkboxlabel label.custom-control-label {color: #1a1a1a;font-weight: 600;font-size: 18px;}
+.note_info {margin-left: 10px;color: #1A1A1A;font-size: 14px;font-weight: 400;}
+.note_info img {margin-right: 5px;width: 18px;}
+lable.invoice_header_label {display: block;font-size: 14px;color: #1a1a1a;font-weight: 500;}
+.invoice_template_content input.configur_voucher_input {width: 100%;}
+/******** image upload css start ******/
+.logo_card {height:200px !important;border: 2px dashed #5BBC21;border-radius: 3px;align-items: center;display: -ms-flexbox;display: flex;-ms-flex-direction: column;flex-direction: column;height: 100%;-ms-flex-pack: center;justify-content: center;width: 100%;padding:0px;position: relative;}
+.uploded_show_logo img {height: 200px;max-height: 100%;min-height: 100%;}
+.logo_inner_content {padding: 20px 10px;}
+.upload-configure-logo {position: relative;}
+.logo_upload_input {position: absolute;left: 0;top: 0;height: 100%;width: 100%;opacity: 0;cursor: pointer;}
+.upload-configure-logo img {cursor: pointer;}
+button.remove_logo span {color: #0075E7;font-size: 12px;font-weight: 400;margin-right: 4px;margin-top: -3px;}
+button.remove_logo {color: #1a1a1a;font-size: 20px;display: flex;align-items: center;position: absolute;bottom: -35px;left: 3px;}
+.change-option span {background-color: #fff;color: #1a1a1a;padding: 10px;border-radius: 100%;font-size: 12px;height: 30px;width: 30px;display: flex;justify-content: center;align-items: center;}
+.change-option {cursor: pointer;position: absolute;top: 0;left: 0;align-items: center;display: -ms-flexbox;display: flex;-ms-flex-direction: column;flex-direction: column;height: 100%;-ms-flex-pack: center;justify-content: center;width: 100%;background-color: #b3b3b396;}
+/******** image upload css over ******/
+.success_message {background-color: #EEFFE4;position: fixed;top: 10px;right: 10px;z-index: 9999;border-radius: 5px;padding: 10px 15px;}
+.success_message p {margin: 0 !important;color: #307A03;font-size: 13px;font-weight: 500;padding: 0;line-height: inherit;}
+.ml-0 {margin-left: 0 !important;}
+/******* toggle switch css start ********/
+.configuration_card .switch {position: relative;display: inline-block;width: 40px;height: 20px;}
+.configuration_card .switch input { opacity: 0;width: 0;height: 0;}
+.configuration_card .slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #EAEAEA;-webkit-transition: .4s;transition: .4s;}
+.configuration_card .slider:before {position: absolute;content: "";height: 16px;width: 16px;left: 2px;bottom: 2px;background-color: white;-webkit-transition: .4s;transition: .4s;box-shadow: 0px 0px 1.5px 0px #00000026;}
+.configuration_card input:checked + .slider {background-color: #4AB14E;}
+.configuration_card input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+.configuration_card input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(20px);}
+/* Rounded sliders */
+.configuration_card .slider.round {border-radius: 34px;}
+.configuration_card .slider.round:before {border-radius: 50%;}
+/******* toggle switch css over ********/
+.outstanding_switch {width: 90%;display: flex;align-items: center;justify-content: space-between;}
+.outstanding_switch span {color: #1a1a1a;font-size: 14px;font-weight: 500;}
+.ledger_report_content {border: 1px solid #E4E4E4;border-radius: 5px;padding: 15px 20px 0px 20px;margin: 15px;}
+.digit_counter {border: 1px solid #E4E4E4;display: flex;justify-content: space-between;align-items: center;border-radius: 4px;width:120px;}
+.digit_counter button.counter_input {background-color: #F1F5F9;color: #000000;font-size: 20px;font-weight: 500;padding: 0px 10px;border-radius: 2px;}
+.configuration_card input:disabled {cursor: no-drop !important;}
+.WebEawayBilltext{color:#5BBC21 !important;font-size:13px;}
+.EWaybillEInvoicesDiv{width: 90%;display: flex;align-items: center;justify-content: space-between;}
+.WhatsAppTextCaptionconfiguration h5 {font-size: 18px;font-weight: 500;color: #1a1a1a;margin-bottom: 5px !important;}
+.WhatsAppTextCaptionconfiguration p {font-size: 14px;font-weight: 400;}
+.WhatsAppTextCaptionconfiguration p i{margin-right:6px;}
+button.LoginButtonWhatsappconfiguration.btn-black {padding: 6px 20px;border: 1px solid #1a1a1a;border-radius: 8px;font-size: 16px;font-weight: 500;}
+.NewBankAccountSearchableDropdown input::placeholder {font-size: 13px;color: gray;font-weight: 500;}
+.NewBankAccountSearchableDropdown input {font-size: 13px;font-weight: 500;width:100%;padding:5px 30px 5px 10px;}
+.NewBankAccountSearchableDropdown ul.dropdown-menu {background: #fff;padding: 0;}
+.NewBankAccountSearchableDropdown ul.dropdown-menu li {font-size: 13px;border-bottom: 1px solid #ddd;padding: 5px 10px;cursor: pointer;}
+.NewBankAccountSearchableDropdown ul.dropdown-menu li:hover{color:#1a1a1a !important;}
+.custom-dropdown.NewBankAccountSearchableDropdown {width:65%;border: 1px solid #ddd;border-radius: 4px;margin-left: 10px;}
+button.inputcrossiconRechangesConfiguration {position: absolute;top:6px;right: 5px;color: #000;background: #eee;height: 18px;width: 18px;border-radius: 50%;font-size: 11px;}
+i.fa.fa-search.input-search-icon-RechangesConfiguration {color: #655959;position: absolute;top: 9px;right: 6px;font-size: 12px;}
+.WhatsAppTextCaptionconfiguration p.text-red {
+    color: #E52125;
+}
+
+.WhatsAppTextCaptionconfiguration p.text-gray {
+    color: #767676;
+}
+
+button.LoginButtonWhatsappconfiguration.btn-red {
+    color: #E52125;
+    border: 1px solid #E52125;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 20px;
+}
+.LogoutSuccessfullyCaptionPart {
+    background: #F3FFF7;
+    border-radius: 8px;
+    border-left: 5px solid #5bbc21;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    width: 330px;
+    justify-content: space-between;
+}
+.IconTextSuccessLogoutConfiguration {
+    display: flex;
+    align-items: center;
+}
+.SuccessLogoutConfigurationMan {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    z-index: 5;
+}
+
+.LogoutSuccessfullyCaptionPart p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+.LogoutSuccessfullyCaptionPart i.fa.fa-check-circle {
+    color: #5bbc21;
+    font-size: 18px;
+    margin-right: 14px;
+}
+.SuccessLogoutConfigurationCrossIconSet{cursor: pointer;}
+@media only screen and (max-width:1580px){
+    .custom-dropdown.NewBankAccountSearchableDropdown{width:70%;}
+}
+@media only screen and (max-width:1280px){
+    .custom-dropdown.NewBankAccountSearchableDropdown{width:60%;}
+}
+@media only screen and (max-width:991px){
+    .custom-dropdown.NewBankAccountSearchableDropdown{width:70%;}
+    .configurations-tabing-inner-content{padding:10px 10px;}
+}
+@media only screen and (max-width:600px){
+    .custom-dropdown.NewBankAccountSearchableDropdown{width:100%;}
+}

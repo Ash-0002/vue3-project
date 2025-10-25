@@ -1,0 +1,936 @@
+.cstm_header,
+header {width: 100%;float: left;}
+.instalation_form input.form-control,
+ul.nav-pills li a.nav-link {background: #fff;font-style: normal;font-size: 20px;line-height: 27px;mix-blend-mode: normal;}
+.modal,
+button.owl-next:focus,
+button.owl-prev:focus,
+button:focus {outline: 0;}
+span#error_message,
+span#success_message {margin: 0 0 15px;font-weight: 600;font-size: 18px;}
+#Media_byte,
+.footer-social-icon li,
+.footer-top li,
+.installation_div p,
+.modal-content.launching_modal,
+.position-relative,
+.pricing_plans,
+.right_border,
+body,
+figure.testimonial blockquote,
+header,
+section {position: relative;}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Bold.eot");
+    src: url("../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.ttf") format("truetype"),
+        url("../fonts/Poppins-Bold.svg#Poppins-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-BlackItalic.eot");
+    src: url("../fonts/Poppins-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-BlackItalic.woff2") format("woff2"), url("../fonts/Poppins-BlackItalic.woff") format("woff"),
+        url("../fonts/Poppins-BlackItalic.ttf") format("truetype"), url("../fonts/Poppins-BlackItalic.svg#Poppins-BlackItalic") format("svg");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Black.eot");
+    src: url("../fonts/Poppins-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Black.woff2") format("woff2"), url("../fonts/Poppins-Black.woff") format("woff"), url("../fonts/Poppins-Black.ttf") format("truetype"),
+        url("../fonts/Poppins-Black.svg#Poppins-Black") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-ExtraBoldItalic.eot");
+    src: url("../fonts/Poppins-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Poppins-ExtraBoldItalic.woff") format("woff"),
+        url("../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic") format("svg");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-MediumItalic.eot");
+    src: url("../fonts/Poppins-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-MediumItalic.woff2") format("woff2"), url("../fonts/Poppins-MediumItalic.woff") format("woff"),
+        url("../fonts/Poppins-MediumItalic.ttf") format("truetype"), url("../fonts/Poppins-MediumItalic.svg#Poppins-MediumItalic") format("svg");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-BoldItalic.eot");
+    src: url("../fonts/Poppins-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-BoldItalic.woff2") format("woff2"), url("../fonts/Poppins-BoldItalic.woff") format("woff"),
+        url("../fonts/Poppins-BoldItalic.ttf") format("truetype"), url("../fonts/Poppins-BoldItalic.svg#Poppins-BoldItalic") format("svg");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-SemiBold.eot");
+    src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"),
+        url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-ExtraBold.eot");
+    src: url("../fonts/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins-ExtraBold.woff") format("woff"),
+        url("../fonts/Poppins-ExtraBold.ttf") format("truetype"), url("../fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-ExtraLightItalic.eot");
+    src: url("../fonts/Poppins-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Poppins-ExtraLightItalic.woff") format("woff"),
+        url("../fonts/Poppins-ExtraLightItalic.ttf") format("truetype"), url("../fonts/Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic") format("svg");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Light.eot");
+    src: url("../fonts/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.ttf") format("truetype"),
+        url("../fonts/Poppins-Light.svg#Poppins-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-ExtraLight.eot");
+    src: url("../fonts/Poppins-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ExtraLight.woff2") format("woff2"), url("../fonts/Poppins-ExtraLight.woff") format("woff"),
+        url("../fonts/Poppins-ExtraLight.ttf") format("truetype"), url("../fonts/Poppins-ExtraLight.svg#Poppins-ExtraLight") format("svg");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Italic.eot");
+    src: url("../fonts/Poppins-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Italic.woff2") format("woff2"), url("../fonts/Poppins-Italic.woff") format("woff"), url("../fonts/Poppins-Italic.ttf") format("truetype"),
+        url("../fonts/Poppins-Italic.svg#Poppins-Italic") format("svg");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-SemiBoldItalic.eot");
+    src: url("../fonts/Poppins-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Poppins-SemiBoldItalic.woff") format("woff"),
+        url("../fonts/Poppins-SemiBoldItalic.ttf") format("truetype"), url("../fonts/Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic") format("svg");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Thin.eot");
+    src: url("../fonts/Poppins-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Thin.woff2") format("woff2"), url("../fonts/Poppins-Thin.woff") format("woff"), url("../fonts/Poppins-Thin.ttf") format("truetype"),
+        url("../fonts/Poppins-Thin.svg#Poppins-Thin") format("svg");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-LightItalic.eot");
+    src: url("../fonts/Poppins-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-LightItalic.woff2") format("woff2"), url("../fonts/Poppins-LightItalic.woff") format("woff"),
+        url("../fonts/Poppins-LightItalic.ttf") format("truetype"), url("../fonts/Poppins-LightItalic.svg#Poppins-LightItalic") format("svg");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Medium.eot");
+    src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"),
+        url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Regular.eot");
+    src: url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"),
+        url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-ThinItalic.eot");
+    src: url("../fonts/Poppins-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-ThinItalic.woff2") format("woff2"), url("../fonts/Poppins-ThinItalic.woff") format("woff"),
+        url("../fonts/Poppins-ThinItalic.ttf") format("truetype"), url("../fonts/Poppins-ThinItalic.svg#Poppins-ThinItalic") format("svg");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+html {scroll-behavior: smooth;}
+body {font-size: 0.81rem !important;font-weight:500 !important;margin: 0;font-family: poppins, sans-serif !important;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #212529;text-align: left;background-color: #fff;}
+#Media_byte .owl-dots,
+#Media_byte .owl-pagination,
+#otp_div,
+.desktop-device-hide-new-frot,
+.mobile_menu,
+.modal-backdrop,
+.phone_banner_img,
+.tab-content.tab-space .hidden{display: none;}
+.mobile_navbar_toggle img {filter: invert(1);}
+.mobile_navbar_toggle {background-color: transparent;}
+.navbar-fixed-top {position: fixed;right: 0;left: 0;z-index: 999;top: 0;}
+header {border-bottom: 1px solid #f1f1f1;box-shadow: 1px 1px 5px #e9e9e9;}
+.cstm_header {background-color: #fff;padding: 0;}
+#CaptchaInput-error,
+#recaptcha-error {color: red;font-size: 14px;}
+.cstm_header .navbar-dark .navbar-nav .nav-link {color: #1a1a1a;font-size: 16px;line-height: 45px;padding: 1rem;font-weight: 400;font-family: poppins;}
+.cstm_header .navbar {padding: 0 2rem;background-color: #fff;}
+.free_trial {border-radius: 8px;background-color: #6db013;background-image: none;font-size: 16px;font-weight: 400;padding: 13px 20px;color: #fff;font-family: "Open Sans", sans-serif;text-decoration: none;}
+.navbar-brand,
+div#loginsignupmodal___BV_modal_body_ {padding-top: 0;}
+.free_trial:hover {background-color: #212121;color: #fff;}
+.btn.focus,
+.btn:focus {outline: 0;box-shadow: none;}
+.navbar-brand {display: inline-block;padding-bottom: 0;margin-right: 0;font-size: 1.25rem;line-height: inherit;white-space: nowrap;}
+.nav-cta-button {padding-left: 1.5rem;display: inherit;}
+.cstm_header .navbar-dark .navbar-nav .nav-link:hover {color: #5bbc21;}
+.cstm_header .navbar-toggler {border-radius: 10px;}
+header.mobile_menu button.navbar-toggler.menu-button {position: relative;width: 45px;height: 45px;padding: 1px 0;font-size: 1.25rem;line-height: 1;}
+.menu-button {width: 45px;height: 45px;padding: 0;-webkit-transition: background-color 0.2s;transition: background-color 0.2s;z-index: 2;}
+.download_now_ft a,
+.ft_demo_btn a,
+.installation_setup_title h4 a:hover {text-decoration: none;}
+.modal-content.sign_up_popup,
+.partner_icon {padding: 30px;}
+.modal {position: fixed;top: 0;left: 0;z-index: 1050;display: none;width: 100%;height: 100%;overflow: hidden;background-color: rgba(0, 0, 0, 0.5);}
+.modal-dialog.modal-dialog-centered {max-width: 80%;}
+.modal-header p {float: left;width: auto;margin: 0;font-size: 16px;}
+ul.nav-pills li.nav-item {margin-bottom: 15px;}
+ul.nav-pills li a.nav-link {border: 1px solid rgba(0, 0, 0, 0.16);border-radius: 7px;font-family: Open Sans;font-weight: 400;color: #000;}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {color: #fff;background: #000 !important;mix-blend-mode: normal;border: 1px solid #000;border-radius: 7px;}
+.installation_div {background: rgba(0, 0, 0, 0.02);border-radius: 7px;padding: 10px 20px;float: left;width: 100%;height: 100%;}
+.ft_demo_btn:hover,
+.section_pading,
+section#pricing_tally,
+section#setup {background-color: #fff;}
+.installation_div h3 {font-family: Poppins !important;font-weight: 600 !important;font-size: 16px !important;line-height: 24px !important;color: #323232;margin: 0 0 10px !important;}
+div#modal-free-trial .modal-header {padding: 0 20px;}
+.feedbackheader,
+div#modal-free-trial .modal-header .modal-title {padding: 10px 0;}
+.installation_div p {font-family: Open Sans;font-style: normal;font-weight: 400;font-size: 18px;line-height: 28px !important;color: #5b5b5b !important;margin: 0 0 10px !important;padding-left: 30px;float: left;width: 100%;}
+.instalation_form {float: left;width: 100%;display: flex;margin-bottom: 10px;}
+.coming_soon_logo,
+.custom-model-body,
+.home_banner_logo,
+.pricing-tabing-heading,
+footer,
+form.form-inline,
+section {float: left;width: 100%;}
+.instalation_form input.form-control {border: 1px solid rgba(0, 0, 0, 0.16);border-radius: 7px;font-family: Open Sans;font-weight: 400;color: #5b5b5b;display: inline-block;width: 58%;margin-right: 2%;height: auto;padding: 10px 20px;}
+.installation_div a.download_now_btn,
+button.btn.btn-primary {font-family: Open Sans;font-weight: 400;font-size: 20px;line-height: 27px;color: #fff;font-style: normal;text-align: center;}
+button.btn.btn-primary {background: #6db013;border: 1px solid #fff;box-sizing: border-box;border-radius: 7px;display: inline-block;padding: 10px 20px;}
+.installation_div p:before {background-image: url(../images/home/play_circle_outline.svg);background-position: bottom;background-repeat: no-repeat;background-size: cover;content: "";position: absolute;top: 0;left: 0;width: 25px;height: 25px;}
+.installation_div a.download_now_btn {background: #5bbc21;mix-blend-mode: normal;border-radius: 7px;width: 84%;float: left;padding: 16px 0;margin: 20px auto 0;display: table;}
+#banner {padding: 70px 0;}
+.counter h4,
+.sub_title,
+h5,
+h6 {margin-top: 10px;margin-bottom: 10px;}
+.banner_tally_logo,
+.green_box_message p img {margin-right: 10px;}
+.section_pading {padding: 40px 0;overflow: hidden;}
+.counter h4 {font-size: 45px;line-height: 1.3;font-weight: 800;}
+.sub_title,
+h5 {line-height: 1.3;font-weight: 800;}
+.text-gradient {background-image: linear-gradient(85deg, #5bbc21 25%, #3ec6b6, #493ec6 77%);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;}
+#company_status,
+#counter_status,
+#testimonial {background-color: #141415;color: #fff;}
+.user {padding: 0 50px;}
+h5 {font-size: 25px;}
+#Media_byte .carosol_div p.para,
+h6 {font-weight: 700;}
+.bottom-menu li a,
+.footer-social-icon li a,
+.ft_demo_btn a,
+.user p.identify,
+a.get_in_touch,
+a.get_started_ready:hover,
+footer ul.bottom-menu li a {color: #fff;}
+.testimonial-carousel {width: 82%;margin: 0 auto;}
+#Media_byte .owl-item,
+.content.centered p,
+.owl-nav,
+.pricing_started,
+.why_lkp_image,
+ul.social_media_icons {text-align: center;}
+.testimonial-carousel .owl-carousel .owl-nav button {background-color: #6db013 !important;height: 50px;width: 50px;margin-left: 10px;}
+.testimonial-carousel .owl-carousel .owl-nav button span {color: #fff;font-size: 50px;line-height: 25px;}
+.testimonial-carousel .owl-carousel .owl-stage-outer {margin: 25px 0;}
+.coming_soon_logo {margin: 10px 0 40px;}
+footer {background-color: #141415 !important;padding: 30px 0 0 !important;color: #fff;}
+.footer-social-icon li {display: inline;padding-right: 30px;}
+.footer-top li,
+.ft_demo_btn,
+.installation_setup_title h4 a:hover i.on_hover_icon,
+ul.help-footer-menu li {display: inline-block;}
+.footer-social-icon i {font-size: 20px;transition: 0.5s ease-in-out;}
+.footer-social-icon i:hover {color: #5bbc21;transform: scale(1.5);transition: 0.5s ease-in-out;}
+ul.footer-top {float: right;padding: 0;margin: 0;}
+.ft_demo_btn {background-color: #5bbc21;padding: 11px 30px;border-radius: 5px;margin-top: 0;}
+.ft_demo_btn:hover a,
+.resend_otp a:hover,
+h5.my-2.font-weight-bold {color: #000;}
+h5.footer_page_nem {color: #5bbc21;font-size: 24px;font-weight: 600;font-family: Poppins;margin-bottom: 25px !important;}
+.whybtn,
+p.white_text {color: #fff !important;}
+h6 {font-size: 20px;line-height: 1.2;}
+ul.bottom-menu {list-style: none;padding-left: 0;font-size: 14px;}
+ul.bottom-menu li {margin-bottom: 5px;}
+.bottom-menu li a:hover {text-decoration: none;color: #5bbc21;}
+h2.sign_up_popup_heading {font-weight: 900;font-size: 58px;margin-bottom: 30px;background-image: linear-gradient(85deg, #5bbc21 10%, #3ec6b6 30%, #493ec6);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;}
+.contactForm .form-control {border: none;border-bottom: 1px solid #c1c0c0;padding: 0;border-radius: unset;margin: 0;}
+#pricing .section_header_name,
+.contactForm .form-group,
+.form-control {margin-bottom: 30px;}
+.form-control:focus {box-shadow: none !important;border-color: #5bbc21 !important;}
+.whybtn {border-radius: 8px;background-color: #141415;font-size: 16px;font-weight: 400;min-width: 180px;padding: 15px 20px;margin: auto;display: block;border: none;}
+.custom-model-body {padding: 35px 20px;}
+.cstm_header .nav-link.w-inline-block.active,
+.installation_setup_title h4 a i:hover,
+.installation_setup_title p a:hover {color: #6db013;}
+p.italic_text_business {font-weight: 200;font-style: italic;}
+.mobile_footer_fix {position: fixed;bottom: -1px;right: -12px;width: auto;z-index: 99;}
+.whatsapp_fix_icon {background-color: #48A013;padding: 8px 12px;border-radius: 100px;box-shadow: 0px 0px 10px 0px #00000030;}
+.whatsapp_fix_icon span {color: #fff;font-size: 14px;margin-left: 5px;font-weight: 400;}
+.download_now_ft {float: left;width: 100%;background-color: #6db013;text-align: center;padding: 16px 0;display: none;}
+.login-mobile-button-footer {display: none !important;}
+.download_now_ft a {color: #fff;font-size: 18px;font-weight: 500;margin: 0;}
+.faq_open_div .card-body,
+div#openpricingbanner___BV_modal_body_,
+ul.footer-social-icon {padding: 0;}
+button:focus {outline: -webkit-focus-ring-color auto 0;}
+.card .collapse {z-index: 8;}
+.company_contact p {margin: 0 0 5px;}
+a.mail_us {color: #fff;text-decoration: underline;}
+label.error {color: red;font-size: 14px;padding: 10px 0 0;}
+span#error_message {float: left;width: 100%;color: red;letter-spacing: 0.3px;}
+span#success_message {float: left;width: 100%;color: #1bd741;letter-spacing: 0.3px;}
+.news {margin-top: 1rem;margin-bottom: 1rem;}
+.about_content_block h4,
+.ptitle {font-family: poppins !important;font-style: normal;font-weight: 700 !important;font-size: 30px !important;line-height: 40px !important;text-align: center;color: #000;}
+#Media_byte {float: left;width: 100%;padding-bottom: 100px;background-color: #fff;}
+.owl-carousel {display: none;width: 100%;-webkit-tap-highlight-color: transparent;z-index: 1;position: inherit !important;}
+#Media_byte .owl-carousel:hover .owl-buttons,
+label#sentOtpLine span.display_block {display: block;}
+#Media_byte .owl-theme .owl-controls .owl-buttons div {background: #869791;line-height: 0;margin: 5px;padding: 3px 10px;position: absolute;top: 0;color: #fff;display: inline-block;zoom: 1;font-size: 12px;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 0 !important;filter: Alpha(Opacity=50);opacity: 0.5;}
+#Media_byte .owl-carousel .owl-nav button {color: #fff;display: inline;margin: 0;padding: 0;font-size: initial;-webkit-border-radius: 0;-moz-border-radius: 30px;background: 0 0;filter: Alpha(Opacity=50);opacity: 1 !important;border: none;}
+#Media_byte .owl-carousel .owl-nav button.owl-prev {left: 0;position: absolute;top: 43%;}
+#Media_byte .owl-carousel .owl-nav button.owl-next {right: 0;position: absolute;top: 43%;}
+#Media_byte .carosol_div {width: 90%;background-color: #fff;box-shadow: 0 0 10px rgb(0 0 0 / 14%), 0 0 0 rgb(0 0 0 / 0%);margin: 0 auto;padding: 50px 0;}
+#Media_byte .carosol_div p {font-size: 17px;margin: 20px auto;width: 80%;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+#Media_byte .carosol_div a {font-size: 18px;}
+#Media_byte .carosol_div img {max-width: 75%;margin: 0 auto;}
+h2.start_guide,
+p.setup_para {border-bottom: 1px solid #ddd;padding-bottom: 20px;}
+.installation_setup_title h4 a {font-style: normal;font-weight: 800 !important;font-size: 28px !important;line-height: 80px !important;color: #1a1a1a;}
+.installation_setup_title h4 a i.on_hover_icon {display: none;color: #8d8d8d;font-size: 20px;padding-left: 10px;padding-top: 10px;}
+.count_div,
+.desktop-app-video,
+.mobile-app-video {margin-top: 30px;}
+.feedback_submit,
+.three_step .number_img_div img {margin-top: 15px;}
+.bg-light1,
+.my-5.py-4.px-5.bg-light.d-sm-flex.align-items-center.justify-content-between {border: 1px solid #5bbc21;border-radius: 10px;padding: 1rem !important;}
+span.popular-plan,
+span.special-plan {padding: 4px 30px;border-radius: 10px;top: -17px;left: 30px;color: #fff;position: absolute;font-weight: 600;}
+a.btn.text-white.px-5.py-3 {background-color: #6db013;border-radius: 20px;padding: 0.5rem 2rem !important;}
+.red {color: red;}
+.text-secondary {color: #0984e3 !important;}
+.user-year {color: #485460;}
+.bg-light {background-color: #fafff2 !important;}
+span.popular-plan {background: #3f6407;}
+span.special-plan {background: #642e07;}
+.modal-header1 {border-bottom: none;padding: 10px 10px 0 0;}
+button.close.lanching-modal-close {position: absolute;right: -10px;top: -10px;font-size: 22px;background: #1a1a1a;border-radius: 50%;color: #fff;height: 30px;width: 30px;}
+div#myModal12 {background-color: rgb(0 0 0 / 0%) !important;}
+button.close.lanching-modal-close:hover {opacity: 1 !important;}
+.modal-open .modal.modal-center.show {display: flex !important;align-items: center !important;}
+@media only screen and (max-width: 991px) {
+    .text-right.text-uppercase.text-secondary.col-lg-3.col-md-12.col-sm-12 {text-align: left !important;}
+    .text-right.col-lg-3.col-md-12.col-sm-12 {text-align: left !important;margin: 20px 0;}
+    .user-year {display: block;margin: 10px 0 0 40px;}
+}
+footer ul.bottom-menu li a.router-link-active {color: #5bbc21 !important;background: 0 0 !important;}
+.padding_website_section {padding-top: 100px;}
+.contact_banner_div {background-color: #fff;height: 100vh;}
+.overlay_right {position: fixed;z-index: 9999999;top: 0;left: 0;width: 100%;height: 100%;background-color: rgb(0 0 0 / 37%);}
+button.close.closebtn_login_register {font-size: 30px;color: #1a1a1a;}
+div#loginsignupmodal___BV_modal_outer_ .modal-dialog {max-width: 30%;margin: 0 0 0 auto;position: relative;right: 0;height: 100vh;background: #fff;}
+div#loginsignupmodal___BV_modal_content_ {border-radius: 0 !important;}
+#top_banner_section {position: relative;padding-top: 120px;background: #fff;}
+.customers_with_buttons h4 {color: #1a1a1a;font-size: 20px;font-family: poppins;font-weight: 600;}
+ul.store_button_ul li {display: inline-block;margin-right: 10px;}
+.counter_first_section,
+.input_with_join_button,
+.login_country_code_set_part,
+.only_number_with_login_input,
+.right_modal_set_country_code_ {display: flex;}
+.counter_first_section ul {width: 100%;margin-bottom: 0;}
+.counter_first_section ul li {margin-right: 10px;padding: 10px;border: 2px dotted #bebfbe;border-radius: 10px;margin-bottom: 10px;display: inline-block;}
+.counter_first_section ul li h6 {font-size: 16px;font-weight: 600;font-family: Poppins;text-align: center;margin-top: 5px;margin-bottom: 6px !important;}
+.counter_first_section ul li p {color: #445e71;font-size: 13px;margin-bottom: 0;}
+.customers_with_buttons {margin-bottom: 40px;margin-top: 30px;}
+.fron_site_inputbox input {height: auto;border-radius: 0;}
+button.join_free_button {padding: 6px 20px;background: #5bbc21;color: #fff;font-weight: 600;font-family: poppins;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+.section_header_name h3,
+.setup_steps_div h4,
+.step_number {font-style: normal;color: #1a1a1a;line-height: inherit;}
+.rightside_ul_features {display: flex;margin-top: 0;margin-left: 0;}
+.rightside_ul_features ul li {color: #445e71;font-size: 13px;font-weight: 500;margin-bottom: 10px;}
+.rightside_ul_features ul {margin-right: 15px;}
+.rightside_ul_features ul li i {margin-right: 10px;color: #5bbc21;}
+.new-product-image-with-desk,
+ul.help-footer-menu {text-align: right;}
+span.free_text {border-bottom: 5px solid transparent;border-image: linear-gradient(0.25turn, rgb(91 188 33), rgb(200 255 166), rgba(56, 2, 155, 0));border-image-slice: 1;}
+.input_with_join_button.input-group span.input-group-addon {font-weight: 600;font-family: Poppins;background: #eee;color: #414141;border-top: 1px solid #7e7e7e;border-bottom: 1px solid #7e7e7e;border-left: 1px solid #7e7e7e;}
+.only_double_input {display: flex;box-shadow: 1px 1px 5px #ddd;}
+.contact_right_detail,
+.our_about,
+.shadow_effect {box-shadow: 0 0 15px rgb(0 0 0 / 10%);}
+span.error-validation.error_field_front {margin-top: 5px;font-weight: 600;}
+.input_with_join_button.input-group {width: 420px;margin: auto;}
+.section_header_name h3 {font-family: Poppins;font-weight: 600;font-size: 30px;text-align: center;margin: 0 0 5px !important;padding: 0;}
+.section_header_name span,
+.step_number {width: 50px;margin: 0 auto;text-align: center;}
+.section_header_name span {background-image: linear-gradient(90deg, #5bbc21 -12.82%, rgba(50, 185, 91, 0) 150%);height: 3px;display: block;}
+.step_inner_box button,
+.step_inner_box ul li,
+.why_lkp_content h1,
+.why_lkp_content h2,
+.why_lkp_content p {color: #000;font-style: normal;font-family: Poppins;}
+.step_inner_box {background: #fff;border: 1px solid #f0f0f0;border-radius: 5px;padding: 20px 25px;margin-top: 15px;}
+#testimonials .owl-nav button.owl-next,
+#testimonials .owl-nav button.owl-prev {background: radial-gradient(100% 30625% at 100% 100%, #1a1a1a 0, #444 100%) !important;border-radius: 75px;width: 45px;height: 45px;top: 15%;}
+.step_inner_img {margin: 10px auto;display: table;text-align: center;}
+.step_inner_box button {background: #f7f7f7;padding: 10px 0;width: 100%;margin: 20px 0;font-weight: 500;font-size: 18px;line-height: 36px;text-align: center;cursor: auto;}
+.step_inner_box a button,
+ul.faq_list li a,
+ul.pricing_nav li a {cursor: pointer;}
+.step_inner_box ul {list-style: disc;padding-inline-start: 20px;margin: 0;}
+.faq_open_div .card-body p,
+.step_inner_box ul li {font-weight: 400;font-size: 16px;line-height: inherit;}
+.step_inner_box ul li a {text-decoration-line: underline !important;color: #0f51f6 !important;cursor: pointer !important;}
+.mt_60 {margin-top: 20px;}
+.why_lkp_content h1,
+.why_lkp_content h2 {font-weight: 600;font-size: 32px;line-height: 42px;margin: 0 0 20px !important;}
+.why_lkp_content p {font-weight: 400;font-size: 18px;line-height: 32px;}
+.faq_inner_div {width: 100%;margin-top: 30px;}
+span.free_span_color {color: #fb4343;}
+.client_review {width: 80%;margin: 0 auto;display: table;}
+.our-testimonial-carousel {margin-top: 30px;position: relative;}
+.client_review p {font-family: Poppins;font-style: normal;font-weight: 400;font-size: 22px;line-height: 36px;text-align: center;letter-spacing: 0.03em;color: #1a1a1a;}
+.client_detail h5 {font-family: Poppins;font-style: italic;font-weight: 600;font-size: 26px;line-height: inherit;letter-spacing: 0.03em;color: #030101;margin: 0 !important;}
+.client_detail h6 {font-weight: 400;color: #445e71;font-size: 14px;margin: 0 0 5px !important;text-align: left;font-style: italic;}
+.client_detail {margin-left: 15%;margin-top: 50px;margin-bottom: 30px;}
+#testimonials .owl-nav button.owl-prev {position: absolute;left: 0;}
+#testimonials .owl-nav button.owl-next span {color: #fff;font-size: 40px;line-height: inherit;position: absolute;top: -11px;left: 19px;}
+#testimonials .owl-nav button.owl-prev span {color: #fff;font-size: 40px;line-height: inherit;position: absolute;top: -11px;left: 16px;}
+#testimonials .owl-nav button.owl-next {position: absolute;right: 0;}
+#testimonials {padding: 60px 0;width: 100%;background: #fff;}
+a.faq_atag {font-family: Poppins;font-style: normal;font-weight: 600;font-size: 20px;line-height: inherit;letter-spacing: 0.03em;color: #1a1a1a;}
+ul.faq_list {display: flex;justify-content: space-between;align-items: center;padding: 0 15px;}
+a.faq_atag.active_faq {color: #5bbc21 !important;position: relative;}
+.faq_open_div .card-body p,
+.faq_open_div a.card-title {letter-spacing: 0.03em;color: #1a1a1a;font-family: Poppins;font-style: normal;}
+a.faq_atag.active_faq:after {content: "";background: #5bbc21;width: 3px;height: 20px;position: absolute;left: 48%;top: 30px;}
+.faq_open_div .card {background: #fff;box-shadow: 0 0 10px 1px rgb(26 26 26 / 10%);border-radius: 10px !important;padding: 20px 30px;}
+.faq_open_div {width: 100%;padding-top: 10px;}
+.faq_open_div .card .card-header {padding: 0;min-height: auto;border-bottom: none;cursor: pointer;justify-content: space-between;background: transparent;}
+.faq_open_div a.card-title {font-weight: 600;font-size: 18px;text-transform: capitalize;}
+.card-header[aria-expanded="true"] {padding-bottom: 15px !important;}
+.section_header_name {margin-bottom: 10px;}
+.bottom-footer p {color: #fff;font-size: 14px;font-family: Poppins;}
+.bottom-footer h1 {color: #fff;font-size: 14px !important;font-family: Poppins;margin-bottom: 1rem;line-height: 21px;}
+.company_contact p,
+.option_three_faq .faq_open_div .card-body p,
+.option_three_privacy p,
+.option_three_terms p,
+a.get_started_ready {font-size: 14px;}
+.mini-footer-caption p,
+ul.help-footer-menu li a {color: #fff;font-size: 13px;}
+.bottom-mini-footer {padding-top: 10px;border-top: 1px solid #ddd;margin-top: 20px;}
+ul.social_media_icons li {padding: 6px;display: inline-block;}
+ul.social_media_icons li a i {color: #fff;height: 35px;width: 35px;line-height: 35px;border: 1px solid #ddd;text-align: center;border-radius: 50%;font-size: 16px;}
+ul.help-footer-menu li a {padding: 10px;}
+ul.help-footer-menu li a.router-link-active {background: transparent;color:#5bbc21;}
+.basic_access.unlimited_access.free_plan {float: left;}
+.basic_access.free_plan {float: right;}
+.free_plan h5 {padding-left: 30px;margin: 0 0 20px !important;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 20px;line-height: inherit;color: #1a1a1a;}
+#faqs .accordion .card-header:after {font-family: FontAwesome;content: "\f068";float: right;}
+#faqs .accordion .card-header.collapsed:after {content: "\f067";}
+.right_modal_set_country_code_ input {margin-bottom: 0 !important;border-radius: 0 5px 5px 0;}
+.right_modal_set_country_code_ input:focus {border-top-left-radius: 0 !important;border-bottom-left-radius: 0 !important;}
+.right_modal_set_country_code_ span.input-group-addon {font-weight: 600;font-family: Poppins;background: #eee;color: #414141;padding: 9px 10px 7px;border-top: 1px solid #7e7e7e;border-bottom: 1px solid #7e7e7e;border-left: 1px solid #7e7e7e;}
+.ml-auto {margin-left: auto;}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+a.active-web-menu {color: #0ebe35 !important;}
+.basic_access.unlimited_access_content {border: none;border-radius: 0;padding: 0 !important;}
+.unlimited_access_content ul {margin: 10px 0;column-count: 2;column-gap: 2.5em;}
+ul.pricing_nav li {margin-bottom: 0;}
+.contact_heading_gradiant {font-weight: 700;font-size: 56px;margin-bottom: 30px;}
+.whybtn:hover {background-color: #5bbc21;}
+.abot_main_inner,
+.new_abot_main_inner {padding: 65px 0;background-image: url(../images/1.0/web_images/about/about-group-banner.jpg);background-position: top;background-repeat: no-repeat;position: relative;background-color: #f5f5f5 !important;}
+.abot_main_inner {height: 519px;background-size: cover;}
+.our_about {background: #fff;border-radius: 31px;margin: 30px 0;float: left;width: 100%;padding: 30px 50px;}
+.right_border img {max-width: 80%;margin: 0 auto;display: table;}
+.right_border:after {content: "";height: 100%;width: 4px;background: linear-gradient(180deg, #84c64c 0, #43c6af 48.44%, #4850c4 100%);border-radius: 7px;position: absolute;right: 0;top: 0;}
+.about_bottom_content h4 {font-family: poppins !important;font-style: normal;font-weight: 800 !important;font-size: 40px !important;line-height: 80px !important;color: #000;}
+.option_three_privacy p.pt_heading_title,
+p.big_custom_para {font-size: 16px !important;}
+.about_bottom_content p {font-family: poppins !important;font-style: normal;font-weight: 400 !important;font-size: 18px !important;line-height: 30px !important;color: #5b5b5b;}
+.shadow_effect {background: #fff;border-radius: 24px;}
+img.cstm_mid_img {width: 100px;}
+.about_content_block {padding: 30px 10px;}
+.counter {margin: 0 auto;}
+.testimonial .pic img {max-width: 65%;}
+.option_three_faq .faq_open_div a.card-title,
+.option_three_faq a.faq_atag {font-size: 16px;}
+.option_three_faq .faq_open_div .card {padding: 20px;}
+p.ads {padding-left: 10px;}
+button.check-price-top-button {color: #1a1a1a !important;background: #fff;text-transform: uppercase;padding: 5px 15px;border: 1px solid #fff;border-radius: 50px;margin-left: 15px;font-size: 12px;font-weight: 700;}
+header#openpricingbanner___BV_modal_header_ {background: 0 0;padding: 0;position: absolute;border-bottom: none;}
+header#openpricingbanner___BV_modal_header_ button.close {color: #fff;position: absolute;right: 20px;top: 10px;z-index: 1;}
+header#openpricingbanner___BV_modal_header_ button.close:hover {color: #fff;}
+.pricing-banner-new-modal-image img {border-radius: 15px;}
+button.check-price-top-button i {margin-left: 5px;}
+p.pricing-launch-date {margin-bottom: 0;font-size: 13px;color: #fff;font-family: "Nunito Sans";}
+.pricing_card .pricing_head_top,
+.pricing_card h2 {font-family: poppins;margin: 0 0 15px !important;text-align: center;}
+#pricing {background-color: #f9fef9;padding: 30px 0 80px;}
+.pricing_plans ul {background-color: #fff;border: 1px solid #c7c7c7;display: flex;}
+.pricing_plans ul li {width: 33%;padding: 10px 20px;position: relative;}
+.pricing_card {padding: 10px 15px;border-radius: 10px;background-color: #fff;margin-bottom: 15px;}
+.pricing_card .pricing_head_top {color: #5b5b5b;font-weight: 600;font-size: 18px;position: relative;}
+.pricing_card h2 {color: #1a1a1a;font-weight: 700;font-size: 26px;}
+.pricingplan_listing p {color: #000;font-size: 14px;font-weight: 400;margin: 0 0 5px !important;}
+.pricingplan_listing p i {color: #5bbc21;margin-right: 8px;}
+.pricing_started a {background-color: #fff;border: 1px solid #1a1a1a;color: #1a1a1a;font-weight: 600;font-size: 16px;border-radius: 4px;padding: 10px 60px;display: inline-block;}
+.pricing_card h3 span.discount_pricing {color: #5b5b5b;font-weight: 300;text-decoration: line-through;font-size: 24px;}
+.pricing_card h3 {margin: 0 0 15px !important;text-align: center;}
+.pricing_card h3 span.font_sans {font-weight: 300 !important;}
+.pricingplan_listing p.listing_small_para {color: #5b5b5b;font-size: 12px;font-weight: 300;}
+li.recommended_pricing {background-color: #fff;border: 1px solid #2e7b01 !important;position: absolute !important;right: 0;top: 5px;box-shadow: 0 0 10px 0 #00000061;border-radius: 12px;padding: 40px 25px 25px !important;width: 38% !important;}
+img.pricing_overlay {position: absolute;right: -10%;top: -7%;width: 44px;transform: rotate(15deg);}
+li.recommended_pricing .pricing_card {border-right: 0;padding: 0;}
+.pricingplan_listing {padding: 5px 0 10px 0;}
+li.recommended_pricing .pricing_started a {background-color: #48a013;border: 1px solid #48a013;color: #fff;font-size: 20px;}
+li.recommended_pricing .pricing_card .pricing_head_top:before {background-image: linear-gradient(to right, #2e7b01, #fff);width: 70px;left: 38%;}
+.pricing_card .pricing_head_top:before {content: "";background-image: linear-gradient(to right, #737373, #fff);height: 2px;width: 70px;position: absolute;left: 35%;bottom: -5px;}
+.pricing_plans ul li:first-child .pricing_started {margin-top: 27%;}
+.timer_otp p {font-family: Poppins;color: #7c7c7c;margin-top: 15px;}
+.resend_otp a,
+.resend_otp button {color: #1a1a1a;font-weight: 600;text-decoration: underline;font-family: Poppins;}
+a.verify_back_arrow {float: left;font-size: 20px;color: #1a1a1a;padding-right: 15px;padding-top: 0;}
+.box-shadow-none {box-shadow: none !important;}
+.timer_otp p span {color: #1a1a1a;font-weight: 600;padding-right: 5px;}
+.remember_input_box label {margin-left: 10px;font-size: 14px;}
+.login_country_code_set_part input.mobile_number_input {border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.box div:first-child {top: 12%;left: 42%;animation: 10s linear infinite animate;}
+.box div:nth-child(2) {top: 70%;left: 50%;animation: 7s linear infinite animate;}
+.box div:nth-child(3) {top: 17%;left: 6%;animation: 9s linear infinite animate;}
+.box div:nth-child(4) {top: 20%;left: 60%;animation: 5s linear infinite animate;}
+.box div:nth-child(5) {top: 67%;left: 10%;animation: 6s linear infinite animate;}
+.box div:nth-child(6) {top: 80%;left: 70%;animation: 12s linear infinite animate;}
+.box div:nth-child(7) {top: 60%;left: 80%;animation: 5s linear infinite animate;}
+.box div:nth-child(8) {top: 32%;left: 25%;animation: 6s linear infinite animate;}
+.box div:nth-child(9) {top: 90%;left: 25%;animation: 9s linear infinite animate;}
+.box div:nth-child(10) {top: 20%;left: 80%;animation: 5s linear infinite animate;}
+.box div {position: absolute;width: 100px;height: 100px;background: center/cover #fbcfcf;}
+.text-main-count-error {color: #404040;font-size: 50px;}
+.back_to_home:hover {color: #1a1a1a;background: #fff;border: 1px solid #1a1a1a;}
+.back_to_home {color: #fff;background: #1a1a1a;padding: 10px 20px;border-radius: 5px;border: 1px solid #1a1a1a;}
+@keyframes animate {
+    0% {-webkit-transform: scale(0) translateY(0) rotate(0);opacity: 1;}
+    100% {-webkit-transform: scale(1.3) translateY(-90px) rotate(0);opacity: 0;}
+}
+body ::-webkit-scrollbar {width: 2px;height: 2px;transition: background 0.3s;}
+body ::-webkit-scrollbar-thumb,
+body :hover::-webkit-scrollbar-thumb {background: #c7cfdf;}
+body ::-webkit-scrollbar-track {background: #fff;}
+.logo-image-error {margin: 30px 0 60px;}
+.logo-image-error img {width: 300px;}
+.feedback_heading {background-color: #5bbc21;padding: 25px 0;}
+.feedback_heading h2 {color: #fff;margin: 0 !important;font-family: Poppins;font-size: 30px;font-weight: 500;}
+.feedback_label label,
+.feedback_option p,
+.feedback_reason p {font-weight: 400;color: #1a1a1a;}
+.feedback_body {padding: 15px 0 0;}
+.feedback_reason p {font-size: 13px;margin: 0;}
+.feedback_option p {font-size: 13px;margin: 0 0 5px;}
+.feedback_reason {margin-bottom: 10px;}
+.feedback_label label {font-size: 12px;margin: 0 0 0 5px;}
+.feedback_label {display: flex;align-items: center;margin: 5px 0;}
+.feedback_label input[type="radio"] {appearance: auto;display: inline-block;}
+.feedback_submit button.btn {background: #1a1a1a;color: #fff;border: 1px solid #1a1a1a;padding: 5px 20px;font-size: 16px;border-radius: 5px;}
+.desktop-front-first-new-section {width: 100%;margin-top: 55px;padding: 65px 0 0;}
+.desktop-left-tally-image-web-mobile {margin: 35px 0;text-align: center;}
+.desktop-device-new-features-content-design {display: flex;align-items: center;justify-content: center;margin: 25px 0;}
+.desktop-device-new-features-content-design ul {margin-right: 20px;}
+.desktop-device-new-features-content-design ul li i {padding-right: 5px;color: #0ebe35;}
+.desktop-device-new-features-content-design ul li {font-size: 16px;color: #1a1a1a;margin-bottom: 10px;}
+button.free_download_connector_black_new_desktop {width: 55%;background: #1a1a1a;padding: 13px 25px;border-radius: 5px;font-size: 21px;text-align: left;box-shadow: 1.1144527196884155px 4.457810878753662px 11.144526481628418px 0 #00000066;}
+.desonload-connector-desktop-device-new {position: relative;margin-top: 20px;text-align: center;}
+button.free_download_connector_black_new_desktop a {color: #fff;text-transform: uppercase;}
+button.free_download_connector_black_new_desktop a img {margin-left: 10px;width: auto;height: auto;float: right;}
+.only-arrow-image-new-desktop {position: absolute;top: -30px;left: 60px;}
+.desktop-device-new-image-right img,
+.desktop-left-tally-image-web-mobile img,
+.only-arrow-image-new-desktop img,
+.why_lkp_image img {width: auto;height: auto;}
+.set-connector-message-caption-short p {margin-bottom: 0;font-size: 13px;text-align: center;color: #3f930d;background: #f0ffe3;padding: 3px 5px;font-weight: 500;}
+.set-connector-message-caption-short {margin: 10px auto;width: 56%;}
+.green_box_message {background: #5BBC21;padding: 10px 0;text-align: center;margin-top: 137px;}
+.why_lkp_content a {color: #DB0000;font-size: 15px;font-weight: 600;text-decoration: none;display: block;}
+.green_box_message p {margin: 0;color: #fff;font-family: Poppins;font-weight: 500;font-size: 16px;}
+.green_box_message ul {margin: 0;display: flex;align-items: center;justify-content: center;}
+.green_box_message ul li {color: #fff;padding-right: 10px;padding-left: 10px;border-right: 1px solid #fff;font-size: 14px;}
+.green_box_message ul li img {margin-right: 10px;width: auto;height: auto;}
+.desktop-device-new-image-right {position: absolute;right: -100px;top: 0;}
+a.website-logo-set-new {margin: 0;padding: 5px 0;}
+a.website-logo-set-new img {height: 65px;max-width: 100%;width: auto;}
+.bg-light-grey-faqs {background-color: #fdfdfd;}
+/**********NEW PRICING CSS START - GIVEN BY SURYAKANT SHAHU ***********/
+span.AmountMainSpan {padding: 0 3px;}
+.visibility-hidden{visibility: hidden;}
+.OneLineOffer{display: flex;align-items:center;justify-content: center;}
+span.GrowthAdvancedSaveOff {background-color: #FBFF38;color: #000000;font-size: 11px;font-weight: 600;border-radius: 2px;padding: 1px 5px;margin-left: 4px;}
+.pricing_card.free_pricing_card {border: 1px solid #95A5A6;}
+.pricing_card.gworth_pricing_card {border: 1px solid #5BBC21;}
+.pricing_card.recommended_pricing {border: 1px solid #5BBC21;box-shadow: 0px 0px 5px 2px #00000040;position:relative;}
+.pricing_card.gworth_pricing_card a {color: #2E7B01;border: 1px solid #5BBC21;}
+.pricing_card.recommended_pricing a {background-color: #5BBC21;border: 1px solid #5BBC21;color: #fff;}
+span.new_pricing {background-color: #FF0C0C;font-size: 9px;color: #fff;border-radius: 3px;padding: 1px 5px;margin-left: 3px;}
+.pricingplan_listing p i.fa.fa-close {color: #FF0C0C;font-size: 13px;}
+.pricing_card.free_pricing_card h2 {margin-top: 30px !important;}
+p.taxes_applicable {color: #5B5B5B;text-align: right;margin: 0 0 0 0;font-size: 12px;width:87%;}
+.pricing_card.free_pricing_card .pricing_started {margin: 20px 0;}
+.pricing_card.free_pricing_card .pricingplan_listing {margin-top: 20px;}
+.pricing_card.gworth_pricing_card .pricing_head_top:before , .pricing_card.recommended_pricing .pricing_head_top:before {background-image: linear-gradient(to right, #5BBC21, #CAF2B2);}
+.pricing_plan_selection {text-align: right;margin: 0px 0px 0px 0px;width: 100%;float: left;}
+/*******top radio button css start *******/
+span.pricing_radio input[type=radio] {display: inline-block;appearance: auto;position: absolute;left: 0;top: 0;width: 100%;height: 100%;opacity: 0;cursor: pointer;}
+span.pricing_radio.marign_right {margin-right: 10px;}
+span.pricing_radio {position: relative;display: inline-block;}
+span.pricing_radio label.radio-label {margin: 0 0;border: 1px solid #1A1A1A;border-radius: 3px;padding: 7px 25px;background-color: #FFFFFF;font-weight: 600;font-size: 14px;}
+span.pricing_radio input[type=radio]:checked+label.radio-label {background-color: #5BBC21;color: #fff;border: 1px solid #5BBC21;}
+/*******top radio button css end *******/
+span.save_pricing_plan {position: absolute;top: -12px;left: 24px;background-color: #FF0C0C;font-size: 10px;color: #fff;border-radius: 3px;padding: 1px 5px;}
+span.discount_plan_pricing {text-decoration: line-through;color: #5b5b5b;font-weight: 400;font-size: 13px;margin-right: 5px;}
+.dektop-width-set-pricing{width:75%;margin:auto !important;}
+
+/**********NEW PRICING CSS END ***********/
+span.plus_one_year {background-color: #FF5C00;color: #FFFFFF;font-size: 11px;font-weight: 600;border-radius: 5px;padding: 5px 10px;margin-left:4px;}
+span.pricing_radio input[type=radio]:checked+label.radio-label span.plus_one_year {background: #fff;color: #000;}
+.section_header_name.pricing_heading h3 {text-align: left;margin: 0 !important;}
+.section_header_name.pricing_heading span {display: inline-block;}
+span.pricing_radio label.radio-label.one_year_free {padding: 7px 15px;}
+#bookdemo {background-image: url(../images/1.0/desktopdevice/book-demo-bg.png);background-position: 100%;padding:15px 0;background-size: cover;}
+#bookdemo h4 {margin: 0 !important;color: #fff;font-weight: 500;font-size: 18px;}
+.device-wise-buy-now-button-set{margin:10px 0;}
+.book_demo_only_span_input {display: flex;width: 100%;background: #fff;border-radius: 5px;}
+.book_demo_form {width:100%;position:relative;}
+.book_demo_form span {color: #1A1A1A;font-size: 14px;padding: 11px;border-right: 1px solid #3E9808;font-weight: 600;}
+.book_demo_form input {color: #5B5B5B;font-size: 14px;padding: 0 10px;width: 100%;}
+.book_demo_form button {background-color: #3E9808;padding: 11px 15px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;color: #fff;font-size: 14px;font-weight: 600;width:auto;position:absolute;top: 0;right: 0;}
+.section_header_name.pricing_heading span {display: inline-block;position: absolute;bottom: 0px;}
+.section_header_name.pricing_heading {position: relative;margin-bottom: 0 !important;}
+.pricing_top_padding {padding-top: 60px;}
+.request_demo_number {display: inline-flex;justify-content: start;align-items: center;background-color: #FFFFFF;border-radius: 5px;border: 1px solid #1A1A1A;position:relative;}
+.request_demo_number span {color: #1A1A1A;font-size: 14px;padding: 8px 11px;font-weight: 600;border-right: 1px solid #1A1A1A;background-color: #F6F6F6;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
+.request_demo_number input {color: #5B5B5B;font-size: 14px;padding: 0 10px;width: 180px;}
+.request_demo_number button {background-color: #1A1A1A;padding: 8px 15px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;color: #fff;font-size: 14px;font-weight: 600;}
+.request_demo_number button i {font-size: 12px;}
+.requestdemotext {background-color: #F6FFF1;padding: 10px;}
+.requestdemotext p {margin: 0;color: #5BBC21;line-height: inherit;font-size: 15px;}
+p.error-message-features-mobile {margin-bottom: 0;font-size: 13px;font-weight:600;color: red;position:absolute;}
+span.spinner-for-features-related {background: transparent;color: #fff;border-radius: 0;padding: 0;padding-left: 6px;font-size: 16px;}
+span.spinner-for-bookdemo-related{background: transparent;color: #fff;border-radius: 0;padding: 0;padding-left: 6px;font-size: 14px;}
+.bookdemo-after-mobile-number{padding:10px;background:#fff;border-radius:5px;}
+.bookdemo-after-mobile-number p {margin: auto;color: #000;font-weight: 500;}
+.bookdemo-after-mobile-number p span {color: #0038FF;text-decoration: underline;padding:0 1px;}
+p.error-message-bookdemo-mobile {padding-top: 5px;margin: 0;color: #ab0000;font-size: 13px;font-weight: 500;}
+span.spinner-for-bookdemo-related i {font-size: 13px;}
+.web-login-right-heading h3 {font-size: 1.5rem;}
+.input-group-addon {margin-bottom: 0;font-size: 1rem;font-weight: 400;line-height: 1.25;text-align: center;border-radius: .25rem 0 0 .2rem;}
+.about-content p {font-size: 16px;font-weight:400;}
+.website-privacy-policy-page h1 {font-size: 2rem;margin-bottom: 2rem;}
+.website-privacy-policy-page p {font-size: 13px;}
+/***************start new pricing css*****************************/
+.PricingTextuser p {color: #5B5B5B;font-size: 14px;}
+.NewPricingDefaultDesign {padding: 10px;background: #fff;border: 2px solid #C7C7C7;margin-bottom:20px;}
+ul.FreeOneWithThreePlans {width: 100%;margin-bottom:0;}
+ul.FreeOneWithThreePlans li {padding:5px 15px;}
+li.FreeForeverLiPart {border-right: 1px solid #C7C7C7;width:30%;}
+.FreeForeverFeatures{text-align: left !important;height: 175px;margin-top: 30px;}
+.SecondOneYearFeatures{text-align: left !important;height: 175px;margin-top: 30px;}
+.ThirdThreeYearsFeatures{text-align: left !important;margin-top: 15px;}
+.FirstFreeForeverBox h4 {position: relative;color: #5b5b5b;font-weight: 600;font-size: 18px;}
+.FirstFreeForeverBox h4:before {content: "";background-image: linear-gradient(to right, #737373, #fff);height: 2px;width: 50px;position: absolute;left: 40%;bottom: -5px;}
+.FirstFreeForeverBox h3 {color: #000;font-weight: 600;margin: 20px 0;font-size:24px;}
+.FreeForeverFeatures p i {color: #5bbc21;margin-right: 10px;}
+.FreeForeverFeatures p {color: #000;font-size: 13px;margin-bottom: 8px;font-weight:400;}
+.FreeForeverBottomButton button {color: #000;border: 1px solid #1a1a1a;padding: 6px 20px;font-weight: 600;font-size: 16px;border-radius: 5px;width:80%;}
+.FreeForeverBottomButton button a{color:#000;}
+.SecondOneYearBox h4 {position: relative;color: #5b5b5b;font-weight: 600;font-size: 18px;}
+.SecondOneYearBox h4:before {content: "";background-image: linear-gradient(to right, #737373, #fff);height: 2px;width: 50px;position: absolute;left: 40%;bottom: -5px;}
+.SecondOneYearBox h3 {color: #000;font-weight: 600;margin: 20px 0;font-size:24px;}
+.SecondOneYearFeatures p i {color: #5bbc21;margin-right: 10px;}
+.SecondOneYearFeatures p {color: #000;font-size: 13px;margin-bottom: 8px;font-weight:400;}
+.SecondOneYearBottomButton button {color: #000;border: 1px solid #1a1a1a;padding: 6px 20px;font-weight: 600;font-size: 16px;border-radius: 5px;width:80%;}
+.SecondOneYearBottomButton button a{color:#000;}
+.ThirdThreeYearsBox h4 {position: relative;color: #5b5b5b;font-weight: 600;font-size: 16px;}
+.ThirdThreeYearsBox h4:before {content: "";background-image: linear-gradient(to right, #737373, #fff);height: 2px;width: 50px;position: absolute;left: 40%;bottom: -5px;}
+.ThirdThreeYearsBox h3 {color: #000;font-weight: 600;margin: 15px 0;font-size:22px;}
+.ThirdThreeYearsFeatures p i {color: #5bbc21;margin-right: 10px;}
+.ThirdThreeYearsFeatures p {color: #000;font-size: 12px;margin-bottom: 8px;font-weight:400;}
+.ThirdThreeYearsBottomButton button {color: #ffffff;border: 1px solid #00a228;background: #00a228;padding: 6px 20px;font-weight: 600;font-size: 14px;border-radius: 5px;width:90%;}
+.ThirdThreeYearsBottomButton button a{color:#fff;}
+li.SecondOneYearLiPart {width: 37%;}
+li.ThirdThreeYearsLiPart {position:relative;width: 33%;padding: 30px 15px 25px 15px !important;transform: scale(1.2);background: #fff;border: 1px solid #5bbc21;border-radius: 10px;box-shadow:0 0 5px 2px #00000040;}
+.OfferSectionThirdThree h6 {color: #5B5B5B;text-decoration: line-through;margin-bottom: 0;font-size: 13px;}
+.OfferSectionThirdThree h5 {font-size: 12px;margin-left: 10px;color: #fff;margin-bottom: 0;padding: 3px 5px;background: #0ebe35;border-radius: 5px;}
+.ThirdThreeYearsBottomButton {margin-top: 12px;}
+span.ThirdThreeYearsRecommended {position: absolute;top: -15px;left: 0;right: 0;background: #EEFFEE;padding: 5px 10px;border: 1px solid #2E7B01;color: #2E7B01;font-weight: 600;border-radius: 5px;width: 60%;margin: auto;font-size: 12px;}
+img.NewPricingOverlayPattern {width: 30px;position: absolute;right: -20px;top: -20px;transform: rotate(20deg);}
+.AdonsNewPriceDesign{margin-top:35px;}
+.AdonsNewPriceDesign p {color: #5B5B5B;}
+.AdonsNewPriceDesign p span {font-weight: 600;color: #000;}
+.AdonsNewPriceDesign p a {color: blue;font-weight: 600;text-decoration: underline;}
+/***************end new pricing css******************************/
+@media only screen and (max-width: 1580px) {
+    img.pricing_overlay {right: -9%;top: -6%;width: 35px;}
+    #pricing{padding: 22px 0 20px;}
+    .desktop-device-new-features-content-design ul li {font-size: 14px;}
+    .green_box_message {margin-top: 140px;}
+    .desktop-device-new-image-right img {max-width: 100%;}
+    .pricing_top_padding {padding-top: 50px;}
+}
+@media only screen and (max-width: 1400px) {
+    .green_box_message {margin-top: 105px;}
+    #pricing{padding: 22px 0 20px;}
+    
+}
+@media only screen and (max-width: 1366px) {
+    .pricing_top_padding {padding-top: 40px;}
+    .device-wise-buy-now-button-set{margin:0px 0 5px 0;}
+    p.taxes_applicable{width:84%;}
+    .dektop-width-set-pricing{width:70%;}
+    .green_box_message {margin-top: 100px;}
+    .desktop-front-first-new-section {width: 100%;margin-top: 60px;padding: 40px 0 0;}
+    .desktop-left-tally-image-web-mobile {margin: 20px 0;text-align: center;}
+    .desktop-device-new-features-content-design {margin: 10px 0;}
+    .desktop-device-new-image-right {right: 0;top: 0;}
+    #pricing .section_header_name, .contactForm .form-group, .form-control{margin-bottom:10px;}
+    .pricing_card .pricing_head_top, .pricing_card h2{margin: 0 0 15px !important;}
+    .pricing_card h2{font-size:20px;}
+    .pricing_card .pricing_head_top:before{bottom:-1px;}
+    .pricing_started a{font-size:14px;padding:8px 20px !important;}
+    .New_prcing_plan li.recommended_pricing .pricing_started a{font-size:18px;}
+    .New_prcing_plan .pricing_footer{margin-top:8% !important;}
+    .pricingplan_listing p{font-size:13px;}
+    .pricing_footer p{font-size:13px;}
+    span.pricing_recommended{font-size:12px;left:90px;}
+    .pricing_card .pricing_head_top{font-size:17px;}
+    .New_prcing_plan .pricing_plans ul li{padding:15px 20px !important;}
+    .pricingplan_listing p i{font-size:11px;}
+    span.per_year{font-size:16px;}
+    #pricing{padding: 22px 0 10px;}
+    img.pricing_overlay{right: -8%;top: -6%;width: 35px;}
+    .FirstFreeForeverBox h4:before{bottom:-3px;}
+    .SecondOneYearBox h4:before{bottom:-3px;}
+    .ThirdThreeYearsBox h4:before{bottom:-3px;}
+    .FreeForeverFeatures{margin-top:20px;}
+    .SecondOneYearFeatures{margin-top:20px;}
+    .ThirdThreeYearsFeatures{margin-top:10px;}
+    .FirstFreeForeverBox h3{margin:15px 0;}
+    .SecondOneYearBox h3{margin:15px 0;}
+    .ThirdThreeYearsBox h3{margin:10px 0;}
+}
+@media only screen and (max-width: 1280px) {
+    .pricing_card{padding:8px 15px;}
+    #pricing{padding: 22px 0 3px;}
+    img.pricing_overlay{width: 30px;}
+    #bookdemo{padding:11px 0;}
+    .pricing_top_padding {padding-top: 28px;}
+    .New_prcing_plan .pricing_plans ul li.free_pricing{margin-top:68px;}
+    span.pricing_recommended{left:90px;}
+    .New_prcing_plan li.growth_pricing{right:323px;top:40px;}
+    .green_box_message {margin-top: 88px;position: relative;z-index: 1;}
+    .desktop-left-tally-image-web-mobile {margin: 10px 0;}
+    .desktop-device-new-image-right img {max-width: 90%;}
+    .desktop-left-tally-image-web-mobile img {max-width: 80%;}
+    button.free_download_connector_black_new_desktop {width: 55%;font-size: 18px;}
+    .only-arrow-image-new-desktop {left: 60px;}
+    .FreeForeverFeatures{margin-top: 20px;}
+.SecondOneYearFeatures{margin-top: 20px;}
+.ThirdThreeYearsFeatures{margin-top: 10px;}
+li.ThirdThreeYearsLiPart{padding: 25px 15px 25px 15px !important;}
+.ThirdThreeYearsBox h3{margin:12px 0;}
+.ThirdThreeYearsFeatures p{font-size:11px;margin-bottom:6px;}
+.SecondOneYearFeatures p{font-size: 12px;margin-bottom:6px;}
+.FreeForeverFeatures p{font-size:12px;margin-bottom:6px;}
+.AdonsNewPriceDesign p{font-size: 12px;}
+.FirstFreeForeverBox h3{font-size: 20px;}
+.SecondOneYearBox h3{font-size: 20px;}
+.ThirdThreeYearsBox h3{font-size: 18px;}
+.NewPricingDefaultDesign{padding:8px;}
+.ThirdThreeYearsBox h4{font-size: 14px;}
+.SecondOneYearBox h4{font-size: 16px;}
+.FirstFreeForeverBox h4{font-size: 16px;}
+}
+@media only screen and (max-width: 1024px) {
+    .request_demo_number span{padding:6px 11px;}
+    .pricing_top_padding {padding-top: 20px;}
+    .request_demo_number button{padding:8px 7px;font-size:12px;}
+    span.spinner-for-features-related{font-size:14px;}
+    p.taxes_applicable{width:96%;}
+    .dektop-width-set-pricing{width:95%;}
+    span.pricing_recommended{left:75px;}
+    button.free_download_connector_black_new_desktop {width: 72%;font-size: 18px;}
+    .only-arrow-image-new-desktop {left: 0px;}
+    .set-connector-message-caption-short {width: 60%;}
+    .desktop-left-tally-image-web-mobile img {max-width: 95%;width: auto;height: auto;}
+    .FreeForeverBottomButton button{width:90%;font-size: 13px;}
+    .SecondOneYearBottomButton button{width:90%;font-size: 13px;}
+    .ThirdThreeYearsBottomButton button{width:90%;font-size: 13px;}
+    .ThirdThreeYearsFeatures p{font-size:10px;margin-bottom:6px;}
+.SecondOneYearFeatures p{font-size: 11px;margin-bottom:6px;}
+.FreeForeverFeatures p{font-size:11px;margin-bottom:6px;}
+}
+@media only screen and (max-width: 991.98px) {
+    .pricing_card.free_pricing_card {width:100%;margin:0 auto 0 auto;}
+    .New_prcing_plan .pricing_plans ul li.free_pricing{margin-top:20px;}
+    .New_prcing_plan li.growth_pricing{position:unset;}
+    a.help-number-withoutbox i {font-size: 18px;color: #1a1a1a;padding: 2px 10px;margin-top:4px;}
+    .pricing_card {border-right: 0; padding: 15px 20px !important;}
+    a.help-number-withoutbox img {width: 22px;}
+    .desktop-device-new-image-right {display: none;}
+    .why_lkp_image img{width:100%;}
+    p.taxes_applicable {text-align: center;margin-top: 10px;}
+    .pricing_card {margin-bottom: 15px !important;}
+    .pricing_card.recommended_pricing {margin-top: 25px !important;}
+    span.pricing_recommended {left: 28% !important;width: 45% !important;text-align: center !important;top: 1.5% !important;}
+    .pricing_card.recommended_pricing {margin-top: 20px !important;padding-top: 35px !important;}
+    img.pricing_overlay {display: none;}
+    .pricing_card .pricing_head_top:before {left: 45% !important;}
+    #bookdemo {margin: 0 auto !important;text-align: center !important;padding: 15px;background-size: cover;}
+    .book_demo_form {margin-top: 5px !important;}
+    .bookdemo-after-mobile-number{margin-top:10px;}
+    
+}
+@media only screen and (max-width: 768px) {
+    .book_demo_form button{position: unset;width:100%;margin:10px 0;border-radius:5px;}
+    .pricing_card .pricing_head_top:before{bottom:-5px;}
+    .pricing_card .pricing_head_top, .pricing_card h2{margin: 0 0 15px !important;}
+    .mobile-device-hide-front-first {display: none;}
+    .desktop-device-hide-new-frot,
+    br.display-block {display: block;}
+    section.mobile-devicenew-design-front-section {margin-top: 60px;padding: 40px 0 0;}
+    .mobile-device-front-inner-main-div {text-align: center;}
+    .mobile-device-connect-with-tally-div span {color: #06701e;padding: 10px 20px;font-weight: 600;font-size: 15px;background: #fafff7;border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;}
+    .mobile-device-features-separate ul {margin-bottom: 0;display: flex;align-items: center;justify-content: space-evenly;}
+    .mobile-device-features-separate ul li {margin: 15px 0;}
+    .mobile-device-features-logo-new img {margin-bottom: 15px;}
+    .mobile-device-features-content-caption-new p {color: #1a1a1a;font-weight: 600;font-size: 13px;margin-bottom: 0;}
+    .form-box-mobile-number-mobile-device {padding: 20px;background: #f8fff3;border-radius: 10px;border: 1px solid #ddd;}
+    .form-box-mobile-number-input-mobile-device {display: flex;align-items: center;width: 60%;margin: 5px auto;box-shadow: 0 4px 4px 0 #0000000d;}
+    span.input-group-addon-mobile-device {padding: 14px;background: #fff;border-top-left-radius: 5px;border-bottom-left-radius: 5px;border-top: 2px solid #646464;border-bottom: 2px solid #646464;border-left: 2px solid #646464;color: #1a1a1a;font-weight: 600;}
+    input.mobile-device-input-mobile-number-form {color: #1a1a1a;border: 2px solid #646464;font-family: poppins !important;font-size: 13px;height: 51px !important;border-radius: 0 5px 5px 0;}
+    .form-box-title-heading-mobilenumber h4 {color: #1a1a1a;font-size: 18px;}
+    button.get-started-btn-form-mobile {background: #1a1a1a;color: #fff;padding: 10px 20px;border-radius: 5px;font-size: 12px;font-weight: 500;margin: 10px 0;}
+    .mobile-device-connect-with-tally-div {margin-bottom: 18px;}
+    .mobile-device-tally-new-logo-heading-part {margin-bottom: 15px;margin-top: 15px;}
+    .mobile-device-trusted-bg-content-caption {width: 100%;background-image: url("/assets/images/1.0/mobiledevice/trustedbg.png");background-position: center;background-repeat: no-repeat;margin-top: 20px;border-radius: 10px;}
+    .mobile-device-trusted-bg-image-content h5 {font-size: 18px;padding: 15px 0;margin-bottom: 0 !important;font-weight: 400;color: #1a1a1a;}
+    .mobile-device-trusted-bg-image-content h5 span {font-weight: 600;}
+    .mobile-device-trusted-bg-image-content ul {display: flex;align-items: center;justify-content: center;}
+    .mobile-device-trusted-bg-image-content ul li {margin-bottom: 15px;padding-right: 20px;padding-left: 20px;border-right: 1px solid #a0a0a0;color: #1a1a1a;font-size: 12px;}
+    .mobile-device-trusted-bg-image-content ul li:last-child {border-right: none;}
+    .mobile-device-trusted-bg-image-content ul li img {padding-right: 10px;}
+    .get-started-button-mobile-device-form {margin-top: 10px;}
+    p.error-message-mobile-device {color: red;font-weight: 500;font-size: 13px;text-align: left;margin-bottom: 0 !important;padding-top: 2px;margin-left: 30%;}
+    .pricing_card .pricing_head_top:before {left: 44% !important;}
+    .dektop-width-set-pricing {width: 75%;}
+    .whatsapp_fix_icon span {display: none !important;}
+    .whatsapp_fix_icon {padding: 8px !important;}
+    .mobile_footer_only_whatsapp_button {bottom: 70px !important;}
+}
+@media only screen and (max-width: 767.98px) {
+    .pricing_plan_selection {text-align: center !important;margin-top: 15px !important;}
+    .section_header_name.pricing_heading h3 {text-align: center !important;}
+    .section_header_name.pricing_heading span {display: block !important;position: relative !important;}
+    .pricing_top_margin {margin-top: 15px !important;}
+    #bookdemo .dektop-width-set-pricing {width: 100% !important;}
+    ul.FreeOneWithThreePlans{display:block !important;}
+    li.FreeForeverLiPart{width: 100%;border-right: none;border: 1px solid #C7C7C7;background:#fff;border-radius:10px;}
+    ul.FreeOneWithThreePlans li{padding: 20px 15px;margin-bottom: 20px;}
+    .FreeForeverFeatures{height:auto;margin:20px 20px;}
+    li.SecondOneYearLiPart{width: 100%;border: 1px solid #C7C7C7;background:#fff;border-radius:10px;}
+    .SecondOneYearFeatures{height:auto;margin:20px 20px;}
+    li.ThirdThreeYearsLiPart{width: 100%;transform: scale(1);margin-top: 30px;}
+    img.NewPricingOverlayPattern{display: none;}
+    .NewPricingDefaultDesign{border:none;background: transparent;}
+    .OfferSectionThirdThree h5{font-size:12px !important;line-height:normal;}
+    .ThirdThreeYearsBox h3{font-size:30px;margin:15px 0;}
+    .SecondOneYearBox h3{font-size:30px;}
+    .FirstFreeForeverBox h3{font-size:30px;}
+    .ThirdThreeYearsBottomButton button{width:100%;}
+    .SecondOneYearBottomButton button{width:100%;}
+    .FreeForeverBottomButton button{width:100%;}
+    .ThirdThreeYearsBottomButton{margin-top:25px;}
+    .FreeForeverFeatures p{font-size:16px;margin-bottom:12px;}
+    .ThirdThreeYearsFeatures{margin:20px 20px;}
+    .SecondOneYearFeatures p{font-size:16px;margin-bottom:12px;}
+    .ThirdThreeYearsFeatures p{font-size:16px;margin-bottom:12px;}
+    .NewPricingDefaultDesign{margin-bottom:0;}
+    .AdonsNewPriceDesign{margin-top:0px;}
+    .PricingTextuser p{margin-bottom:0;text-align:center;}
+}
+@media only screen and (max-width: 600px) {
+    .request_demo_number{width:100%;}
+    .request_demo_number button{font-size:12px;padding:11px 5px;width:100%;}
+    span.spinner-for-features-related{display:none;}
+    .dektop-width-set-pricing{width:100%;}
+    .pricing_card .pricing_head_top:before {left: 37% !important;}
+    span.pricing_recommended{font-size:13px !important;}
+    .pricingplan_listing p{font-size:14px !important;}
+    p.error-message-mobile-device {margin-left: 21%;}
+    section.mobile-devicenew-design-front-section {margin-top: 40px;}
+    .mobile-device-trusted-bg-image-content ul li {font-size: 11px;padding-right: 10px;padding-left: 10px;}
+    button.get-started-btn-form-mobile {padding: 12px 40px;font-size: 16px;margin-top: 15px;}
+    .form-box-mobile-number-mobile-device {padding: 25px 20px;margin: 10px 0;}
+    .mobile-device-trusted-bg-image-content h5 {font-size: 17px !important;}
+    .form-box-mobile-number-input-mobile-device {width: 100%;}
+}
+@media only screen and (max-width: 600px) {.why_lkp_image{margin:20px 0;}}

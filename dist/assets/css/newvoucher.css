@@ -1,0 +1,538 @@
+.bg-green-header-card{background: #5bbc21;}
+.color-white-text{color:#fff !important;}
+.VoucherNumberNewEntryRechanges {width: 100%;position:relative;padding: 8px;box-sizing: border-box;border: 1px solid #c6c6c6;border-radius: 5px;position: relative;background: #fff;}
+label.voucherNumberLabel {position: absolute;padding: 2px 10px;top: -10px;z-index: 1;left: 3%;font-size: 11px;color: #525252;background: linear-gradient(0deg, #fff, #F1F5F9);}
+p.PencilIconRight {position: absolute;right: 0px;top: 0px;background: #f6f6f6;padding: 8px 14px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+.editVoucherboxRechanges {z-index:3;width:500px;position: absolute;padding: 10px;background: #fff;right: 0%;left:70%;top: 30px;box-shadow: 1px 1px 5px #C6C6C6;border-radius: 10px;border:1px solid #C6C6C6;}
+.editVoucherboxRechanges:before {content: "";position: absolute;top: -20px;left: 11%;transform: translateX(0);border-width: 10px;border-style: solid;border-color: transparent transparent white transparent;}
+label.fontssetlabelRechanges{font-size: 13px;font-weight:500;}
+button.VoucherSaveButtonRechanges {background: #1a1a1a;color: #fff;padding: 3px 15px;border-radius: 3px;border: 1px solid #1a1a1a;}
+button.VoucherCancelButtonRechanges {padding: 3px 15px;background: #fff;border: 1px solid #1a1a1a;border-radius: 3px;}
+.custominputboxnewentryradioRechanges {display: flex;align-items: center;}
+.onlyinputcustomradioRechanges {display: flex;align-items: center;}
+.onlyinputcustomradioRechanges input {font-size: 13px;}
+.ReferencetypesearchRechanges {position: relative;width:60%;}
+.OutReferencetypesearchRechanges{width:33%;}
+.ReferencetypesearchRechanges input {width: 100%;padding: 8px;box-sizing: border-box;border: 1px solid #ddd;border-radius: 5px;position:relative;font-size:11px;background:#fff;}
+.ReferencetypesearchRechanges ul {position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;overflow-x:hidden;}
+.ReferencetypesearchRechanges li {padding: 5px 8px;cursor: pointer;}
+.ReferencetypesearchRechanges li:hover {background-color: #f1f1f1;}
+.OutReferencetypesearchRechanges span.borderlinetextdropdownRechanges{background: linear-gradient(0deg, #fff, #F1F5F9);}
+.OutReferencetypesearchRechanges ul li{font-size: 11px;}
+span.borderlinetextdropdownRechanges {position: absolute;background: #fff;padding: 2px 10px;top: -10px;z-index: 1;left: 3%;font-size:11px;color:#525252;}
+span.backgroundgradientRechanges {background: linear-gradient(0deg, #fff, #F1F5F9);}
+.newbackentryinvoicedateRechanges input {border: none;font-size: 11px;padding: 0;border-radius: 0;font-weight:500;}
+.newbackentryinvoicedateRechanges {width: 100%;position:relative;padding: 7px 8px;box-sizing: border-box;border: 1px solid #c6c6c6;border-radius: 5px;background: #fff;}
+.newbackentryinvoicedateRechanges span.sales_date_img_new{position: absolute;top:0;right:0;}
+label.VoucherDateRechanges {position: absolute;padding: 2px 10px;top: -10px;z-index: 1;left: 3%;font-size: 11px;color: #525252;background: linear-gradient(0deg, #fff, #F1F5F9);}
+.newbackentryinvoicedateRechanges .vdp-datepicker .cell.day-header {font-size: 100%;}
+.newbackentryinvoicedateRechanges img {width: 16px;}
+.newbackentryinvoicedateRechanges input:focus{outline:0;box-shadow:none;border:none;}
+button.inputcrossiconRechanges {position: absolute;right: 5px;top: 9px;height: 18px;width: 18px;line-height:18px;background: #eee;border-radius: 50%;}
+button.inputcrossiconRechanges i {font-size: 10px;color: #5e5e5e;}
+.OtherTypeSearchDropdownRechanges {position: relative;}
+.OtherTypeSearchDropdownRechanges input {width: 100%;padding: 8px;box-sizing: border-box;border: 1px solid #c6c6c6;border-radius: 5px;position:relative;background:#fff;font-size:11px;font-weight:500;color:#1a1a1a;}
+.OtherTypeSearchDropdownRechanges ul {position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;overflow-x:hidden;}
+.OtherTypeSearchDropdownRechanges li {font-size:11px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #ddd;font-weight:500;}
+.OtherTypeSearchDropdownRechanges li:hover {background-color: #f1f1f1;}
+.partynameleftsearchabledrpdwnRechanges p{font-size:11px;color:#1a1a1a;font-weight:500;}
+.partynamerightsearchabledrpdwnRechanges p{font-size:11px;color:#525252;}
+.input-search-icon-Rechanges {position: absolute;right: 5px;top: 9px;height: 18px;width: 18px;line-height:18px;color: #B6B6B6;background:#fff;}
+.ledgertypeinnerdropdownRechanges p{font-size:11px;}
+.ledgertypeinnerdropdownRechanges h6{font-size:10px;color:#797979;font-weight:400;}
+.ledgertypeinnerdropdownRechanges h6 span{color:#1a1a1a;}
+.NewBackentryBottomRechanges {background: #fff;padding: 10px 20px;position: fixed;width: 90%;bottom: 0;box-shadow: 1px 1px 5px #ababab;z-index:2;}
+.sidebar-mini.sidenav-toggled .NewBackentryBottomRechanges{width:96%;}
+button.CreateVoucherButtonBottomRechanges {border:1px solid transparent;background: #1a1a1a;color: #fff;padding: 7px 15px;border-radius: 3px;}
+button.CreateVoucherButtonBottomRechanges:disabled{background: #B6B6B6;}
+.TopInnerBackEntrySectionRechanges {padding: 0 15px;}
+.MiddleTableFormatBackEntryRechanges{padding:0 20px;margin-top:10px;}
+table.TableMiddleBackEntryRechanges tr th, table.TableMiddleBackEntryRechanges tr td {border-left:1px solid #ddd;padding:5px 8px;font-weight:600;font-size:12px;}
+table.TableMiddleBackEntryRechanges tr {border-bottom: none;}
+table.TableMiddleBackEntryRechanges tr th{background:#e7e7e7;}
+table.TableMiddleBackEntryRechanges tr td{background:#fff;}
+.TableItemsserachableDropdownRechanges {position: relative;}
+.TableItemsserachableDropdownRechanges input {width: 100%;padding: 5px 8px;box-sizing: border-box;border: 1px solid #c6c6c6;border-radius: 2px;position:relative;background:#fff;font-size:11px;font-weight:500;color:#1a1a1a;}
+.TableItemsserachableDropdownRechanges ul {width:100%;position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;overflow-x:hidden;}
+.TableItemsserachableDropdownRechanges li {font-size:11px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #ddd;text-align:left;font-weight:500;}
+.TableItemsserachableDropdownRechanges li:hover {background-color: #f1f1f1;}
+.itemsnamewithhsnRechanges h6{font-size:11px;color:#1a1a1a;font-weight:500;}
+.itemsnamewithhsnRechanges p{font-size:10px;color:#6C757D;font-weight:400;}
+.tableitemsrightquantityRechanges p{font-size:10px;font-weight:400;}
+.input-search-icon-Rechanges-Tableitems {position: absolute;right: 5px;top: 5px;height: 18px;width: 18px;line-height:18px;color: #B6B6B6;background:#fff;}
+button.inputcrossiconRechangesTableitems {position: absolute;right: 5px;top: 5px;height: 18px;width: 18px;line-height:18px;background: #eee;border-radius: 50%;}
+button.inputcrossiconRechangesTableitems i {font-size: 10px;color: #5e5e5e;}
+.color-green-item-text {color: #3A9A0D;}
+.color-red-item-text {color: #D14548;}
+.color-red-icon-delete{color:#d14548;}
+.InnerTableBackEntrytdDivRechanges select {width: 100%;border: none;padding: 5px;appearance: none;-webkit-appearance: none;-moz-appearance: none;font-size: 10px;font-weight:500;}
+.InnerTableBackEntrytdDivRechanges {background: #fff;border: 1px solid #C6C6C6;border-radius: 2px;}
+.InnerTableBackEntrytdDivRechanges input {padding: 5px;width:100%;font-weight:500;}
+.InnerTableBackEntrytdDivRechanges select:focus {outline: 0;}
+.InnerTableBackEntrytdDivRechanges.CustomSelect{position: relative;width:100%;}
+.CustomSelect:after{content: '\25BC';font-size: 10px;color: #8a8a8a;position: absolute;right: 10px;top: 50%;transform: translateY(-50%);pointer-events: none; /* Ensure the arrow is not clickable */}
+button.NewItemNewBackEtryRechanges {font-weight: 500;color: #ffffff;height: 20px;width: 20px;line-height: 20px;text-align: center;background: #1a1a1a;border-radius: 2px;}
+button.NewItemNewBackEtryRechanges i {font-size: 10px;}
+table.TableMiddleBackEntryRechanges {border: 1px solid #ddd;}
+.NarrationTaxesDivRechanges {padding: 0 20px;padding-bottom:80px;margin-top:15px;}
+.TextareaNarrationRechanges {border: 1px solid #C6C6C6;border-radius: 5px;padding: 6px 10px;}
+.NarrationBoxesNewBackRechanges, .TaxesBGwhitebox {padding: 10px;background: #fff;border-radius:5px;}
+.NarrationLabelCloseRechanges {display: flex;align-items: center;justify-content: space-between;}
+.NarrationLabelCloseRechanges a {color: #1a1a1a;}
+span.newaddplusnackentryRechanges {color: #1A78FF;font-weight: 600;font-size:12px;}
+.TaxesInputNewBackEntryRechanges input::placeholder {font-size: 11px;}
+.TaxSelectoptionDropdownRechanges select {background: #fff;width: 100%;border: 1px solid #C6C6C6;padding: 5px 10px;border-radius: 3px;-webkit-appearance: auto;font-size: 11px;}
+.TaxesInputNewBackEntryRechanges input {border: 1px solid #C6C6C6;padding: 7px 10px;border-top-left-radius: 5px;border-bottom-left-radius:5px;width: 100%;background:#fff;font-size: 11px;}
+.DeleteicontaxesinnerRechanges a {color: #d14548;}
+.TaxSelectoptionDropdownRechanges select:focus{outline:0;}
+.ledgeramountwithdrdropdownRechanges {display: flex;align-items: center;border: 1px solid #C6C6C6;border-radius: 3px;}
+.ledgeramountwithdrdropdownRechanges select {font-size: 11px;-webkit-appearance: auto;padding: 6px 3px;background: #F1FFF2;border-top-right-radius:5px;border-bottom-right-radius:5px;}
+.border-none{border:none !important;}
+.ledgeramountwithdrdropdownRechanges select:focus{outline:0;}
+.ledgeramountwithdrdropdownRechanges input{position:relative;}
+.AdvanceSettingNewBackEntryRechanges {padding: 10px 10px;background: #fff;border-radius: 5px;}
+.AdvanceSettingsFirstCaptionRechanges h6 {font-size: 13px;font-weight: 500;}
+.NarrationLabelCloseRechanges h6 {font-size: 13px;font-weight: 500;}
+.AdvanceSettingNewBackEntryRechanges ul li {font-size: 11px;}
+.AdvanceSettingNewBackEntryRechanges ul li a.details_link_active {font-weight: 600;color: #00B0FF;border-bottom:2px solid #00B0FF;}
+ul.advancedSetingsulRechanges{padding:8px 0;border-bottom:2px solid #ddd;}
+.AdvanceSettingNewBackEntryRechanges ul li a {padding: 8px 5px;border-bottom: 2px solid transparent;}
+span.AdvancedSettingspanRechanges {position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding:2px 5px;color:#525252;}
+.AdvancedSettingInputRechanges input {border: 1px solid #C6C6C6;padding: 7px 10px;border-radius: 3px;width: 100%;font-size:11px;}
+.AdvancedSettingInputRechanges span.AdvancedSettingspanRechanges{position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding:2px 5px;color:#525252;}
+.AdvancedSettingInputRechanges textarea {border: 1px solid #C6C6C6;padding: 7px 10px;border-radius: 3px;width: 100%;font-size:11px;}
+span.SalesDateImagePickerRechanges {position: absolute;right: 10px;top: 5px;}
+.AdvancedSettingInputRechanges .vdp-datepicker input {font-size: 11px;}
+.AdvancedSettingInputRechanges .vdp-datepicker input:focus{border-color:#C6C6C6 !important;}
+span.SalesDateImagePickerRechanges img {width: 16px !important;filter: opacity(0.6);}
+.AdvancedSettingInputRechanges .vdp-datepicker__calendar .cell{height:25px;line-height:25px;font-size:11px;}
+.VoucherNumberNewEntryRechanges p {font-size: 11px;font-weight:500;}
+.newbackentryinvoicedateRechanges p {font-size: 11px;font-weight:500;}
+.w-full{width:100%;}
+.scroll-arrow-Rechanges {position: fixed;right: 20px;bottom: 75px;width: 34px;height: 34px;border:1px solid #1a1a1a;background-color: #fff;color: #1a1a1a;display: flex;justify-content: center;align-items: center;cursor: pointer;border-radius: 50%;z-index: 1000;transition: opacity 0.3s;}
+.scroll-arrow-Rechanges i {font-size: 15px;}
+.OtherwithTaxesserachableDropdownRechanges {position: relative;}
+.OtherwithTaxesserachableDropdownRechanges input {width: 100%;padding: 7px;box-sizing: border-box;border: 1px solid #C6C6C6;border-radius: 5px;position:relative;background:#fff;font-size:11px;font-weight:500;}
+.OtherwithTaxesserachableDropdownRechanges ul {width:100%;position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;overflow-x:hidden;}
+.OtherwithTaxesserachableDropdownRechanges li {font-size:10px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #C6C6C6;}
+.OtherwithTaxesserachableDropdownRechanges li:hover {background-color: #f1f1f1;}
+span.borderlinetextdropdownTaxesRechanges {position: absolute;background: #fff;padding: 2px 10px;top: -13px;z-index: 1;left: 3%;font-size:10px;color:#525252;}
+span.borderlinetextdropdownTaxesAmountRechanges {position: absolute;background: #fff;padding: 2px 10px;top: -13px;z-index: 1;left: 3%;font-size:10px;color:#525252;}
+.taxesledgerssearchiconRechanges {position: absolute;right: 5px;top: 9px;height: 14px;width: 14px;line-height: 14px;color: #B6B6B6;background: #fff;font-size: 11px;}
+button.inputcrossicontaxesRechanges {position: absolute;right: 5px;top: 7px;height: 18px;width: 18px;line-height: 18px;background: #eee;border-radius: 50%;}
+button.inputcrossicontaxesRechanges i {font-size: 10px;color: #5e5e5e;}
+.otherledgers-searchable-Rechanges h6{font-size:11px;color:#1a1a1a;font-weight:500;}
+.AddTaxesWithSubTotalMainBoxRechanges {padding: 10px 15px;background: #fff;border-radius: 5px;}
+.InnerSubTotalBoxes {padding: 10px;background: #F7FFF3;border-radius:3px;}
+table.TableInnerSubtotal tr td {color: #626262;font-size: 12px;padding-bottom: 5px;}
+table.TableInnerSubtotal tr {border-bottom: none;}
+table.TableInnerGrandTotal tr td {color: #1a1a1a;font-size: 16px;font-weight: 600;padding-top: 5px;}
+table.TableInnerGrandTotal tr {border-bottom: none;}
+table.TableInnerGrandTotal {border-top: 1px solid #e4e4e4;}
+table.TableInnerSubtotal {margin-bottom: 5px;}
+a.TableInnerInfo i {height: 16px;width: 16px;background: #5bbc21;text-align: center;color: #fff;line-height: 16px;border-radius: 50%;font-size: 10px;margin-left: 4px;}
+.NewBackentryBottomInnerRechanges ul {margin-bottom: 0;}
+.NewBackentryBottomInnerRechanges ul li {margin: 0 10px;}
+button.CreateeInvoiceeWayButtonBottom {color: #1a1a1a;background: #fff;border: 1px solid #1a1a1a;padding: 7px 15px;border-radius: 3px;font-weight: 600;}
+button.CreateeInvoiceeWayButtonBottom img {margin: 0 0 0 8px;width: 16px;}
+.TabContentDivMainTabSpace{height:auto; min-height: 150px;}
+.TaxesBGwhiteboxRechanges table tr{border-bottom:none;}
+.TaxesBGwhiteboxRechanges table tr td {border-bottom: none;padding: 8px 5px;}
+.DeleteicontaxesinnerRechanges a i {font-size: 12px;}
+.NarrationLabelCloseRechanges i {font-size: 11px;}
+.AdvanceSettingsFirstCaptionRechanges i {font-size: 11px;}
+button.EWayCloseButtonIcon {position: absolute;top: -50px;right: -15px;}
+button.EWayCloseButtonIcon i {color: #000;height: 20px;width: 20px;text-align: center;line-height: 20px;background: #efefef;border-radius: 50%;font-size: 11px;}
+#EWayLoginModal___BV_modal_content_ {max-width: 70%;margin: auto;}
+.EWayLoginModalCaption h4 {font-size: 18px;color: #1a1a1a;font-weight: 600;}
+.EWayModalLoginSteps ul {display: flex;align-items: center;justify-content: space-around;position:relative;}
+.EWayModalLoginSteps {margin-top: 24px;}
+.EWayModalLoginSteps ul li label.number {font-size: 14px;text-align: center;height:24px;width:24px;line-height:23px;border-radius:50%;margin-bottom:12px;position: relative;z-index: 2;}
+label.number.BgCustomGreen {background: #5bbc21;color: #fff;border: 1px solid #5bbc21;}
+label.number.BgLightGray {background: #f5f5f5;color: #797979;border: 1px solid #626262;}
+h5.StepsHeadingGreen {font-size: 14px;color: #000;}
+h5.StepsHeadingGray {font-size: 14px;color: #616567;}
+.EWayModalLoginSteps ul::after {position: absolute;content: "";display: block;width: 50%;top: 12px;height: 1px;border: 1px dotted #c6c6c6;}
+.EWayLoginCarouselBox ol li {padding: 0;font-size: 10px;width: 6px;height: 6px;display: flex;align-items: center;justify-content: center;transition: transform 0.3s ease; background: #d6d6d6;border-radius: 50%;}
+.EWayLoginCarouselBox ol {list-style: disc;position: absolute;right: 0;left: 0;bottom: 0;z-index: 2;padding: 0;display: flex;align-items: center;justify-content: space-around;width: 30%;margin: 20px auto;}
+.EWayLoginCarouselBox ol li.active {transform: scale(1.5);transform-origin: center; background:#000;}
+.EWayLoginCarouselBox .carousel-inner{height:320px;}
+.EWayLoginCarouselBox .carousel-item{height:320px;}
+.EWayLoginCarouselBox .carousel-item {background: #f6f6f6 !important;border-radius: 10px;}
+.EWayLoginCarouselBox .carousel {background: #f6f6f6 !important;border-radius: 10px;}
+.EWayLoginCarouselBox .carousel-control-next-icon{filter:invert(1);width:20px;}
+.EWayLoginCarouselBox .carousel-control-prev-icon{filter:invert(1);width:20px;}
+.slide-content h5 {margin-bottom: 0;margin-top: 20px;color: #1a1a1a;font-size: 14px;text-shadow: none;font-weight: normal;}
+.slide-content p a {text-shadow: none;font-size: 12px;color: #2980B9;font-weight:normal;}
+.slide-content h5 span {font-weight: 600;}
+.EWayLoginCarouselBox .carousel-caption{bottom:auto;}
+.EWayLoginPopupForm input {border: 1px solid #C6C6C6;padding: 10px 10px;border-radius: 3px;width: 100%;font-size: 11px;}
+span.EWayLoginPopupFormLabel {position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding: 2px 5px;color: #525252;}
+.EWayLoginButton button {border: 1px solid transparent;background: #1a1a1a;color: #fff;padding: 10px 15px;border-radius: 3px;width: 100%;}
+.EWayLoginButton button:disabled {background: #B6B6B6;}
+.eye-icon-gsp-password {position: absolute;right: 10px;top: 50%;transform: translateY(-50%);cursor: pointer;}
+.SupplyTypeRadioButton {display: flex;align-items: center;}
+.SupplyTypeRadioButton .invoice_radio_button label {color: #616567 !important;font-size:12px;font-weight:300;padding-left:24px;}
+.SupplyTypeRadioButton .invoice_radio:not(:checked)+label, .SupplyTypeRadioButton .invoice_radio_button .invoice_radio:checked+label{padding-left:24px;}
+.SupplyTypeRadioButton .invoice_radio_button {padding: 0 10px;}
+label.eWayBillDetailsPopupLabel{font-size: 13px;font-weight: 400;color: #1a1a1a;}
+span.Validationspanerror {color: red;}
+.eWayBillDetailsPopupDropdown select {padding: 5px 5px;margin-left: 5px;border: 1px solid #e4e4e4;border-radius: 5px;background: #f5f5f5;font-size: 12px;font-weight: 400;-webkit-appearance: auto;color: #1a1a1a;width:45%;}
+.eWayBillDetailsPopupDropdown select:focus {outline: 0;}
+.eWayBillDetailsPopupInputText input {background: #f5f5f5;border: 1px solid #e4e4e4;border-radius: 5px;padding: 5px 5px;margin-left: 5px;font-weight: 400;color: #1a1a1a;width: 45%;font-size:12px;}
+.eWayBillDetailsPopupInputDate {display: flex;align-items: center;}
+.eWayBillDetailsPopupInputDatepicker {position: relative;padding: 5px 5px;border: 1px solid #e4e4e4;border-radius: 5px;margin-left: 5px;background: #f5f5f5;display: flex;align-items: center;justify-content: space-between;width: 45%;}
+span.DocDateDatePicker {position: absolute;right: 10px;top: 5px;}
+span.DocDateDatePicker img {width: 16px;filter: invert(.5);}
+.eWayBillDetailsPopupInputDatepicker .vdp-datepicker input {border: none;font-size: 11px;padding: 0;border-radius: 0;font-weight: 500;}
+.eWayBillDetailsPopupInputDatepicker .vdp-datepicker__calendar {right: 5%;}
+label.setWidthsupplytypewithdoctype {width: 35%;}
+label.setWidthsubtypedocno {width: 35%;}
+label.setWidthttypewithdocdate {width: 45%;}
+.eWayBillDetailsPopupDropdown select:disabled {color: #c5c5c5 !important;}
+.TransportDetailseWaybillpopupHeading {padding: 5px 10px;background: #e3e3e3;margin-bottom:10px !important;}
+.TransportDetailseWaybillpopupHeading h6 {font-size: 13px;margin-bottom: 0;}
+.TransportDetailsDropdown select {padding: 5px 5px;margin-left: 5px;border: 1px solid #e4e4e4;border-radius: 5px;background: #f5f5f5;font-size: 12px;font-weight: 400;-webkit-appearance: auto;color: #1a1a1a;width: 50%;}
+.TransportDetailsDropdown select:focus{outline:0;}
+.TransportDetailsInputtext input {background: #f5f5f5;border: 1px solid #e4e4e4;border-radius: 5px;padding: 5px 5px;margin-left: 5px;font-weight: 400;color: #1a1a1a;font-size:12px;width:50%;}
+.eWayBillDetailsPopupPartBDetailsInputTextwithDatepicker {display: flex;align-items: center;}
+.eWayBillDetailsPopupPartBDetailsInputTextwithDatepicker input{width:30%;}
+.eWayBillDetailsPopupPartBDetailsInputTextwithDatepicker .eWayBillDetailsPopupInputDatepicker {width: 30%;}
+.eWayBillDetailsPopupPartBDetailsInputTextwithDatepicker .eWayBillDetailsPopupInputDatepicker input {width: 80%;}
+.BillFromDispatchFrom input {background: #f5f5f5;border: 1px solid #e4e4e4;border-radius: 5px;padding: 5px 5px;margin-left: 5px;font-weight: 400;color: #1a1a1a;width:65%;font-size:12px;}
+.BillFromDispatchFrom select {padding: 5px 5px;margin-left: 5px;border: 1px solid #e4e4e4;border-radius: 5px;background: #f5f5f5;font-size: 12px;font-weight: 400;-webkit-appearance: auto;color: #1a1a1a;width:65%;}
+.BillFromDispatchFrom select:focus{outline:0;}
+.DispatchFromBoxDiv textarea {background: #f5f5f5;border: 1px solid #e4e4e4;padding: 5px 5px;margin-left: 5px;border-radius: 5px;font-weight: 400;font-size:12px;width:67%;}
+.DispatchFromBoxDiv {display: flex;}
+label.setWidthDispatchFromLabel {width: 35%;}
+.DispatchFromBoxDiv select {padding: 5px 5px;margin-left: 5px;border: 1px solid #e4e4e4;border-radius: 5px;background: #f5f5f5;font-size: 12px;font-weight: 400;-webkit-appearance: auto;color: #1a1a1a;width: 67%;}
+.DispatchFromBoxDiv select:focus{outline:0;}
+.DispatchFromBoxDivPinState input {background: #f5f5f5;border: 1px solid #e4e4e4;border-radius: 5px;padding: 5px 5px;margin-left: 5px;font-weight: 400;color: #1a1a1a;width: 25%;font-size:12px;}
+.DispatchFromBoxDivPinState select {padding: 5px 5px;margin-left: 5px;border: 1px solid #e4e4e4;border-radius: 5px;background: #f5f5f5;font-size: 12px;font-weight: 400;-webkit-appearance: auto;color: #1a1a1a;width: 40%;}
+.DispatchFromBoxDivPinState select:focus{outline:0;}
+.DispatchFromBoxDivPinState {display: flex;align-items: center;}
+label.setWidthBillFromLabel {width: 30%;}
+#eWayBillDetailsModal .modal-dialog{max-width:85%;}
+.CreateeWayBillButtonPopup button {color: #fff;background: #2D3436;padding: 8px 15px;border-radius: 5px;font-weight: 600;}
+.SupplyTypeRadioButton .invoice_radio_button .invoice_radio:checked+label:before{background-color: #d5f3c1;}
+.SupplyTypeRadioButton .invoice_radio:not(:checked)+label:after, .invoice_radio_button .invoice_radio:checked+label:after{background-color: #5bbc21;height:8px;width:8px;}
+.SupplyTypeRadioButton .invoice_radio:not(:checked)+label:before, .invoice_radio_button .invoice_radio:checked+label:before{border: 1px solid #ddd;background: #d9d4d4;height:16px;width:16px;}
+.SupplyTypeRadioButton .invoice_radio_button .invoice_radio:not(:checked)+label:after{background: #fff;height:8px;width:8px;}
+.BottomEWayllBillModalNeedHelp {padding: 15px 0 0 0;text-align: center;border-top: 1px solid #ddd;margin-top: 15px;}
+.BottomNeedHelpEWayBillCaption h5 {font-size: 16px;color: #000;margin-bottom:0;}
+.BottomNeedHelpEWayBillCaption h5 a {color: #008FE9;}
+.CheckBoxAddTransportDetailsinner label {font-size: 13px;font-weight: 400;color: #1a1a1a;margin-left: 10px;}
+.CheckBoxAddTransportDetailsinner {margin-bottom: 10px;}
+header#eWayBillDetailsModal___BV_modal_header_ {padding: 0 20px;}
+.AddPaddingOnlyError p{padding:10px 15px;}
+.CheckBoxAddTransportDetailsinner input {transform: translate(0px, 2px);}
+.SetDisplayLabelInput{display: flex;align-items: center;justify-content: space-between;}
+span.PartBDetailsRequired{color:red;}
+.AddDistancePlusClick {margin: 8px 0;}
+.AddDistancePlusClick button {color: #0092F1;font-size: 14px;font-weight: 300;}
+.AddDistancePlusClick button img {margin-right: 5px;}
+/***********************************************************/
+.EWayLoginPageDesign {width: 50%;margin: 20px auto;}
+.EWAyLoginPageMainPortion {padding: 20px;background: #fff;box-shadow: 0px 0px 10px #ddd;border-radius: 10px;}
+.EWayPageLoginSteps ul li {text-align: center;}
+.EWayLoginPageCaption h4 {font-size: 18px;color: #1a1a1a;font-weight: 600;text-align:center;}
+.EWayPageLoginSteps ul {display: flex;align-items: center;justify-content: space-around;position:relative;}
+.EWayPageLoginSteps {margin-top: 24px;}
+.EWayPageLoginSteps ul li label.numberPage {font-size: 14px;text-align: center;height:24px;width:24px;line-height:23px;border-radius:50%;margin-bottom:12px;position: relative;z-index: 2;}
+label.numberPage.BgCustomGreen {background: #5bbc21;color: #fff;border: 1px solid #5bbc21;}
+label.numberPage.BgLightGray {background: #f5f5f5;color: #797979;border: 1px solid #626262;}
+h5.StepsHeadingGreenPage {font-size: 14px;color: #000;}
+h5.StepsHeadingGrayPage {font-size: 14px;color: #616567;}
+.EWayPageLoginSteps ul::after {position: absolute;content: "";display: block;width: 50%;top: 12px;height: 1px;border: 1px dotted #c6c6c6;}
+.EWayLoginCarouselBoxPage ol li {padding: 0;font-size: 10px;width: 6px;height: 6px;display: flex;align-items: center;justify-content: center;transition: transform 0.3s ease; background: #d6d6d6;border-radius: 50%;}
+.EWayLoginCarouselBoxPage ol {list-style: disc;position: absolute;right: 0;left: 0;bottom: 0;z-index: 2;padding: 0;display: flex;align-items: center;justify-content: space-around;width: 30%;margin: 20px auto;}
+.EWayLoginCarouselBoxPage ol li.active {transform: scale(1.5);transform-origin: center; background:#000;}
+.EWayLoginCarouselBoxPage .carousel-inner{height:320px;}
+.EWayLoginCarouselBoxPage .carousel-item{height:320px;}
+.EWayLoginCarouselBoxPage .carousel-item {background: #f6f6f6 !important;border-radius: 10px;}
+.EWayLoginCarouselBoxPage .carousel {background: #f6f6f6 !important;border-radius: 10px;}
+.EWayLoginCarouselBoxPage .carousel-control-next-icon{filter:invert(1);width:20px;}
+.EWayLoginCarouselBoxPage .carousel-control-prev-icon{filter:invert(1);width:20px;}
+.slide-content-eWayPage h5 {margin-bottom: 0;margin-top: 20px;color: #1a1a1a;font-size: 14px;text-shadow: none;font-weight: normal;}
+.slide-content-eWayPage p a {text-shadow: none;font-size: 12px;color: #2980B9;font-weight:normal;}
+.slide-content-eWayPage h5 span {font-weight: 600;}
+.EWayLoginCarouselBoxPage .carousel-caption{bottom:auto;}
+.EWayLoginPopupFormPage input {border: 1px solid #C6C6C6;padding: 10px 10px;border-radius: 3px;width: 100%;font-size: 11px;}
+span.EWayLoginPopupFormLabelPage {position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding: 2px 5px;color: #525252;}
+.EWayLoginButtonPage button {border: 1px solid transparent;background: #1a1a1a;color: #fff;padding: 10px 15px;border-radius: 3px;width: 100%;}
+.EWayLoginButtonPage button:disabled {background: #B6B6B6;}
+.eye-icon-gsp-passwordPage {position: absolute;right: 10px;top: 50%;transform: translateY(-50%);cursor: pointer;}
+span.TransporterError {display: block;font-size: 11px;}
+.QuotationEditVoucherBoxRechanges:before {left: 80%;}
+.QuotationEditVoucherBoxRechanges {right: 0% !important;top: 40px;left: 5% !important;}
+
+.CreateeWayBillButtonPopup button span i.fa-spin {margin-left: 5px;}
+span.SpinColorBlack i.fa-spin{color:#1a1a1a !important;}
+span.SpinColorWhite i.fa-spin{color: #fff !important;}
+select.text-red {color: red;}
+select.text-green {color: green;}
+textarea.textareatableinner {
+    height: 22px;
+    font-weight: 400;
+    padding: 0 5px;
+    width: 100%;
+}
+.MainBillReferenceNumberDate{display: flex;align-items: center;justify-content: start;column-gap: 5px;}
+.OutMainBillNumberDueDatePart .vdp-datepicker__calendar {position: absolute;right: 0;}
+.OutMainBillNumberDueDatePart {width: 33%;position: relative;}
+.popupReferenceNumberFirstDiv {width: 100%;}
+.popupReferenceNumberSecondDiv {width: 100%;}
+span.error-reference-validation{font-size: 11px;}
+.TopInnerBackEntrySectionRechanges .col-lg-4 {padding: 0 5px;}
+/*************Start Edit Delete Voucher CSS****************/
+button.CancelDeleteVoucherButtonUI {margin-right: 5px;color: #EA0F0F;}
+button.CancelDeleteVoucherButtonUI i {margin-right: 5px;}
+div#DeleteVoucherModal .modal-dialog {max-width: 35%;}
+.HeaderPortionTextDelete {display: flex;align-items: center;justify-content: space-between;padding: 12px 0px 25px 0px;}
+.HeaderPortionTextDelete h5 {color: #1a1a1a;font-weight: 500;font-size: 17px;margin-bottom:0;}
+.ButtonCloseForDeleteIcon button i {font-size: 14px;}
+.ButtonCloseForDeleteIcon button {color: #1a1a1a;background: #EFEFEF;height: 25px;width: 25px;border-radius: 50%;text-align: center;line-height: 27px;}
+.ButtonCloseForDeleteIcon button:hover {color: #1a1a1a !important;background: #EFEFEF;}
+.DeleteCancelYesNoButton button.ConfirmYesButton {background: #ffffff;color: #1a1a1a;padding: 8px 20px;border-radius: 5px;margin-right: 15px;border: 1px solid #1a1a1a;font-weight: 600;width: 35%;}
+.DeleteCancelYesNoButton {display: flex;align-items: center;justify-content: center;}
+.DeleteCancelYesNoButton button.NoButton {background: #1a1a1a;color: #fff;padding: 8px 20px;border-radius: 5px;margin-right: 15px;border: 1px solid #1a1a1a;font-weight: 600;width: 35%;}
+div#DeleteVoucherModal___BV_modal_body_ .modal-body {padding: 0 0 15px 0;}
+
+div#CancelVoucherModal .modal-dialog {max-width: 35%;}
+.HeaderPortionTextCancel {display: flex;align-items: center;justify-content: space-between;padding: 12px 0px 25px 0px;}
+.HeaderPortionTextCancel h5 {color: #1a1a1a;font-weight: 500;font-size: 17px;margin-bottom:0;}
+.ButtonCloseForCancelIcon button i {font-size: 14px;}
+.ButtonCloseForCancelIcon button {color: #1a1a1a;background: #EFEFEF;height: 25px;width: 25px;border-radius: 50%;text-align: center;line-height: 27px;}
+.ButtonCloseForCancelIcon button:hover {color: #1a1a1a !important;background: #EFEFEF;}
+.CancelCancelYesNoButton button.ConfirmYesButton {background: #ffffff;color: #1a1a1a;padding: 8px 20px;border-radius: 5px;margin-right: 15px;border: 1px solid #1a1a1a;font-weight: 600;width: 35%;}
+.CancelCancelYesNoButton {display: flex;align-items: center;justify-content: center;}
+.CancelCancelYesNoButton button.NoButton {background: #1a1a1a;color: #fff;padding: 8px 20px;border-radius: 5px;margin-right: 15px;border: 1px solid #1a1a1a;font-weight: 600;width: 35%;}
+div#CancelVoucherModal___BV_modal_body_ .modal-body {padding: 0 0 15px 0;}
+
+.NotSyncTallyDetailsMessage span.OrangeIconExclamation {margin-bottom: 0;background: #FFEFD0;padding: 4px 10px;color: #F19F00;font-size: 12px;margin-left:10px;}
+.NotSyncTallyDetailsMessage span.OrangeIconExclamation i {color: #F19F00;padding-right: 5px;background-color: transparent;margin-left: 0;}
+.NotSyncTallyDetailsMessage span.RedIconExclamation {margin-bottom: 0;background: #FFEFEF;padding: 4px 10px;color: #EA0F0F;font-size: 12px;margin-left:10px;}
+.NotSyncTallyDetailsMessage span.RedIconExclamation i {color: #EA0F0F;padding-right: 5px;background-color: transparent;margin-left: 0;}
+button.EditButtonDesignDetails {background: #fff;color: #2881FF;padding: 6.8px 10px 6.8px 10px;border: 1px solid #cccccc;font-size: 13px;font-weight: 600;font-family: 'Poppins';border-radius: 0.25rem;margin-right: 10px;}
+button.EditButtonDesignDetails img {margin-right: 5px;}
+.NotSyncedNextSyncMesage{position: absolute;right:0px;}
+/**********************************************************/
+/*************Start GSP New Login CSS*******************************/
+.TopTabsForGSP {margin-top: 30px;}
+.TopTabsForGSP ul {display: flex;justify-content: space-between;list-style: none;padding: 0;margin: 0;position: relative;}
+.TopTabsForGSP li {position: relative;flex: 1;text-align: center;}
+.TopTabsForGSP li a {text-decoration: none;display: flex;flex-direction: column;align-items: center;color: #465668;font-weight: 500;position: relative;z-index: 2;font-size: 12px;}
+.TopTabsForGSP li::after {content: "";position: absolute;top: 18px;right: -50%;width: 100%;height: 2px;background: #ccc;z-index: 0;}
+.TopTabsForGSP li:last-child::after {display: none;}
+.TopTabsForGSP li span {display: inline-block;width: 36px;height: 36px;line-height: 36px;border-radius: 50%;background: #ffffff;color: #1a1a1a;border: 2px solid #DBDBDB;font-weight: 600;margin-bottom: 8px;}
+.TopTabsForGSP li span img {width: 25px;margin-top: -5px;vertical-align: middle;}
+.TopTabsForGSP li.active span {background: #fff;border: 2px solid #5bbc21;color: #5bbc21;}
+.TopTabsForGSP li.active a {color: #1a1a1a;}
+.TopTabsForGSP li.completed span {background: #5bbc21;color: white;border: 2px solid #5bbc21;}
+.TopTabsForGSP li.completed a {color: #1a1a1a;}
+.TopTabsForGSP li.completed::after {background: #5bbc21;}
+/* section.GSPLoginNewPageSection {background: #FAFAFA;height: 100vh;} */
+.NewGSPLoginTabsValue {padding: 0 30px;margin-top: 30px;}
+.ClickToProceed p {font-weight: 500;font-size: 14px;color: #000;margin-bottom: 20px;}
+.clickToProceedButtonGSP button a {color: #fff;background: #1a1a1a;padding: 10px 20px;border-radius: 5px;}
+.clickToProceedButtonGSP button a img {width: 20px;margin-left: 10px;}
+.GSPLoginNewFooterPart p {color: #7F8C8D;margin-bottom: 0;}
+.GSPLoginNewFooterPart p a {color: #1a1a1a;}
+.GSPLoginNewFooterPart P img {margin: 0 6px;}
+.GSPLoginNewFooterPart p a {padding-left: 5px;}
+.forGSPLoginNewCenterText p span {font-weight: 600;}
+.forGSPLoginNewCenterText p {font-size: 14px;margin-bottom: 20px;font-weight: 400;}
+.NextButtonForNewGSP button {padding: 10px 20px;color: #fff;background: #1a1a1a;font-weight: 600;}
+.NextButtonForNewGSP img {margin-left: 10px;}
+.EnterGSPCredential {background: #FFF8F0;width: 65%;margin: auto;padding: 10px 20px;}
+.EnterGSPCredential p {margin-bottom: 0;font-size: 16px;font-weight: 500;color: #1a1a1a;}
+.EnterGSPCredential p img {margin-right: 10px;}
+.MainportionFooterBottom {margin-top: 15px;}
+.SetMiddlePortionForNewGSP {height: 600px;}
+.SetInputPartGSPCredential{margin-top:30px;}
+.GSPNewGSPNewLoginPopupFormPage input {border: 1px solid #C6C6C6;padding: 10px 10px;border-radius: 3px;width: 100%;font-size: 11px;}
+span.GSPNewLoginPopupFormLabelPage {position: absolute;top: -9px;left: 10px;background: #fff;z-index: 1;font-size: 10px;padding: 2px 5px;color: #525252;}
+.GSPNewLoginButtonPage button {border: 1px solid transparent;background: #1a1a1a;color: #fff;padding: 10px 15px;border-radius: 3px;width: 100%;text-transform:uppercase;}
+.GSPNewLoginButtonPage button:disabled {background: #B6B6B6;}
+span.errorGSP{font-size: 11px;color:red;}
+p.AlertMessageErrorPart {padding: 10px;background: #fceeee;width: 65%;margin: 10px auto;border-radius: 5px;border-left: 5px solid #c90707;}
+p.AlertMessageErrorPart span {font-size: 13px;color: #c90707;}
+img.EWayFirstImageClass {max-width: 100%;}
+img.EWaySecondImageClass {max-width: 92%;}
+img.EWayThirdImageClass {max-width: 100%;}
+img.EWayFourthImageClass {max-width: 100%;}
+img.EInvoiceFirstImageClass {max-width: 100%;}
+img.EInvoiceSecondImageClass {max-width: 80%;}
+img.EInvoiceThirdImageClass {max-width: 80%;}
+img.EInvoiceFourthImageClass {max-width: 80%;}
+.ErrorTransporterPartBDetails {background: #EFF7FF;padding: 8px 15px;width:30%;margin:10px auto;}
+.ErrorTransporterPartBDetails p {margin-bottom: 0;color: #0A55D3;}
+.ErrorTransporterPartBDetails p i {margin-right: 5px;}
+/*************End GSP New Login CSS*******************************/
+/**********start receipt*****************/
+ul.SelectBankSearchPortionUl {width:100%;position: absolute;top: 100%;left: 0;right: 0;max-height: 200px;overflow-y: auto;border: 1px solid #ccc;background-color: white;list-style-type: none;margin: 0;padding: 0;z-index:3;overflow-x:hidden;}
+ul.SelectBankSearchPortionUl li {font-size:12px;padding: 5px 8px;cursor: pointer;border-bottom:1px solid #C6C6C6;}
+ul.SelectBankSearchPortionUl li:hover {background-color: #f1f1f1;}
+.SelectBankNewSearchanbleInputPortion {position: relative;}
+.SelectBankNewSearchanbleInputPortion input {padding-left: 30px;}
+span.searchIconCreateReceiptSerchable {position: absolute;left: 10px;top: 7px;color: #858585;}
+span.CrossIconCreateReceiptSearchableDropdown {text-align: center;position: absolute;right: 7px;top: 7px;height: 20px;width: 20px;background: #eee;border-radius: 50%;font-size: 11px;cursor: pointer;line-height:20px;}
+/**********end receipt******************/
+
+button.AddNewItemInTableSideDelete {color: #1A78FF;margin: 0 10px;background: none; border: none; padding: 0;position:absolute;}
+
+@media only screen and (max-width:1800px){
+  .QuotationEditVoucherBoxRechanges{left:-12% !important;}
+}
+@media only screen and (max-width:1580px){
+    .NewBackentryBottomRechanges {width: 87%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottomRechanges{width:96%;}
+    .QuotationEditVoucherBoxRechanges {left: -40% !important;}
+    
+    .TopTabsForGSP{margin-top:15px;}
+    .forGSPLoginNewCenterText p{margin-bottom:15px;}
+    .NewGSPLoginTabsValue{margin-top:15px;}
+    .SetMiddlePortionForNewGSP{height:510px;}
+    img.EInvoiceFirstImageClass {max-width: 100%;}
+img.EInvoiceSecondImageClass {max-width: 68%;}
+img.EInvoiceThirdImageClass {max-width: 68%;}
+img.EInvoiceFourthImageClass {max-width: 68%;}
+}
+@media only screen and (max-width:1400px){
+    .ErrorTransporterPartBDetails {width:35%;}
+    .NewBackentryBottomRechanges {width: 85%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottomRechanges{width:95%;}
+}
+@media only screen and (max-width:1366px){
+    .SetHeightAdvancedSettingDropdown ul {max-height: 135px;}
+    .slide-content h5{font-size:12px;}
+    .InnerTableBackEntrytdDivRechanges input{font-size:11px;}
+    /*****************Start eWay Login Page css*****************************************/
+    .EWayLoginPageCaption h4{font-size:16px;}
+    h5.StepsHeadingGreenPage{font-size:13px;}
+    h5.StepsHeadingGrayPage{font-size: 13px;}
+    .slide-content-eWayPage h5{font-size: 12px;}
+    .BottomNeedHelpEWayBillCaption h5{font-size: 13px;}
+
+    .SetMiddlePortionForNewGSP{height:435px}
+  .NewGSPLoginTabsValue{margin-top:10px;}
+  .forGSPLoginNewCenterText p{margin-bottom:10px;font-size: 13px;}
+  .TopTabsForGSP{margin-top:15px;}
+  
+  .TopTabsForGSP li::after {top: 16px;}
+  .TopTabsForGSP li span {width: 32px;height: 32px;line-height: 32px;}
+  .TopTabsForGSP li span img {width: 22px;margin-top: -5px;vertical-align: middle;}
+  .EnterGSPCredential p{font-size: 14px;}
+
+  img.EWayFirstImageClass {max-width: 100%;}
+img.EWaySecondImageClass {max-width: 84%;}
+img.EWayThirdImageClass {max-width: 100%;}
+img.EWayFourthImageClass {max-width: 90%;}
+
+img.EInvoiceFirstImageClass {max-width: 100%;}
+img.EInvoiceSecondImageClass {max-width: 61%;}
+img.EInvoiceThirdImageClass {max-width: 61%;}
+img.EInvoiceFourthImageClass {max-width: 61%;}
+.QuotationEditVoucherBoxRechanges {left: -50% !important;}
+    /*****************end eWay Login Page css****************************************/
+}
+@media only screen and (max-width:1280px){
+    table.TableMiddleBackEntryRechanges tr th, table.TableMiddleBackEntryRechanges tr td{padding:6px 8px;font-size:11px;}
+    .NarrationTaxesDivRechanges{margin-top:10px;padding-bottom:70px;}
+    button.CreateeInvoiceeWayButtonBottom{padding:5px 10px;}
+    button.btn.download_border_btn{padding:6px 8px 6px 8px;}
+    button.CreateVoucherButtonBottomRechanges{padding:5px 15px;}
+    label.eWayBillDetailsPopupLabel{font-size:12px;}
+    .TransportDetailseWaybillpopupHeading h6{font-size:12px;}
+    .SupplyTypeRadioButton .invoice_radio_button label{font-size: 11px;}
+    div#eWayBillDetailsModal___BV_modal_body_ {padding: 15px 15px;}
+    .TransportDetailseWaybillpopupHeading{margin-bottom:10px !important;}
+    header#eWayBillDetailsModal___BV_modal_header_{padding:0px 20px 0px;}
+    #eWayBillDetailsModal .modal-dialog{margin:10px auto;}
+    .BillFromDispatchFrom select{font-size:11px;}
+    .BillFromDispatchFrom input{font-size:11px;}
+    .DispatchFromBoxDiv textarea{font-size:11px;}
+    .DispatchFromBoxDiv select{font-size:11px;}
+    .DispatchFromBoxDivPinState input{font-size:11px;}
+    .DispatchFromBoxDivPinState select{font-size:11px;}
+    .eWayBillDetailsPopupInputText input{font-size:11px;}
+    .TransportDetailsDropdown select{font-size:11px;}
+    .TransportDetailsInputtext input{font-size:11px;}
+    .eWayBillDetailsPopupDropdown select{font-size:11px;}
+    .OtherwithTaxesserachableDropdownRechanges input{padding:5px 7px;}
+    button.inputcrossicontaxesRechanges{top:5px;}
+    .taxesledgerssearchiconRechanges{top:7px;}
+    .TaxesInputNewBackEntryRechanges input{padding:4px 10px;}
+    .ledgeramountwithdrdropdownRechanges select{padding:5px 3px;}
+    .EWayLoginModalCaption h4{font-size:16px;}
+    .EWayModalLoginSteps{margin-top:16px;}
+    h5.StepsHeadingGreen{font-size:12px;margin-bottom:0;}
+    h5.StepsHeadingGray{font-size:12px;margin-bottom:0;}
+    .EWayLoginPageDesign {width: 55%;margin: 20px auto;}
+    .EWayLoginPageCaption h4{font-size: 14px;}
+    h5.StepsHeadingGreenPage{font-size: 12px;}
+    h5.StepsHeadingGrayPage{font-size: 12px;}
+    .EWayLoginCarouselBoxPage .carousel-inner{height:310px;}
+    .EWayLoginCarouselBoxPage .carousel-item{height:310px;}
+    .EWayPageLoginSteps ul{margin-bottom:10px;}
+    .BottomEWayllBillModalNeedHelp{margin-top:10px;}
+    .slide-content-eWayPage h5{margin-top:15px;}
+    .EWayPageLoginSteps{margin-top:15px;}
+    .EWAyLoginPageMainPortion{padding:20px 20px 10px 20px;}
+    
+  .SetMiddlePortionForNewGSP{height:380px;}
+  img.EWayFirstImageClass {max-width: 90%;}
+  img.EWaySecondImageClass {max-width: 80%;}
+  img.EWayThirdImageClass {max-width: 100%;}
+  img.EWayFourthImageClass {max-width: 85%;}
+
+  img.EInvoiceFirstImageClass {max-width: 100%;}
+img.EInvoiceSecondImageClass {max-width: 58%;}
+img.EInvoiceThirdImageClass {max-width: 58%;}
+img.EInvoiceFourthImageClass {max-width: 58%;}
+}
+@media only screen and (max-width:1250px){
+  .QuotationEditVoucherBoxRechanges{left:-80% !important;}
+}
+@media only screen and (max-width:1100px){
+  .QuotationEditVoucherBoxRechanges{left:-110% !important;}
+}
+@media only screen and (max-width:1080px){
+    .ErrorTransporterPartBDetails {width:45%;}
+    .NewBackentryBottomRechanges {width: 81%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottomRechanges{width:93%;}
+    .QuotationEditVoucherBoxRechanges {left: -100% !important;}
+}
+@media only screen and (max-width:991px){
+    .ErrorTransporterPartBDetails {width:100%;}
+    .NewBackentryBottomRechanges{width:100%;}
+    .sidebar-mini.sidenav-toggled .NewBackentryBottomRechanges{width:100%;}
+    #EWayLoginModal___BV_modal_content_ {max-width: 100%;margin: auto;}
+    .EWayLoginFormBox {margin-top: 20px;}
+    h5.StepsHeadingGreen{font-size:12px !important;}
+    h5.StepsHeadingGray{font-size:12px !important;}
+    .slide-content h5{font-size: 12px !important;line-height:auto;}
+    .EWayLoginModalCaption h4{font-size:14px;}
+    label.setWidthsupplytypewithdoctype {width: 40%;}
+    label.setWidthsubtypedocno {width: 40%;}
+    label.setWidthttypewithdocdate {width: 40%;}
+    /******************************************/
+    h5.StepsHeadingGreenPage{font-size:12px !important;}
+    h5.StepsHeadingGrayPage{font-size:12px !important;}
+    .slide-content-eWayPage h5{font-size: 11px !important;line-height: 16px;}
+    .BottomNeedHelpEWayBillCaption h5{font-size: 12px !important;}
+    .EWayLoginPageDesign{width:95%;}
+    .EWayLoginFormBoxPage {margin-top: 20px;}
+    /*****************************************/
+    .QuotationEditVoucherBoxRechanges {left: 0% !important;width:auto;}
+    .onlyinputcustomradioRechanges{display: block;}
+    .onlyinputcustomradioRechanges input{margin-bottom:5px;}
+    .editVoucherboxRechanges{width:auto;left:0;}
+    .OutReferencetypesearchRechanges{width: 100%;margin-bottom: 15px;}
+    .OutMainBillNumberDueDatePart{width:100%;}
+    .MainBillReferenceNumberDate{display: block;}
+    .popupReferenceNumberSecondDiv{margin-top:16px;}
+    .HeaderPortionTextDelete h5 {font-size: 16px !important;}
+    .DeleteCancelYesNoButton button.ConfirmYesButton {padding: 8px 15px;width: 38%;}
+.DeleteCancelYesNoButton button.NoButton {padding: 8px 15px;width: 38%;}
+}

@@ -1,0 +1,175 @@
+/*------------------- css start -------------------------*/
+.headerPopup {max-width: 60%;}
+.modal-header.trial_header {float: left;width: 100%;padding: 15px 20px;}
+.modal-header p {float: left;width: auto;margin: 0;font-size: 14px;color: #5B5B5B;font-family: 'Poppins';}
+button.close {opacity: 1;}
+ul.nav-pills li.nav-item {margin-bottom: 15px;display: block;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff !important;background: #000000 !important;mix-blend-mode: normal;border: 1px solid #000000;border-radius: 7px;font-family: 'Poppins';font-style: normal;font-weight: normal;font-size: 20px;}
+ul.nav-pills li.nav-item a.nav-link {background: transparent;font-family: 'Poppins';font-style: normal;font-weight: normal;font-size: 14px;line-height: 27px;color: #000000;border: 1px solid rgba(0, 0, 0, 0.16);padding: 0.5rem 1rem;}
+.installation_div {background: rgba(0, 0, 0, 0.02);border-radius: 7px;padding: 10px 10px;float: left;width: 100%;}
+header#modal-free-trial___BV_modal_header_ button.close {font-size: 20px;}
+div#modal-free-trial___BV_modal_body_ {padding: 10px;}
+.installation_div h3 {font-family: 'Poppins';font-weight: 600;font-size: 16px;color: #323232;margin: 0 0 15px 0;}
+.installation_div p {font-family: 'Poppins';font-style: normal;font-weight: normal;font-size: 13px;color: #5B5B5B;margin: 0 0px 10px 0;position: relative;padding-left: 30px;float: left;width: 100%;line-height:24px !important;}
+.installation_div p:before {background-image: url(../images/1.0/dashboard/play_circle_outline.svg);height: 100%;background-position: bottom;background-repeat: no-repeat;background-size: cover;content: '';position: absolute;top: 0;left: 0;width: 20px;height: 20px;}
+.installation_div a.download_now_btn {background: #5BBC21;mix-blend-mode: normal;border-radius: 7px;width: 100%;float: left;text-align: center;font-family: 'Poppins';font-style: normal;font-weight: normal;font-size: 20px;line-height: 27px;color: #FFFFFF;padding: 12px 0;margin: 20px 0;}
+.headerPopup .modal-content{min-height:350px;}
+img.store_img {max-width: 100% !important;margin-bottom: 10px;}
+.installation_div p a {color: #007bff;}
+.modal-content.modal_dashboard_popup {border: none;}
+.modal-dialog.modal-md {max-width: 900px;}
+div#modal-free-trial___BV_modal_outer_ .modal-dialog {max-width: 65%;}
+div#modal-free-trial___BV_modal_body_ .tabs ul.nav li {width: 100%;}
+div#dashboard_modal_popupshow___BV_modal_outer_ .modal-dialog {max-width: 65%;}
+/*------------------- css over -------------------------*/
+/*********************start new freemium popup css****************************************************/
+header#customerstatus-popup___BV_modal_header_ {background: transparent;padding:0;box-shadow: none;}
+.freepium-popup-header {background: #EBEBEB;text-align: left;padding: 0 10px 10px 10px;}
+div#customerstatus-popup___BV_modal_body_ {padding: 0;}
+.freepium-popup-header h4 {margin: 15px 0 5px 0 !important;font-size: 16px;font-weight: 600;font-family: 'Poppins';}
+header#customerstatus-popup___BV_modal_header_ button.close {color: #fff;background: #1a1a1a;text-align: center;line-height: 1px;height: 25px;width: 25px;opacity: 1 !important;padding: 0;border-radius: 50%;position: absolute;font-size: 16px;right: -5px;top: -5px;z-index: 999;}
+.freepium-popup-header h4 img {width: 22px;margin-left: 5px;background-color: #1A1A1A;border-radius: 100%;padding: 3px;}
+.freepium-popup-header h1 {font-size: 24px;font-weight: 600;font-family: 'Poppins';margin-bottom:10px !important;}
+.upgrade_benefits h6 {color: #1a1a1a;font-family: 'Poppins';font-weight: 600;font-size: 14px;margin-bottom: 20px !important;}
+.upgrade_benefits h6 img {width: 55px;margin: 0 5px;}
+.freemium-popup-benefits-caption {padding: 20px 5px;}
+.upgrade_benefits p img {width: 13px;margin-right: 10px;}
+.upgrade_benefits p {color: #555555;font-size: 12px;font-weight: 500;font-family: 'Poppins';}
+.plan_button_set_premium h5 {font-size: 14px;font-weight: 600;font-family: 'Poppins';color: #1a1a1a;float: left;display: flex;margin-bottom: 0 !important;}
+.plan_button_set_premium h6 {float: right;font-size: 14px;font-family: 'Poppins';font-weight: 600;color: #1a1a1a;margin-bottom: 0 !important;}
+.plan_button_set_premium h6 span.year_set {font-weight: 400;font-size: 12px;}
+ul.plan_offer li {position: relative;padding: 15px 10px;border: 1px solid #F0F0F0;margin-bottom: 15px;border-radius: 10px;cursor: pointer;transition: all 0.5s ease-in-out;}
+ul.plan_offer li.active {background: #FBFFF8;border: 1px solid #5BBC21;}
+.plan_button_set_premium h5 p.radio_set_freemium {height: 15px;width: 15px;border: 1px solid #dcdcdc;border-radius: 50%;margin-right: 10px;margin-bottom: 0;margin-top: 1px;}
+ul.plan_offer li.active .plan_button_set_premium h5 p.radio_set_freemium {border: 1px solid #5BBC21;background: #5BBC21;}
+.plan_pricing_title h6 {font-family: 'Poppins';color: #5BBC21;font-size: 14px;font-weight:600;margin-bottom:20px !important;}
+.freemiun_plan_pricing_main{padding: 20px 5px;}
+button.proceed_button_premium {display: block;text-align: center;width: 100%;background: #2D3436;color: #fff;padding: 8px;border-radius: 5px;font-size: 14px;font-family: 'poppins';}
+.freemium_bottom_popup a {color: #757575;font-weight: 600;font-size: 14px;}
+.freemium_bottom_popup {text-align: center;margin-top: 10px;padding-bottom: 20px;}
+.tickmark_image {margin-right: 15px;}
+.tickmark_image p {color: #1a1a1a;font-weight: 400;font-size: 17px;}
+.tickmark_image img {width: 18px;}
+.tickmark_text p {color: #1a1a1a;font-size: 12px;}
+span.off_save_1 {position: absolute;right: 15px;top: -10px;background: #EC4A4E;font-size: 10px;padding: 1px 8px;font-family: 'Poppins';font-weight: 500;color: #fff;border-radius: 3px;}
+span.off_save_2 {position: absolute;right: 15px;top: -10px;background: #EC4A4E;font-size: 10px;padding: 1px 10px;font-family: 'Poppins';font-weight: 500;color: #fff;border-radius: 3px;}
+div#customerstatus-popup .modal-dialog {max-width: 400px;margin: 0 auto;}
+.upgrade_benefits {}
+.tickmark_text {text-align: left;}
+div#customerstatus-popup___BV_modal_content_ {background: #ebebeb;}
+.main-freemium-popup {background: #fff;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
+/*********************end new freemium popup css******************************************************/
+#customerstatus-popup .modal-dialog {display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;min-height: calc(100% - (0.5rem * 2));}
+#customerstatus-popup .modal-header {border-bottom: none;}
+
+
+/************* new popup css ***************/
+.upgrade_benefits h3 {font-size: 14px;font-weight: 600;font-family: 'Poppins';margin: 0 !important;color: #1a1a1a;text-align: left;}
+.fremium_bottom_hr {border-bottom: 1px solid #DFDFDF;}
+.upgrade_benefits{padding:15px 0;}
+.border-right-gray{border-right:1px solid #ddd;}
+.border-bottom-gray{border-bottom:1px solid #ddd;}
+.tickmark_image_text {margin-bottom: 7px;margin-top: 8px;}
+.tickmark_image_text i {color: #3F9D07;font-size: 14px;}
+.tickmark_image_text i.tick_close {color: #FB4337;}
+.growth_advance_radio input {appearance: auto;text-align: center;margin: 0 auto;}
+.growth_advance_radio {text-align: center;width: 100%;}
+.growth_advance_radio label div {font-size: 14px;font-weight: 600;font-family: 'Poppins';margin: 0 !important;color: #5B5B5B;}
+/*********/
+label.new_pricing_selection p {margin: 0;text-align: center;color: #5B5B5B;font-size: 12px;font-weight: 600;}
+span.text_line {color: #929292;font-weight: 400;font-size: 12px;text-decoration: line-through;margin-right: 5px;}
+label.new_pricing_selection h3 {color: #1A1A1A;font-weight: 700;font-size: 16px;margin: 0 !important;}
+.pricing_label {display: flex;justify-content: space-between;}
+label.new_pricing_selection {margin:20px 0 5px 0;position: relative;cursor: pointer;width: 48%;}
+.pricing_selection_plan {text-align: center;border: 1px solid #D0D0D0;padding: 15px 10px 10px 10px;border-radius: 6px;position: relative;}
+span.save_percentage {font-weight: 600;font-size: 11px;text-align: center;color: #FFFFFF;background: #FF0C0C;border-radius: 30px;padding: 3px 10px;}
+.save_price {position: absolute;left: 0;top: -10px;width: 100%;}
+label.new_pricing_selection input[type="radio"]:checked ~ .pricing_selection_plan {background-color: #F6FFF0;border: 1px solid #3F9D07;box-shadow: 0px 1px 0px 0px #5bbc2140;}
+label.new_pricing_selection input[type="radio"]:checked ~ .pricing_selection_plan p,
+label.new_pricing_selection input[type="radio"]:checked ~ .pricing_selection_plan h3,
+label.new_pricing_selection input[type="radio"]:checked ~ .pricing_selection_plan span.text_line {color:#1A1A1A;}
+label.new_pricing_selection input[type="radio"] {position: absolute;left: 0;top: 0;width: 100%;height: 100%;opacity: 0;}
+span.add_user {font-weight: 400;font-size: 13px;line-height: 25px;color: #38454E;}
+span.add_user span.rupee-font {color: #38454E;}
+.user-counter label i {color: #38454E;font-size: 8px;margin: 0 10px;}
+.additional_billing {width: 100%;display: flex;justify-content: space-between;align-items: center;}
+button.sms_add {background-color: #fff;border: 1px solid #000000;padding: 0px 10px;font-size: 14px;border-radius: 3px;font-weight: 500;margin-left: 15px;}
+button.sms_added {background-color: #B16D15;border: 1px solid #B16D15;padding: 0px 10px;font-size: 14px;border-radius: 3px;font-weight: 500;color: #fff;margin-left: 15px;}
+button.sms_added i {font-size: 14px;font-weight: 400;color: #fff;margin: 0px 0px 0px 3px;}
+.active_check_circle {position: absolute;right: 5px;top: 5px;color: #3F9D07;display: none;}
+label.new_pricing_selection input[type="radio"]:checked ~ .pricing_selection_plan .active_check_circle {display: block;}
+.growth_advance_radio input[type=radio]:checked ~ div span.growth_plan_input_check i{background-color: #3F9D07;border: 1px solid #3F9D07;color: #fff;}
+.growth_advance_radio span.growth_plan_input_check i {border: 1px solid #5B5B5B;border-radius: 100%;height: 18px;width: 18px;display: flex;justify-content: center;align-items: center;color: transparent;font-size: 12px;background-color: #fff;}
+span.growth_plan_input_check {text-align: center;margin: 0px auto 5px;display: table;}
+.selectedtickbg {background-color: #F2FFEC;}
+.growth_advance_radio label {margin: 0;cursor: pointer;padding: 10px 5px;width: 100%;}
+.selectedtickbgbox{background-color: #F2FFEC;}
+/**************** tally data backup pop css start ********************/
+header#tally_data_backup___BV_modal_header_ {padding: 0;height: 0;border: none;}
+header#tally_data_backup___BV_modal_header_ button.close {color: #fff;background: #1a1a1a;text-align: center;line-height: 1px;height: 25px;width: 25px;opacity: 1 !important;padding: 0;border-radius: 50%;position: absolute;font-size: 16px;right: -5px;top: -5px;z-index: 999;}
+.tallybackup-popup-header h4 {font-size: 16px;font-weight: 600;margin: 0 !important;}
+.tally_data-backup_table table {width: 100%;table-layout: fixed;}
+#tally_data_backup .modal-dialog.modal-md {max-width: 600px;display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;min-height: calc(100% - (0rem * 2));margin: 0 auto;}
+div#tally_data_backup___BV_modal_body_ {padding: 0;}
+.tallybackup-popup-header {padding: 0.5rem 1rem;}
+.tally_data-backup_table thead th {font-size: 14px;font-weight: 600;border-bottom: 1px solid #E4E4E4;border-top: 1px solid #E4E4E4;padding: 0.5rem 1rem;position: sticky;top: 0px;background-color: #f1f5f9;z-index: 99;}
+.tally_data-backup_table tbody td {font-size: 14px;font-weight: 400;border-bottom: 0;border-top: 0;padding: 0.5rem 1rem;}
+.tally_data-backup_table tr {border: 0;background: transparent !important;}
+.download_backup {text-align: center;margin: 25px 0;}
+.download_backup button {background: #1a1a1a;color: #fff;padding: 5px 20px;border: 1px solid #1a1a1a;font-size: 16px;font-weight: 500;border-radius: 5px;}
+.tally_data-backup_table {height: 180px;overflow-y: auto;}
+.backup_input input[type="radio"] {display: inline-block;appearance: auto;position: absolute;left: 0;top: 0;width: 100%;height: 100%;opacity: 0;cursor: pointer;}
+span.backup_input {position: relative;display: flex;justify-content: flex-start;align-items: center;}
+span.backup_radio {width: 15px;height: 15px;border: 2px solid #D9D4D4;display: inline-block;border-radius: 100%;margin-right: 5px;}
+.backup_input input[type="radio"]:checked ~ span.backup_radio{border: 2px solid #E1FFD0;background-color:#3F9D07}
+/**************** tally data backup pop css end ********************/
+/**************** payment success popup css start **************/
+.circle,
+.circle-border {width: 40px;height: 40px;border-radius: 50%;}
+.circle {z-index: 1;position: relative;background: white;transform: scale(1);animation: success-anim 700ms ease;}
+.circle-border {z-index: 0;position: absolute;background: #00b208;transform: scale(1.1);animation: circle-anim 400ms ease;}
+@keyframes success-anim {
+0% {transform: scale(0);}
+30% {transform: scale(0);}
+100% {transform: scale(1);}
+}
+@keyframes circle-anim {
+from {transform: scale(0);}
+to {transform: scale(1.1);}
+}
+.success::before,
+.success::after {content: "";display: block;height: 3px;background: #00b208;position: absolute;}
+.success::before {width: 12px;top: 56%;left: 17%;transform: rotateZ(50deg);}
+.success::after {width: 24px;top: 50%;left: 29%;transform: rotateZ(-50deg);}
+.payment_success_box {display: flex;justify-content: center;align-items: center;margin-top: 40px;}
+.payment_content_success {text-align: center;padding:5px 0 15px 0;}
+.payment_content_success p span.congratulations_text {font-weight: 600;}
+.payment_content_success h2 {color: #00b208;font-size: 20px;font-weight: 700;margin-bottom: 0px;font-family: 'Open Sans', sans-serif;margin: 0 !important;}
+.payment_content_success p {color: #1a1a1a;font-size: 14px;}
+.user_success_details {padding: 12px 15px;background: #eee;}
+.user_success_details_content h4 {color: #1a1a1a;font-weight: 600;font-family: 'Open Sans', sans-serif;padding-bottom: 0px;/* border-bottom: 1px solid #ddd; */font-size: 16px;}
+table.users_success_content {background-color: #fff;margin-bottom: 8px;}
+table.users_success_content tr td {padding: 6px;font-size: 13px;}
+span.only_top_date_absolute {position: absolute;top: 0;right: 0;color: #1a1a1a;background: #cbf9af;border-radius: 4px;border-bottom-left-radius: 20px;padding:8px 35px 8px 16px;font-size: 13px;font-weight: 600;}
+.main_login_box {background: #fff;box-shadow: 0px 20px 40px 0px #0000001A;border-radius: 10px;height: 530px;overflow: hidden;}
+.main_login_box.payments_box {height: auto;width:100%;margin:0;padding: 10px 10px 10px 10px;}
+.visit_link_redirecation_text {font-size: 14px;padding-top: 1px;color: #5B5B5B;}
+.visit_link_redirecation_text span {font-weight: 700;}
+.visit_link_redirecation_text span a{color:blue;}
+.visit_link {background: #bdfab3;padding: 5px;text-align: center;margin: 10px 15px 0 15px;border-radius: 5px;}
+.payment-faile-image-caption img {width: 15%;}
+.payment-faile-image-caption h4 {font-size: 24px;color: #e51416;margin: 10px 0;}
+button.back-button-payment-fail {padding: 8px 20px;background: #1a1a1a;font-weight: 600;border-radius: 5px;margin-bottom:20px;}
+button.back-button-payment-fail a {color: #fff;}
+button.back-button-payment-fail a:hover {text-decoration: none;}
+header#payment_success___BV_modal_header_ {height: 0;padding: 0;border: 0;}
+div#payment_success___BV_modal_body_ {padding: 0;}
+header#payment_success___BV_modal_header_ button.close {color: #fff;background: #1a1a1a;text-align: center;line-height: 1px;height: 25px;width: 25px;opacity: 1 !important;padding: 0;border-radius: 50%;position: absolute;font-size: 16px;right: -5px;top: -5px;z-index: 999;}
+#payment_success .modal-dialog {display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;min-height: calc(100% - (0rem * 2));max-width: 500px;margin: 0 auto;}
+.success_payment_page .payments_box {max-width: 550px;margin: 0 auto;}
+.success_payment_page {position: fixed;left: 0;top: 0;width: 100%;height: 100%;align-items: center;display: -ms-flexbox;display: flex;-ms-flex-direction: column;flex-direction: column;-ms-flex-pack: center;justify-content: center;z-index: 9999999999;}
+.success_payment_overlay {position: absolute;left: 0;top: 0;height: 100%;width: 100%;}
+.success_payment_overlay img {width: 100%;height: 100%;}
+
+
+/**************** payment success popup css end **************/

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /privacy-policy
+Disallow: /terms-of-use-doc
+Disallow: https://portal.livekeeping.com
+Sitemap: https://www.livekeeping.com/sitemap.xml

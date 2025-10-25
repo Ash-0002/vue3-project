@@ -1,0 +1,581 @@
+
+@media only screen and (max-width:1920px)
+{
+.sales_fixed_amount_total{width: 89.2% !important;}
+}
+
+@media only screen and (max-width:1600px)
+{
+	.support_number p{font-size: 12px;}
+  button.btn.user-profile-btn p{font-size:12px;}
+  .profile-showdropdown a.user-profile-tag{font-size:12px;}
+  .main_dropdown_header{display: block;width: 180px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+}
+@media only screen and (min-width:1280px) and (max-width:1600px)
+{
+.receivables_graph_top_div{margin-top:0%;}
+ul.sortby_filter li{padding:0 8px;}
+}
+@media only screen and (max-width:1400px)
+{
+#reports_tab_content .card {height:645px;}
+.sales_date_drop_div {display: block;width: 100%;align-items: flex-start;}
+.sales_drop_div {margin-left: 0;width: 100%;margin-top: 10px;margin-bottom: 10px;}
+.sales_date_div {width: 100%;}
+	
+}
+
+@media only screen and (max-width:1366px){
+  .side-menu .side-menu__icon{height: 30px;width: auto;}
+}
+/* This doesn't work */
+@media screen and (max-width: 1280px OR max-height: 720px) {
+#reports_tab_content .card {height:645px;}
+}
+
+@media only screen and (max-width:1280px){
+  .slide-item{padding: 3px 5px 3px 30px;}
+.login_bottom_menu li a{padding: 0 10px;}
+.table_responsive {width: 100% !important;overflow-x: auto;white-space: nowrap !important;display: inline-table;}
+.only_login_ .iti {width: 65%;}
+.card_header_drop_right.rpp_dropdown {width:94%;}
+.receipt_purchase_payables_dd{width:100%;}
+.balance_cb_dropdown{position: unset;margin-bottom: 15px;}
+.responsive_parties_table .v-data-table__wrapper table {min-width: 100%;max-width:100%;overflow-x: scroll;}
+
+
+}
+@media only screen and (max-width:1279px)
+{
+.login_bottom_menu li a {font-size: 12px;}
+ul.daywise_filter{margin:15px 0;float: none;}
+ul.daywise_filter li{margin:0;margin-right:10px;}
+}
+@media only screen and (max-width:1220px){}
+
+@media only screen and (max-width:1200px){
+
+ul.parties_sales_button.sales_part_button li {margin-bottom: 10px;}
+span.display_date {width: 100%;}
+ul.new_sales_top_table_part li {margin-bottom: 10px;}
+.sales_fixed_amount_total {width: 85%;}
+
+}
+
+@media only screen and (max-width:1170px){
+    ul.dashboard_sales_dropdown li {margin-bottom: 10px;margin-right: 15px;}
+}
+
+@media only screen and (max-width:1160px)
+{
+.v-data-table__wrapper{overflow-x:auto !important;}
+.sales_main_card_graph {height: auto !important;min-height:auto !important;}
+.receivables_main_card_graph {height: auto !important;min-height:auto !important;}
+.top_navbar_dropdown .select2-container{width:150px !important;}
+span.display_date {width: 100%;}
+
+
+
+
+}
+
+@media only screen and (max-width:1024px)
+{
+.login_form{padding:25px 25px !important;}
+input.website_otp_input_box{height:30px !important;width:30px !important;}
+.only_login_ .iti{width:65%;}
+.main_login_box{height:auto;}
+.main_register_box{height:auto;}
+.login_bottom_menu li a{font-size:12px;}
+.login-form label{font-size:14px;}
+.mobile-device-hide{display:none !important;}
+.mobile-device-show{display:block !important;}
+.sales_fixed_amount_total {width: 83%;}
+
+
+}
+
+@media only screen and (max-width:991.98px)
+{
+  /******* sales-voucher-v2 start ********/
+.additem_table {width: 100%;display: block;white-space: nowrap;overflow-x: auto;}
+.sales_fixed_amount_total {width: 80%;}
+
+  /******* sales-voucher-v2 start ********/
+  .reports-new-design-inner-boxes{height:auto;margin-bottom:15px;}
+  .heading-install-tally{text-align:center;}
+  .intall-tally-paragraph{text-align: center;}
+  .right-install-tally{margin-top:10px;}
+  .sales_cstm_dropdown.journal_drop .dropdown input {max-width: 100%;}
+  .left_arrow_sold{top: 12px;left: 10px;}
+.upgrade_benefits {text-align: center;}
+div#customerstatus-popup___BV_modal_outer_ .modal-dialog {max-width: 98% !important;padding: 5px 0;}
+.v-data-table__mobile-row__cell td p {font-weight: 500;font-size: 11px;}
+.dtop_reports_cp h6{font-size:14px;}
+div#navbarSupportedContent-4 .dropdown {max-width: 100%;}
+.new_show_entries_for_table .v-data-footer__select{display: flex !important;margin-right: 0 !important;margin-left: 0 !important;}
+ul.new_search_export_button li {display: inline-block;width: auto !important;}
+ul.new_left_search_part{position: unset;}
+li.new_date_filter_sortby .daterangepicker.openscenter{transform: translate(-73%) !important;width: 280px;}
+ul.daywise_filter{text-align: center;}
+.rpp_box{height:auto;min-height:auto;}
+.main_top_reports_table_box{height:auto;min-height:auto;}
+.mobile-device-not-dflex {display: block !important;}
+.app-content .side-app{padding: 0px 0 0 0;}
+.padding_left_30{padding-left:0 !important;}
+.date_slider{float: none;}
+.company_balance.sales_cb p{margin-right:0;}
+.new_voucher_details_table .voucher_scrolltable {width: 100%;display: block;white-space: nowrap;overflow-x: auto;}
+.new_voucher_details_table .vouchernot_scrolltable{width: 100%;display: inline-table;white-space: nowrap;overflow-x: auto;}
+.showledgers_table table{width: 100%;display: block;white-space: nowrap;overflow-x: auto;}
+.showledgers_table table tr th {width:100%;display: inline-block;height:50px;}
+.showledgers_table table tr td {width:40%;display: inline-block;}
+.with_inventory_table{width: 100%;display: block;white-space: nowrap;overflow-x: auto;}
+.with_inventory_table tr th {width:125%;display: inline-block;height:50px;}
+.with_inventory_table tr td {width:25%;display: inline-block;}
+ul.new_sales_top_table_part li {margin-left: 0px;margin-right: 15px;}
+ul.new_sales_top_table_part {float: left;margin-top:10px;}
+.mobile_float_left_button {float: left !important;}
+.download_border_div{float: none;text-align:center;}
+ul.dashboard_sales_dropdown{float: none;}
+.gross_net_right{float: none;margin:5px 0;}
+.company_balance.sales_cb{display: block;justify-content: center;}
+.connection-content h1{font-size:24px !important;}
+.nointernet-box{padding:15px !important;width:100% !important;}
+.nointernet-image{margin-top: 10%;}
+.nointernet-image img{width:100%;}
+ul.parties_ul_with_filter li {width: auto;}
+ul.search_input {padding-left: 0 !important;}
+.parties_datefilter_vue .daterangepicker.openscenter[data-v-1ebd09d2]{right: 0% !important;width: 100%;left: inherit;transform: inherit;}
+.daterangepicker.openscenter:after, .daterangepicker.openscenter:before {right: 15% !important;margin-right: inherit !important;}  
+.daterangepicker.openscenter:after, .daterangepicker.openscenter:before{left:0 !important;}
+.headerPopup{max-width: 100% !important;}
+.subscribe_plan{justify-content: center;}
+.mobile-device-show-subscription{display: block;}
+.mobile-device-hide-subscription{display: none;}
+.last_sync_header{margin-left:5px;}
+.rpp_title_part{float: left !important;text-align: left;}
+.desk-ml-0{margin-left: 32px !important;}
+.image-hide-desk{display: inline-block;}
+.card_header_drop_right.rpp_dropdown{width:auto;}
+.receipt_purchase_payables_dd{width:100px;}
+.main_dropdown_header{width:50%;}
+.d-flex.flex_cstm_header .top_navbar_dropdown{margin-top:5px;margin-bottom:5px;margin-left: 0;}
+.card_header_drop_right.rpp_dropdown {right: 5px;}
+.rpp_dropdown .filter_dropdown_year .select2-container--default .select2-selection--single .select2-selection__rendered {width: 100px !important;}
+.rpp_title_part {margin-top: 0;}
+.balance_cb_dropdown{position: absolute;}
+.dataTables_filter{text-align: center;}
+.dataTables_paginate {float: none;text-align: center;}
+.dataTables_info{float: none;text-align: center;}
+.position-unset{position: unset !important;}
+button.upgrade_button{width:100%;}
+.sales_date_div{text-align:center !important;}
+.balancesheet_table_main .table-responsive .balancesheet_table {width: 100%;display: inline-table;white-space: nowrap;}
+.parties_datefilter{float:none;}
+.sales_voucher_top_card_box{padding:10px;}
+.main_top_reports_table_box{margin-bottom:20px;}
+.card_header_drop_right{float:right;position:unset;}
+.mobile_pb_20{padding-bottom:20px;}
+.plans {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}
+.plans .plan {width: 100%;}
+.plan.complete-plan {margin-top: 20px;}
+.plans .plan .plan-content .plan-details {width: 70%;display: inline-block;}
+  .plans .plan input[type="radio"]:checked + .plan-content:after{top: 45%;-webkit-transform: translate(-50%);-ms-transform: translate(-50%);transform: translate(-50%);}
+p.onlick_select_date{float:none;}
+.open_hide_select_date{top:unset;}
+.item_stationary_closing_value {text-align: center;}
+.closing_stock {text-align: center;}
+.item_hsn_code {text-align: center;}
+li.download_buttton_end_email {margin-bottom: 0 !important;}
+ul.parties_sales_button.sales_part_button li.download_buttton_end_email {width: auto;margin-right: 10px;margin-bottom:10px !important;}
+ul.pdf_view_download li{width:auto !important;margin-left:10px;}
+ul.pdf_view_download {margin-top:5px;float:none;text-align:center;margin-bottom:10px;}
+.search-input::placeholder{font-size:12px;}
+.login-form label{font-size:13px;}
+.login_bottom_menu li a{font-size:11px;}
+.mobile_padding_left_0{padding-left:0;}
+.right_button_filter_dropdown .select2-container{width:100% !important;}
+.new_title_company_name{padding-left:20px;}
+.arrow_left_items{top: 8px;}
+.top_right_navtabs_buttons ul.sales_part_button {float: none;margin-bottom: 20px;}
+.search_btn_filter_right ul li.inline_block{margin-left:0;}
+.table_responsive {width: 100%;overflow-x: auto;white-space: nowrap;display: block;}
+.main_item_nav_tabs .first_panel_primary{margin:10px;}
+.top_navbar_dropdown .select2-container{width:180px !important;}
+.page-header-message-box p{font-size:14px;}
+.page-header-message-box p i{height: 25px;width: 25px;line-height: 25px;margin-right: 10px;}
+.main_card {margin:25px 10px !important;}
+.main_card .card{padding:8px;}
+.type_balance {margin: 10px 0;text-align: center !important;}
+.send_email {float: none;margin-top: 20px;}
+.download_button {float: none;margin-top: 20px;}
+ul.nav.panel-tabs.new_under_main_tabs {width: 100%;margin: 0;}
+ul.nav.panel-tabs.new_under_main_tabs li {width: 100%;}
+.company_balance {padding: 0px 0 5px 0;text-align:left;}
+.company_date {text-align: center;}
+.company_name {text-align: left;}
+.filter_dropdown {text-align: left;margin-top: 10px;}
+.company_name {text-align: left;}
+.company_name.new_title_company_name {padding-bottom: 5px;}
+.addnew_button {text-align: left;margin-top: 10px;margin-bottom:10px;}
+.title_text {margin-bottom: 0px;margin-top:0px;}
+.main_right_side_box{display:none;}
+.download_button .btn-group {width: 100%;}
+.send_email button{width:100%;}
+ul.sales_part_button li{width:100%;margin-left:0;}
+.download_button button{width:100%;}
+.company_name h3 i{margin-left:5px;height:20px;width:20px;line-height:20px;font-size:12px;}
+.right_arrow_part{top:-50%;}
+.sold_righttable_content{text-align:left;}
+.sold_righttable_content p{margin-bottom:0;}
+.new_party_form{padding:10px;}
+.items_table_part{margin:10px;}
+.top_item_title_box{padding:10px;}
+.items_card_box{margin:5px;}
+.items_table_net_amount{margin:10px;}
+.items_table_gross_total{margin:10px;}
+.top_item_title_box h4{font-size:16px;}
+.items_table_part table tr th{font-size:13px;}
+.items_table_net_amount table tr th{font-size:13px;}
+.items_table_gross_total table tr th{font-size:14px;}
+.search_btn_filter_right{text-align:left;}
+.main_search_box{width:330px;}
+.date_details_party{text-align:left !important;}
+.date_details_party_right{text-align:right !important;}
+button.add_new_button_type {width: 100%;text-align: left;}
+.open_hide_select_date ul.select_time_date{width:70% !important;float:none;margin:auto;}
+.item_closing_stock_right{text-align:center;}
+.gst_select_ledger {width: 60%;}
+.gst_div input {width: 20%;}
+.set_companttextright{font-size: 12px;}
+.set_companttext p{font-size: 12px;}
+.setting_bodypadmodel{padding: 10px;}
+.table_search input {width: auto;}
+.mobile_left_align {float: left;padding-top: 5px;padding-bottom: 10px;}
+.company_name.sales_c_name {text-align: left;margin-bottom:5px;padding-left:25px;}
+.gross_net_right.sales_ledger_date_drop {float: left;padding-left: 30px;}
+.sales_add_new_btn {float: right;text-align: right;width: auto;}
+.reports_page_subtitle {text-align: left;}
+.parties_datefilter.new_date_filter {float: right;}
+.expenses_graph_div {width: 100%;max-width: 100%;}
+.custom_table{padding-top: 0px;}
+/************* 30-12-2022  **************/
+ul.new_set_dropdown_with_gross {float: left;justify-content: space-around;}
+.main_heading_new_without_box .company_name.sales_c_name {text-align: left;}
+.main_heading_new_without_box .company_name h3 {text-align: left;padding-top: 7px;}
+.main_heading_new_without_box {padding: 5px 0px;}
+.company_balance p {text-align: left;}
+.premium-subscription-headre {margin-right: 10px;}
+.app-sidebar__toggle {padding: 9px 0.5rem !important;}
+.app-content {margin-top: 60px;}
+#payment_success .modal-dialog {padding: 10px;}
+div#payment_success___BV_modal_body_ .main_login_box.payments_box {margin: 0 auto;}
+.new-box-field-inner{border-right:none;margin-bottom:10px;}
+
+}
+
+@media only screen and (max-width:900px)
+{
+.premium-subscription-headre h3 span {display: block;text-align: right;}
+.premium-subscription-headre h3 {font-size: 12px;text-align: right;}
+.support_number p img {display: none;}
+.support_number p {font-size: 12px;}
+.support_number p a {text-decoration: underline;}
+.connect_tally_message h3 img {width: 35px;}
+.sync_message h3 img {width: 20px;}
+}
+
+
+
+@media only screen and (max-width:768px)
+{
+  .main_dropdown_header{width:95%;padding:0 20px;}
+  .mobile_top_navbar_drop_hide{display:none;}
+button.btn.user-profile-btn i{font-size:11px;}
+button.btn.user-profile-btn img{width:20px;}
+button.btn.user-profile-btn p{font-size:12px;}
+.premium-subscription-headre h3{font-size:12px;}
+.premium-subscription-headre h3 img{width:14px;}
+li.single_date_picker_daybook .daterangepicker.ltr.show-calendar.show-ranges.single.openscenter.linked{transform: translate(-50%)!important;}
+.gross_net_right{float: none;margin-top:7px;}
+ul.new_sales_top_table_part li{margin-left:0 !important;}
+.mobile_dropdown_100{display: block !important;}
+ul.parties_ul_with_filter{float: left;display: flex;padding-left:0 !important;}
+.dropdown-toggle2::after{margin-left:1.5rem;}
+.register_mobile_number .iti{width:100%;}
+.navbar-toggler{display:block;}
+ul.navbar_menu li {padding: 10px 20px;}
+a.navbar-brand img {width: auto;}
+button.navbar-toggler:focus {outline: 0;box-shadow: none;}
+.sales_invoice_switch {justify-content: flex-end;display: block;text-align: right;}
+.switch {margin: 0 auto;display: table;}
+span.item_invoice_head {padding-right: 0;text-align: center;}
+.float-right.add_sales_item {margin-top:0px;}
+a.link_tag {text-align: right;float: left;width: 100%;padding-left: 0;margin: 5px 0;}
+.gst_main_div {width: 100%;}
+.gst_div {justify-content: flex-start;}
+.sales_more_ledger {float: none;text-align: center;width: 100%;margin: 0 !important;}
+.gst_order_div {order: 2;}
+.add_ledgers_div {order: 1;}
+.add_ledgers_div a.link_tag {text-align: right;}
+span.custom-control-label.create_item_gst_label {padding-left: 0;    margin-top: 0px;}
+.page-header-title-box {padding: 5px 20px 5px 20px;}
+.page-header-title-box.dashboard-page-header{padding: 5px 20px 5px 20px;}
+button.navbar-toggler.navresponsive-toggler.d-md-none {display: none;}
+div#navbarSupportedContent-4 {display: block;}
+button.navbar-toggler.navresponsive-toggler.d-md-none {display: none;}
+.d-flex.order-lg-2.ms-auto.main-header-end {display: block !important;}
+.desktop-device-show-premium-section{display:none !important;}
+.subscribe_pad {border-radius: 0;padding: 0;background: transparent;}
+.subscribe_text a {font-weight: bold;    font-size: 10px;background: #fff;padding: 6px 10px 7px 10px;}
+.subscribe_text a span.subscribe_status {font-weight: normal;}
+.subscribe_text a .subscription_clock {margin-right: 3px;}
+.d-flex.flex_cstm_header {align-items: inherit;}
+.custom_table .table-responsive table {white-space: nowrap;}
+.sales_c_name h3 {font-size: 18px;}
+.company_balance.sales_cb p {font-size: 13px;}
+/************** 30-12-2022 *************/
+ul.new_set_dropdown_with_gross li {width: 100%;margin-right: 0;margin-bottom: 10px;}
+ul.new_set_dropdown_with_gross {display: table;float: none;text-align: left;width: 100%;margin: 0 auto;}
+.grossnet_section .switches-container {width: 100%;}
+.grossnet_section .switches-container .switch-wrapper .switch {width: 100%;}
+.new_top_table_dropdown .sales_receivables_dropdown {width: 100%;}
+.company_name.rightbutton {margin-top: 15px;float: none;width: 100%;text-align: center !important;}
+.commondropdownall {margin: 0 auto;}
+span.only_top_date_absolute{width: 100% !important;text-align: center;border-radius: 0 !important;}
+    
+}
+
+@media only screen and (max-width:600px)
+{   
+img.header-brand-img.dark-logo{display: none;}
+img.header-brand-img.darkmobile-logo{display: none;}
+header#customerstatus-popup___BV_modal_header_{padding:0;}
+header#customerstatus-popup___BV_modal_header_ button.close{height: 25px !important;width: 25px !important;
+font-size: 19px !important;right: 5px !important;top: 3px !important;}
+.tickmark_text p{font-size:12px !important;}
+.freepium-popup-header h4 img{width:16px !important;}
+.freepium-popup-header{padding:10px !important;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+.plan_button_set_premium h6{font-size:13px !important;}
+.freemium-popup-benefits-caption{padding:10px 0 !important;}
+.freemium_bottom_popup a{font-size:13px;}
+button.proceed_button_premium{font-size:13px;margin-bottom:5px !important;}
+.plan_button_set_premium h5{font-size: 13px !important;margin-bottom:5px !important;}
+.plan_button_set_premium h5 p.radio_set_freemium{height:12px !important;width:12px !important;}
+ ul.plan_offer li{padding:10px 10px !important;margin-bottom:15px !important;}
+.plan_pricing_title h6{font-size:13px !important;margin-bottom:10px !important;margin-top:0;}
+.freemiun_plan_pricing_main{padding:10px 5px !important;}
+.tickmark_image img{width:15px !important;}
+.upgrade_benefits h6 img {width: 70px !important; margin: 0 5px !important;}
+.freepium-popup-header h1{font-size:20px !important;margin-bottom:10px !important;}
+.freepium-popup-header h4{font-size:12px !important;margin:0 !important;}
+.upgrade_benefits h6{font-size:12px !important;margin-bottom:20px !important;}
+input.website_otp_input_box{height: 32px !important;width: 32px !important;margin-right: 10px !important;}
+.login_form{padding:15px 20px !important;}
+.company_name h3{margin-bottom:0 !important;margin-top:10px;}
+.company_name h3.partyName span.max-lines{max-width:60%;}
+.form-group.enter_otp_input input{height:30px;width:30px;margin-right:10px;}
+.radio_container{display: initial;}
+.weekseven label{margin-top: 6px;}
+ul.dashboard_sales_dropdown.new_search_export_button{position: initial;margin-bottom:0 !important;}
+.pr_btns{display: block;}
+.pr_btns li{margin-top: 8px !important;}
+.responsive_parties_table .v-data-table__wrapper table {width: 100%;max-width: 100%;min-width: 100%;}
+.v-input.theme--light.v-text-field.v-text-field--is-booted.v-select.v-select--is-multi{width: 100%;}
+.top_back_arrow{top:0;}
+.dtop_reports_cp{padding:0;}
+.mobile_dashboard_table_responsive{width:100%;white-space:nowrap;overflow-x:auto;display:inline-table;}
+.parties_details_main_tabs{padding:8px 8px;}
+.filter_dropdown .select2-container{width:100% !important;}
+.items_table_part table {width: 100%;overflow-x: auto;}
+.header-brand-img {height: 2.7em;top: 14px;}
+.modal_top_title{float:none;}
+.modal_top_icons{float:none;margin-top:10px;}
+.modal_top_icons a i{margin:0;margin-right:20px;}
+.quantity_modal_text_left{float:none;}
+.quantity_modal_text_right{float:none;}
+.table_sold_item_modal table{width:100%;overflow-x:auto;white-space:nowrap;display:block;}
+.only_login_ .iti{width:100%;}
+button.black_btn{padding:8px 20px;width:100%;border-top-left-radius:5px !important;border-bottom-left-radius:5px !important;margin:4% auto;font-size:16px;}
+.login-bottom-content h6{font-size:14px;}
+input.mobile_number_input{border-top-right-radius:5px;border-bottom-right-radius:5px;}
+.table_responsive_short{display: inline-table;width: 100% !important;white-space: nowrap !important;overflow-x: auto;}
+.table_journal_responsive{ width: 100%;overflow-x: auto;white-space: nowrap;display: block;}
+.table_contra_responsive{width: 100%;overflow-x: auto;white-space: nowrap;display: block;}
+}
+
+@media only screen and (max-width:767.98px)
+{
+.new-only-crown-icon-show-only-mobile {height: 24px;width: 24px;text-align: center;line-height: 24px;background: linear-gradient(45deg, #E74D48, #EE8311);border-radius: 50%;}
+.mobile-device-show-premium{display: block;}
+img.header-brand-img.desktop-lgo {display: none !important;}
+img.header-brand-img.mobile-logo {display: block !important;top: 0 !important;height: auto !important;margin-top: 0 !important;}
+.mobile-device-hide-premium{display: none;}
+.login_country_code_set_part{display: block;}
+body.iti-mobile {padding-top: 0 !important;}
+.main_card {margin: 10px 10px !important;}
+.sendreminderdiv .pr_btns {width: 100%;float: left;}
+.main_heading_new_without_box .company_name {text-align: center;}
+.new_button_without_box {float: none;text-align: center;margin-bottom: 10px;}
+.main_heading_new_without_box .company_name h3 {text-align: center;padding-top: 7px;}
+.app-header .header-brand {padding-top: 4px;}
+.company_balance p {text-align: left;}
+.profile-showdropdown{right: 10px;}
+.premium-subscription-headre h3 span {display: inline-block;}
+.app-content {margin-top: 91px;}
+.support_number p img {display: inline-block;}
+.sales_fixed_amount_total {width: 100%;}
+.success_payment_page .payments_box {max-width: 90%;}
+
+}
+
+@media only screen and (max-width:767px)
+{
+  img.header-brand-img.darkmobile-logo{display:none;}
+  img.header-brand-img.dark-logo{display:none;}
+.support_number p{padding-left:0;padding-right:0;border-right:none;}
+.app .app-sidebar {left: -265px;margin-top: 60px !important;}
+.app-header .responsive-navbar.navbar .navbar-collapse{top: 59px !important;}
+.plans .plan .plan-content .plan-details {width: 60%;display: inline-block;}
+ ul.new_sales_top_table_part {margin-top: 0.5rem;}
+.payment_details_box{padding:0;}
+.quantity__minus span, .quantity__plus span{font-size:14px;}
+.quantity__minus2 span, .quantity__plus2 span{font-size:14px;}
+.quantity__minus, .quantity__plus{height:22px;width:22px;line-height:22px;}
+.quantity__minus2, .quantity__plus2{height:22px;width:22px;line-height:22px;}
+.sales_voucher_top_card_box {padding: 5px;}
+li.new_date_filter_sortby .daterangepicker .drp-selected {float: none;padding-top: 0;}
+.app-header .header-brand-img.mobile-logo{width:40px;margin-left:10px;}
+}
+@media only screen and (max-width:575.98px)
+{   
+span.mobile-display-block{display: block;}
+li.new_date_filter_sortby .daterangepicker.show-ranges.show-weeknumbers[data-v-1ebd09d2], li.new_date_filter_sortby .daterangepicker.show-ranges[data-v-1ebd09d2]{min-width:100% !important;}
+li.new_date_filter_sortby .vue-daterange-picker .drp-buttons span{display: block !important;}
+li.new_date_filter_sortby .vue-daterange-picker .drp-buttons{text-align:center !important;}
+.voucher_type_filter_data{top:50px;}
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td, .v-data-table > .v-data-table__wrapper > table > thead > tr > td, .v-data-table > .v-data-table__wrapper > table > tfoot > tr > td{height:auto !important;min-height:auto !important;}
+ul.daywise_filter{margin:0;}
+ul.daywise_filter li{width:100%;margin-bottom: 5px;display: block;}
+ul.parties_ul_with_filter li{width:100%;}
+table.bottom_total_sales tr th{font-size:16px;padding-top:5px;padding-bottom:10px;}
+.header_plus_icon{padding:10px;right:15px;bottom:5px;}
+button.header_plus_icon img{width:20px;}
+.posision-fixed-relative{padding: 0 10px;}
+.form_bottom_button_save{text-align:left;}
+.table_search input {width: 100%;}
+ul.parties_ul_with_filter {display: block !important;width: 100%;}
+ul.new_sales_top_table_part{display: block;width: 100%;}
+.table_search_download_last {display: block !important;}
+ul.dashboard_sales_dropdown li{width: 100%;margin-bottom: 5px;margin-right: 0;padding: 3px;}
+.rightfixlist{display: contents;}
+.rigntmarginli{width: 100%;padding: 3px;}
+.reports_page_subtitle {text-align: center;padding-bottom: 5px;}
+.parties_datefilter.new_date_filter {float: none;margin: 0 auto;display: table;}
+a.headers {padding: 5px 5px;}
+.tabs-menu {margin: 5px;}
+.new_search_export_button {position: relative;right: 0;top: 0;padding-left: 0 !important;}
+.pr_btns li button {width: 100%;}
+.bottom_navigation-pagination .v-pagination {display: -webkit-box;}
+.bottom_navigation-pagination .v-pagination {display: -webkit-box;}
+.show_entries_for_table .v-data-footer__pagination {display: none;}
+.sales_fixed_amount_total .float_right {float: none;text-align: center;margin: 0 auto;display: table;}
+
+}
+
+@media only screen and (max-width:575px)
+{
+.switches-container{line-height:2rem;}
+.table_responsive2{display:block;width:100%;white-space:nowrap;overflow-x:auto;}
+ul.parties_search_right.search_btn_filter_right_ul li.inline_block {width:100%;}
+.main_search_box.parties_searchbox_input {width: 100%;}
+.main_search_box {width: 100%;}
+.reports_page_subtitle {text-align: center;padding-bottom: 5px;}
+ul.new_sales_top_table_part.new_search_export_button {position: relative;right: 0;}
+.v-application .float-right {float: right !important;width: 100%;}
+.arrow_left_items {top: 11px;}
+}
+@media only screen and (max-width:575px)
+{
+li.onheader_date_rangefilter_set li.new_date_filter_sortby .daterangepicker.show-ranges.show-weeknumbers {min-width: 100% !important;}
+li.onheader_date_rangefilter_set li.new_date_filter_sortby .daterangepicker.show-ranges.show-[data-v-1ebd09d2], .daterangepicker.show-ranges[data-v-1ebd09d2] {min-width: 100% !important;width: 270px;transform: translate(-17%) !important;}
+.new_item_add_button button:first-child {margin-right:0px;}
+.new_item_add_button button{margin-bottom:10px;width: 70%;}
+.gst_div input {width: 20%;}
+.gst_select_ledger {width: 40%;}
+.inclusive_form {display: flex;justify-content: center;align-items: center;}
+.inclusive_right {margin-top: 0 !important;    width: 60%;}
+.inclusive_left { width: 40%;}
+.page-title {font-size: 16px !important;}
+span.item_invoice_head {font-size: 14px;}
+input:checked + .slider:before {-webkit-transform: translateX(20px);-ms-transform: translateX(20px);transform: translateX(20px);}
+.switch{width: 40px;}
+.total_sales_number.total_sales_mb {margin-top: 20px;}
+.download_border_div.mobile_download_div {float: none;margin-top: 10px;}	
+.download_border_div.mobile_sales_download_div {float:none;margin-top:5px;text-align:center;}
+li.inline_block.sales_ledger_mobile_li {margin-bottom: 10px;margin-top: 10px;}	
+.company_date.sales_company_date.dashboard_sales_date {text-align: left;margin-top: 10px;}
+button.add_new_button_type {padding: 5px 15px;font-size: 14px;}
+.custom-table-responsive {white-space: nowrap;width: 100%;overflow-x: auto;}
+.custom-table-responsive table {width:485px;white-space: break-spaces;table-layout: fixed;margin-bottom: 10px;}
+.custom-table-responsive table th {vertical-align: top;}
+.mobile_pb_0 {padding-bottom:0;}	
+.company_balance.sales_cb {display: block;text-align: left;margin-top:5px;}
+.table_download {padding-left: 0;}
+.table_search_download {display: block;padding-top: 20px;}
+.table_search_download_last {float: right;float: none;margin: 0 auto;display: table;}
+p.paginaton_entries_show {margin-bottom: 15px;    text-align: center;}
+ul.cstm_pagination {justify-content: center;}
+ul.new_sales_top_table_part li {width: 100%;}
+.new_top_table_dropdown .select2-container--default .select2-selection--single {width: 100%;}
+ul.search_input {float: right;float: none;width: 100%;}
+.table_search {display: flex;align-items: center;width: 100%;}
+.table_search label {margin-right: 5px !important;}
+.sales_date_div {text-align: center;}
+/******* sales-voucher-v2 start ********/
+.sales_details_tabbing ul {white-space: nowrap;overflow-x: scroll;}
+.sales_details_tabbing ul li {display: inline-block;}
+/******* sales-voucher-v2 end ********/
+
+}
+
+@media only screen and (max-width:540px)
+{
+table.users_success_content tr td {width: 100%;display: block;padding: 5px 20px;}
+.plans .plan .plan-content img {margin-bottom: 20px;height: 56px;-webkit-transition: height 0.4s;-o-transition: height 0.4s;transition: height 0.4s;}
+.plans .plan input[type="radio"]:checked + .plan-content:after {top: 20px;right: 10px;}
+.plans .plan .plan-content .plan-details {width: 45%;margin:20px 5px;}
+.plans .plan .plan-content {padding: 20px;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: baseline;-ms-flex-align: baseline;align-items: baseline;}
+.drp-buttons span.drp-selected {width: 100%;text-align: center;margin-bottom: 10px;padding-right: 0px;}
+.app-sidebar__toggle {padding: 9px 0.5rem !important;}
+.app-header .container-fluid {padding-left: 5px;padding-right: 5px;}
+.app-header .header-brand-img.mobile-logo {width: 30px;padding-top:0px;margin:0 5px;}
+.app-sidebar__toggle .header-icon {padding: 5px;}
+.main_dropdown_header:focus {border: 1px solid transparent;}
+.support_number p{font-size:10px !important;padding-right:0 !important;margin-right:8px;}
+.subscribe_text a {font-weight: bold;font-size: 9px;padding: 6px 7px 7px 7px;color:#1a1a1a;}
+.desktop-device-show-premium-section.mobile_premium_section {margin-top: 10px;}
+.profile-showdropdown{right: 5px;}
+.upgrade_benefits h3 {font-size: 12px;}
+.tickmark_text p {font-size: 11px !important;}
+.growth_advance_radio span.growth_plan_input_check i {height: 14px;width: 14px;font-size: 8px;}
+.growth_advance_radio label div {font-size: 11px;}
+.tickmark_image_text i {font-size: 11px;}
+.pricing_label {display: block;text-align: center;}
+label.new_pricing_selection {width: 100%;}
+.success_payment_page .payments_box {overflow-y: auto !important;height: 100% !important;margin-top: 15px;margin-bottom: 15px;overflow-x: hidden !important;border-radius: 0 !important;}
+
+
+}
+@media only screen and (max-width:340px){
+.voucher_contratable{width: 100%;display: block;white-space: nowrap;overflow-x: auto;}
+.new_voucher_details_table .voucher_scrolltablepayment {width: 100%;display: block;white-space: nowrap;overflow-x: auto;}
+button.add_new_button_type {padding: 5px 10px;}
+}
+@media only screen and (max-width:320px)
+{
+.page-link{padding:0.5rem 0.5rem;}
+.parties_datefilter_vue .daterangepicker.openscenter[data-v-1ebd09d2]{left:50%;}
+    input.website_otp_input_box{height:30px !important;width:30px !important;}
+}

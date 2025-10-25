@@ -1,0 +1,46 @@
+.main_item_top_nav_tabs {width: 100%;background: #fff;}
+.main_item_nav_tabs .first_panel_primary {margin: 10px 30px;}
+.main_item_nav_tabs .main_card {margin: 10px 0 !important;}
+.main_tabs_menu_body {border: none;padding: 0;}
+.custom-control-label::after,
+.custom-control-label::before {left: -24px;}
+.tabs-menu ul.items_ul_nav_tabs li .active { color: #8cc63e !important;border-bottom: 2px solid #8cc63e;border-radius: 0;background: 0 0 !important;}
+.tabs-menu ul.items_ul_nav_tabs li a {margin: 0;font-size: 14px;padding: 10px 30px;}
+ul.item_sales_tabs {width: auto !important;}
+.company_amount p,
+.company_avg_pur_right p,
+.item_avg_pur_rate p {font-size: 13px;font-weight: 500;font-family: Poppins;color: #4f5b79;margin-bottom: 0;}
+.company_amount {padding: 10px 0;}
+.company_avg_pur_right {padding: 10px 0;text-align: right;}
+.company_bottom_quantity {padding-bottom: 10px;}
+.company_bottom_quantity p {font-size: 13px;font-weight: 400;font-family: Poppins;color: #4f5b79;margin-bottom: 0;}
+.type_name {margin-bottom: 10px;}
+span.custom-control-label.create_item_gst_label {font-size: 14px;font-weight: 500;}
+.dataTables_length {display: none;}
+ul.items_ul_nav_tabs li a:hover {color: #8cc63e;}
+.item_closing_stock_right,
+.item_hsn_code,
+.item_stationary_closing_value {text-align: right;}
+.item_hsn_code p,
+.item_stationary_closing_value p,
+.items_amount p {color: #1a1a1a;margin-bottom: 5px;font-weight: 500;font-size:14px;}
+.items_amount_closing_hsncode p {color: #1a1a1a;margin-bottom: 0px;font-weight: 500;font-size:13px;}
+.item_avg_pur_rate p span {font-weight: 500;}
+.closing_stock p {margin-bottom: 0;color: #4f5b79;font-weight: 500;margin-top: 5px;}
+i.without_circle_arrow {background: 0 0 !important;color: #4f5b79 !important;}
+.item_stationary_closing_value p span {font-weight: 600;}
+.item_closing_stock_right p {color: #4f5b79;margin-bottom: 5px;}
+.arrow_left_items {position: absolute;cursor: pointer;}
+.arrow_left_items a:hover {color: #4f5b79;}
+.new_title_company_name {padding-left: 30px;}
+button.new_download_design {background: #fff;color: #1a1a1a;padding: 0.475em 1em;border: 1px solid #1a1a1a;font-size: 14px;font-weight: 500;font-family: Poppins;border-radius: 5px;cursor: pointer;}
+button.new_download_design img {padding-right: 10px;filter: invert(1);width: 22px;}
+.top_right_navtabs_buttons {display: contents !important;}
+.items_amount_closing_hsncode {display: flex;}
+.amount_closing_stock {margin-right: 10px;}
+.onlick_checked_applicable {margin-left: 24px;}
+.onlick_checked_applicable .custom-checkbox{padding-left:0 !important;}
+div#share_company_show___BV_modal_outer_ .modal-dialog {max-width: 40%;}
+.already_shared_company_popup_receivables_inner {background: #ffeaea;padding: 5px;border-radius: 0px;border-left: 4px solid red;}
+.already_shared_company_popup_receivables_inner p {color: #1a1a1a;font-size: 14px;font-weight: 500;}
+div#share_company_show___BV_modal_body_ {padding: 15px 30px;}
